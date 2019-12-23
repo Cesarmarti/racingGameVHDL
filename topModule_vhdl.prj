@@ -1,0 +1,4 @@
+vhdl work "C:\Users\mresm\Desktop\faks\letnik3\dn\vgaController\vsync.vhd"
+vhdl work "C:\Users\mresm\Desktop\faks\letnik3\dn\vgaController\mem.vhd"
+vhdl work "C:\Users\mresm\Desktop\faks\letnik3\dn\vgaController\hsync.vhd"
+vhdl work "C:\Users\mresm\Desktop\faks\letnik3\dn\vgaController\topModule.vhd"

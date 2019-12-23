@@ -1,0 +1,8 @@
+AR hsync behavioral C:/Users/mresm/Desktop/faks/letnik3/dn/vgaController/hsync.vhd sub00/vhpl01 1576502718
+AR topmodule behavioral C:/Users/mresm/Desktop/faks/letnik3/dn/vgaController/topModule.vhd sub00/vhpl07 1576502724
+EN mem NULL C:/Users/mresm/Desktop/faks/letnik3/dn/vgaController/mem.vhd sub00/vhpl04 1576502721
+EN hsync NULL C:/Users/mresm/Desktop/faks/letnik3/dn/vgaController/hsync.vhd sub00/vhpl00 1576502717
+AR vsync behavioral C:/Users/mresm/Desktop/faks/letnik3/dn/vgaController/vsync.vhd sub00/vhpl03 1576502720
+AR mem behavioral C:/Users/mresm/Desktop/faks/letnik3/dn/vgaController/mem.vhd sub00/vhpl05 1576502722
+EN vsync NULL C:/Users/mresm/Desktop/faks/letnik3/dn/vgaController/vsync.vhd sub00/vhpl02 1576502719
+EN topmodule NULL C:/Users/mresm/Desktop/faks/letnik3/dn/vgaController/topModule.vhd sub00/vhpl06 1576502723

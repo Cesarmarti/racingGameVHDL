@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.ncd
+OUTFILE=C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\Users\Miha\Documents\faks\dn\projects\vgaController
+LICENSE=WebPack
+USER_INFO=210643289_0_0_752

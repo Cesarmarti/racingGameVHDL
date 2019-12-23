@@ -1,0 +1,4 @@
+vhdl work "vsync.vhd"
+vhdl work "mem.vhd"
+vhdl work "hsync.vhd"
+vhdl work "topModule.vhd"

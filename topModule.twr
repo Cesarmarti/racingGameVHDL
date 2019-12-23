@@ -1,0 +1,646 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Games\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1 -n
+3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf
+-ucf vgaUcf.ucf
+
+Design file:              topModule.ncd
+Physical constraint file: topModule.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 24648 paths analyzed, 501 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   9.749ns.
+--------------------------------------------------------------------------------
+
+Paths for end point check (SLICE_X32Y112.CE), 9605 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               rowSelectP1Check_3 (FF)
+  Destination:          check (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.679ns (Levels of Logic = 6)
+  Clock Path Skew:      -0.035ns (0.792 - 0.827)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: rowSelectP1Check_3 to check
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X39Y117.AQ     Tcko                  0.456   rowSelectP1Check<5>
+                                                       rowSelectP1Check_3
+    SLICE_X29Y105.D2     net (fanout=311)      1.993   rowSelectP1Check<3>
+    SLICE_X29Y105.D      Tilo                  0.124   N211
+                                                       inst_LPM_MUX2901_SW3
+    SLICE_X28Y99.B2      net (fanout=52)       1.166   N211
+    SLICE_X28Y99.B       Tilo                  0.124   N781
+                                                       inst_LPM_MUX3751
+    SLICE_X29Y100.D2     net (fanout=3)        1.180   ramDataOCheck<64>
+    SLICE_X29Y100.BMUX   Topdb                 0.658   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f82
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_154
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_13_f7_2
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f8_1
+    SLICE_X31Y109.A1     net (fanout=1)        1.178   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f82
+    SLICE_X31Y109.A      Tilo                  0.124   n0207<10>
+                                                       n0207<11>4
+    SLICE_X30Y109.A3     net (fanout=1)        0.520   n0207<11>4
+    SLICE_X30Y109.A      Tilo                  0.124   n0207<11>6
+                                                       n0207<11>8
+    SLICE_X33Y111.B2     net (fanout=2)        1.206   newp1POSX[11]_X_6_o_Mux_24_o
+    SLICE_X33Y111.B      Tilo                  0.124   _n0382_inv
+                                                       _n0382_inv1
+    SLICE_X32Y112.CE     net (fanout=1)        0.497   _n0382_inv
+    SLICE_X32Y112.CLK    Tceck                 0.205   check
+                                                       check
+    -------------------------------------------------  ---------------------------
+    Total                                      9.679ns (1.939ns logic, 7.740ns route)
+                                                       (20.0% logic, 80.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.390ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               rowSelectP1Check_3 (FF)
+  Destination:          check (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.540ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.035ns (0.792 - 0.827)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: rowSelectP1Check_3 to check
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X39Y117.AQ     Tcko                  0.456   rowSelectP1Check<5>
+                                                       rowSelectP1Check_3
+    SLICE_X29Y105.D2     net (fanout=311)      1.993   rowSelectP1Check<3>
+    SLICE_X29Y105.D      Tilo                  0.124   N211
+                                                       inst_LPM_MUX2901_SW3
+    SLICE_X28Y111.A1     net (fanout=52)       1.384   N211
+    SLICE_X28Y111.A      Tilo                  0.124   ramDataOCheck<146>
+                                                       inst_LPM_MUX2901
+    SLICE_X29Y110.C1     net (fanout=3)        0.826   ramDataOCheck<149>
+    SLICE_X29Y110.CMUX   Tilo                  0.543   N787
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_1512
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_14_f7_3
+    SLICE_X31Y110.A2     net (fanout=1)        0.808   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_14_f74
+    SLICE_X31Y110.A      Tilo                  0.124   n0208<11>6
+                                                       n0207<11>5
+    SLICE_X30Y109.B5     net (fanout=1)        0.426   n0207<11>5
+    SLICE_X30Y109.B      Tilo                  0.124   n0207<11>6
+                                                       n0207<11>6
+    SLICE_X30Y109.A4     net (fanout=1)        0.452   n0207<11>6
+    SLICE_X30Y109.A      Tilo                  0.124   n0207<11>6
+                                                       n0207<11>8
+    SLICE_X33Y111.B2     net (fanout=2)        1.206   newp1POSX[11]_X_6_o_Mux_24_o
+    SLICE_X33Y111.B      Tilo                  0.124   _n0382_inv
+                                                       _n0382_inv1
+    SLICE_X32Y112.CE     net (fanout=1)        0.497   _n0382_inv
+    SLICE_X32Y112.CLK    Tceck                 0.205   check
+                                                       check
+    -------------------------------------------------  ---------------------------
+    Total                                      9.540ns (1.948ns logic, 7.592ns route)
+                                                       (20.4% logic, 79.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.392ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               rowSelectP1Check_0 (FF)
+  Destination:          check (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.537ns (Levels of Logic = 6)
+  Clock Path Skew:      -0.036ns (0.792 - 0.828)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: rowSelectP1Check_0 to check
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y116.AQ     Tcko                  0.518   rowSelectP1Check<2>
+                                                       rowSelectP1Check_0
+    SLICE_X28Y98.C2      net (fanout=271)      2.288   rowSelectP1Check<0>
+    SLICE_X28Y98.C       Tilo                  0.124   ramDataOCheck<63>
+                                                       inst_LPM_MUX3751_SW0
+    SLICE_X28Y99.B3      net (fanout=4)        0.667   N241
+    SLICE_X28Y99.B       Tilo                  0.124   N781
+                                                       inst_LPM_MUX3751
+    SLICE_X29Y100.D2     net (fanout=3)        1.180   ramDataOCheck<64>
+    SLICE_X29Y100.BMUX   Topdb                 0.658   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f82
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_154
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_13_f7_2
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f8_1
+    SLICE_X31Y109.A1     net (fanout=1)        1.178   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f82
+    SLICE_X31Y109.A      Tilo                  0.124   n0207<10>
+                                                       n0207<11>4
+    SLICE_X30Y109.A3     net (fanout=1)        0.520   n0207<11>4
+    SLICE_X30Y109.A      Tilo                  0.124   n0207<11>6
+                                                       n0207<11>8
+    SLICE_X33Y111.B2     net (fanout=2)        1.206   newp1POSX[11]_X_6_o_Mux_24_o
+    SLICE_X33Y111.B      Tilo                  0.124   _n0382_inv
+                                                       _n0382_inv1
+    SLICE_X32Y112.CE     net (fanout=1)        0.497   _n0382_inv
+    SLICE_X32Y112.CLK    Tceck                 0.205   check
+                                                       check
+    -------------------------------------------------  ---------------------------
+    Total                                      9.537ns (2.001ns logic, 7.536ns route)
+                                                       (21.0% logic, 79.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point colCounter1_0 (SLICE_X32Y111.B3), 3361 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     1.392ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               rowSelectP1Check_3 (FF)
+  Destination:          colCounter1_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      8.539ns (Levels of Logic = 6)
+  Clock Path Skew:      -0.034ns (0.793 - 0.827)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: rowSelectP1Check_3 to colCounter1_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X39Y117.AQ     Tcko                  0.456   rowSelectP1Check<5>
+                                                       rowSelectP1Check_3
+    SLICE_X29Y105.D2     net (fanout=311)      1.993   rowSelectP1Check<3>
+    SLICE_X29Y105.D      Tilo                  0.124   N211
+                                                       inst_LPM_MUX2901_SW3
+    SLICE_X28Y99.B2      net (fanout=52)       1.166   N211
+    SLICE_X28Y99.B       Tilo                  0.124   N781
+                                                       inst_LPM_MUX3751
+    SLICE_X29Y100.D2     net (fanout=3)        1.180   ramDataOCheck<64>
+    SLICE_X29Y100.BMUX   Topdb                 0.658   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f82
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_154
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_13_f7_2
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f8_1
+    SLICE_X31Y109.A1     net (fanout=1)        1.178   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f82
+    SLICE_X31Y109.A      Tilo                  0.124   n0207<10>
+                                                       n0207<11>4
+    SLICE_X30Y109.A3     net (fanout=1)        0.520   n0207<11>4
+    SLICE_X30Y109.A      Tilo                  0.124   n0207<11>6
+                                                       n0207<11>8
+    SLICE_X32Y111.B3     net (fanout=2)        0.799   newp1POSX[11]_X_6_o_Mux_24_o
+    SLICE_X32Y111.CLK    Tas                   0.093   colCounter1<1>
+                                                       Mmux__n031011
+                                                       colCounter1_0
+    -------------------------------------------------  ---------------------------
+    Total                                      8.539ns (1.703ns logic, 6.836ns route)
+                                                       (19.9% logic, 80.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.531ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               rowSelectP1Check_3 (FF)
+  Destination:          colCounter1_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      8.400ns (Levels of Logic = 7)
+  Clock Path Skew:      -0.034ns (0.793 - 0.827)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: rowSelectP1Check_3 to colCounter1_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X39Y117.AQ     Tcko                  0.456   rowSelectP1Check<5>
+                                                       rowSelectP1Check_3
+    SLICE_X29Y105.D2     net (fanout=311)      1.993   rowSelectP1Check<3>
+    SLICE_X29Y105.D      Tilo                  0.124   N211
+                                                       inst_LPM_MUX2901_SW3
+    SLICE_X28Y111.A1     net (fanout=52)       1.384   N211
+    SLICE_X28Y111.A      Tilo                  0.124   ramDataOCheck<146>
+                                                       inst_LPM_MUX2901
+    SLICE_X29Y110.C1     net (fanout=3)        0.826   ramDataOCheck<149>
+    SLICE_X29Y110.CMUX   Tilo                  0.543   N787
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_1512
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_14_f7_3
+    SLICE_X31Y110.A2     net (fanout=1)        0.808   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_14_f74
+    SLICE_X31Y110.A      Tilo                  0.124   n0208<11>6
+                                                       n0207<11>5
+    SLICE_X30Y109.B5     net (fanout=1)        0.426   n0207<11>5
+    SLICE_X30Y109.B      Tilo                  0.124   n0207<11>6
+                                                       n0207<11>6
+    SLICE_X30Y109.A4     net (fanout=1)        0.452   n0207<11>6
+    SLICE_X30Y109.A      Tilo                  0.124   n0207<11>6
+                                                       n0207<11>8
+    SLICE_X32Y111.B3     net (fanout=2)        0.799   newp1POSX[11]_X_6_o_Mux_24_o
+    SLICE_X32Y111.CLK    Tas                   0.093   colCounter1<1>
+                                                       Mmux__n031011
+                                                       colCounter1_0
+    -------------------------------------------------  ---------------------------
+    Total                                      8.400ns (1.712ns logic, 6.688ns route)
+                                                       (20.4% logic, 79.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.533ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               rowSelectP1Check_0 (FF)
+  Destination:          colCounter1_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      8.397ns (Levels of Logic = 6)
+  Clock Path Skew:      -0.035ns (0.793 - 0.828)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: rowSelectP1Check_0 to colCounter1_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y116.AQ     Tcko                  0.518   rowSelectP1Check<2>
+                                                       rowSelectP1Check_0
+    SLICE_X28Y98.C2      net (fanout=271)      2.288   rowSelectP1Check<0>
+    SLICE_X28Y98.C       Tilo                  0.124   ramDataOCheck<63>
+                                                       inst_LPM_MUX3751_SW0
+    SLICE_X28Y99.B3      net (fanout=4)        0.667   N241
+    SLICE_X28Y99.B       Tilo                  0.124   N781
+                                                       inst_LPM_MUX3751
+    SLICE_X29Y100.D2     net (fanout=3)        1.180   ramDataOCheck<64>
+    SLICE_X29Y100.BMUX   Topdb                 0.658   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f82
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_154
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_13_f7_2
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f8_1
+    SLICE_X31Y109.A1     net (fanout=1)        1.178   Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f82
+    SLICE_X31Y109.A      Tilo                  0.124   n0207<10>
+                                                       n0207<11>4
+    SLICE_X30Y109.A3     net (fanout=1)        0.520   n0207<11>4
+    SLICE_X30Y109.A      Tilo                  0.124   n0207<11>6
+                                                       n0207<11>8
+    SLICE_X32Y111.B3     net (fanout=2)        0.799   newp1POSX[11]_X_6_o_Mux_24_o
+    SLICE_X32Y111.CLK    Tas                   0.093   colCounter1<1>
+                                                       Mmux__n031011
+                                                       colCounter1_0
+    -------------------------------------------------  ---------------------------
+    Total                                      8.397ns (1.765ns logic, 6.632ns route)
+                                                       (21.0% logic, 79.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point colCounter1_1 (SLICE_X32Y111.C5), 1211 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     1.467ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               rowSelectP1Check_4 (FF)
+  Destination:          colCounter1_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      8.466ns (Levels of Logic = 6)
+  Clock Path Skew:      -0.032ns (0.793 - 0.825)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: rowSelectP1Check_4 to colCounter1_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y118.CQ     Tcko                  0.518   rowSelectP1Check<4>
+                                                       rowSelectP1Check_4
+    SLICE_X29Y96.A2      net (fanout=304)      2.428   rowSelectP1Check<4>
+    SLICE_X29Y96.A       Tilo                  0.124   N238
+                                                       inst_LPM_MUX3351_SW1
+    SLICE_X29Y97.B3      net (fanout=1)        0.639   N98
+    SLICE_X29Y97.B       Tilo                  0.124   ramDataOCheck<74>
+                                                       inst_LPM_MUX3701
+    SLICE_X28Y101.C1     net (fanout=3)        1.115   ramDataOCheck<69>
+    SLICE_X28Y101.BMUX   Topcb                 0.665   Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f82
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_33_o_147
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_33_o_13_f7_2
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f8_1
+    SLICE_X33Y105.A1     net (fanout=1)        1.216   Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f82
+    SLICE_X33Y105.A      Tilo                  0.124   ramDataOCheck<205>
+                                                       newp1POSX<11>4
+    SLICE_X32Y111.D2     net (fanout=3)        1.016   newp1POSX<11>3
+    SLICE_X32Y111.D      Tilo                  0.124   colCounter1<1>
+                                                       newp1POSX<11>8_SW1
+    SLICE_X32Y111.C5     net (fanout=1)        0.280   N28
+    SLICE_X32Y111.CLK    Tas                   0.093   colCounter1<1>
+                                                       Mmux__n031021
+                                                       colCounter1_1
+    -------------------------------------------------  ---------------------------
+    Total                                      8.466ns (1.772ns logic, 6.694ns route)
+                                                       (20.9% logic, 79.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.488ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               rowSelectP1Check_1 (FF)
+  Destination:          colCounter1_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      8.442ns (Levels of Logic = 6)
+  Clock Path Skew:      -0.035ns (0.793 - 0.828)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: rowSelectP1Check_1 to colCounter1_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y116.BQ     Tcko                  0.518   rowSelectP1Check<2>
+                                                       rowSelectP1Check_1
+    SLICE_X29Y98.D2      net (fanout=303)      2.235   rowSelectP1Check<1>
+    SLICE_X29Y98.D       Tilo                  0.124   N411
+                                                       inst_LPM_MUX3701_SW0
+    SLICE_X29Y97.B1      net (fanout=1)        0.808   N411
+    SLICE_X29Y97.B       Tilo                  0.124   ramDataOCheck<74>
+                                                       inst_LPM_MUX3701
+    SLICE_X28Y101.C1     net (fanout=3)        1.115   ramDataOCheck<69>
+    SLICE_X28Y101.BMUX   Topcb                 0.665   Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f82
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_33_o_147
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_33_o_13_f7_2
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f8_1
+    SLICE_X33Y105.A1     net (fanout=1)        1.216   Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f82
+    SLICE_X33Y105.A      Tilo                  0.124   ramDataOCheck<205>
+                                                       newp1POSX<11>4
+    SLICE_X32Y111.D2     net (fanout=3)        1.016   newp1POSX<11>3
+    SLICE_X32Y111.D      Tilo                  0.124   colCounter1<1>
+                                                       newp1POSX<11>8_SW1
+    SLICE_X32Y111.C5     net (fanout=1)        0.280   N28
+    SLICE_X32Y111.CLK    Tas                   0.093   colCounter1<1>
+                                                       Mmux__n031021
+                                                       colCounter1_1
+    -------------------------------------------------  ---------------------------
+    Total                                      8.442ns (1.772ns logic, 6.670ns route)
+                                                       (21.0% logic, 79.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.507ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               rowSelectP1Check_4 (FF)
+  Destination:          colCounter1_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      8.426ns (Levels of Logic = 6)
+  Clock Path Skew:      -0.032ns (0.793 - 0.825)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: rowSelectP1Check_4 to colCounter1_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y118.CQ     Tcko                  0.518   rowSelectP1Check<4>
+                                                       rowSelectP1Check_4
+    SLICE_X28Y97.B4      net (fanout=304)      2.222   rowSelectP1Check<4>
+    SLICE_X28Y97.B       Tilo                  0.124   N100
+                                                       inst_LPM_MUX361112_SW0
+    SLICE_X28Y96.B1      net (fanout=1)        0.856   N953
+    SLICE_X28Y96.B       Tilo                  0.124   N236
+                                                       inst_LPM_MUX361114
+    SLICE_X28Y101.A2     net (fanout=3)        1.102   ramDataOCheck<78>
+    SLICE_X28Y101.BMUX   Topab                 0.627   Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f82
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_33_o_134
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_33_o_12_f7_2
+                                                       Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f8_1
+    SLICE_X33Y105.A1     net (fanout=1)        1.216   Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f82
+    SLICE_X33Y105.A      Tilo                  0.124   ramDataOCheck<205>
+                                                       newp1POSX<11>4
+    SLICE_X32Y111.D2     net (fanout=3)        1.016   newp1POSX<11>3
+    SLICE_X32Y111.D      Tilo                  0.124   colCounter1<1>
+                                                       newp1POSX<11>8_SW1
+    SLICE_X32Y111.C5     net (fanout=1)        0.280   N28
+    SLICE_X32Y111.CLK    Tas                   0.093   colCounter1<1>
+                                                       Mmux__n031021
+                                                       colCounter1_1
+    -------------------------------------------------  ---------------------------
+    Total                                      8.426ns (1.734ns logic, 6.692ns route)
+                                                       (20.6% logic, 79.4% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point enableRead (SLICE_X54Y133.A6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.173ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               cnt_1s_13 (FF)
+  Destination:          enableRead (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.205ns (Levels of Logic = 1)
+  Clock Path Skew:      0.032ns (0.300 - 0.268)
+  Source Clock:         clk_BUFGP rising at 10.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: cnt_1s_13 to enableRead
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X57Y134.BQ     Tcko                  0.141   cnt_1s<15>
+                                                       cnt_1s_13
+    SLICE_X54Y133.A6     net (fanout=3)        0.139   cnt_1s<13>
+    SLICE_X54Y133.CLK    Tah         (-Th)     0.075   enableRead
+                                                       GND_6_o_GND_6_o_equal_54_o<27>4
+                                                       enableRead
+    -------------------------------------------------  ---------------------------
+    Total                                      0.205ns (0.066ns logic, 0.139ns route)
+                                                       (32.2% logic, 67.8% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point rowSelectP1Check_1 (SLICE_X38Y116.B6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.244ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               newp1POSY_2 (FF)
+  Destination:          rowSelectP1Check_1 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.282ns (Levels of Logic = 1)
+  Clock Path Skew:      0.038ns (0.306 - 0.268)
+  Source Clock:         clk_BUFGP rising at 10.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: newp1POSY_2 to rowSelectP1Check_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X36Y120.CQ     Tcko                  0.141   newp1POSY<3>
+                                                       newp1POSY_2
+    SLICE_X38Y116.B6     net (fanout=8)        0.217   newp1POSY<2>
+    SLICE_X38Y116.CLK    Tah         (-Th)     0.076   rowSelectP1Check<2>
+                                                       Mmux__n030831
+                                                       rowSelectP1Check_1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.282ns (0.065ns logic, 0.217ns route)
+                                                       (23.0% logic, 77.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point state (SLICE_X47Y131.D4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.290ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               state (FF)
+  Destination:          state (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.290ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 10.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: state to state
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X47Y131.DQ     Tcko                  0.141   state
+                                                       state
+    SLICE_X47Y131.D4     net (fanout=2)        0.209   state
+    SLICE_X47Y131.CLK    Tah         (-Th)     0.060   state
+                                                       state_glue_set
+                                                       state
+    -------------------------------------------------  ---------------------------
+    Total                                      0.290ns (0.081ns logic, 0.209ns route)
+                                                       (27.9% logic, 72.1% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 7.845ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.155ns (464.037MHz) (Tbcper_I(Fmax))
+  Physical resource: clk_BUFGP/BUFG/I0
+  Logical resource: clk_BUFGP/BUFG/I0
+  Location pin: BUFGCTRL_X0Y31.I0
+  Clock network: clk_BUFGP/IBUFG
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: vs/count<3>/CLK
+  Logical resource: vs/count_0/CK
+  Location pin: SLICE_X50Y157.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: vs/count<3>/CLK
+  Logical resource: vs/count_0/CK
+  Location pin: SLICE_X50Y157.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    9.749|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 24648 paths, 0 nets, and 3791 connections
+
+Design statistics:
+   Minimum period:   9.749ns{1}   (Maximum frequency: 102.575MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Mon Dec 23 15:31:29 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 686 MB
+
+
+

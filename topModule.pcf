@@ -1,0 +1,58 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Dec 23 15:30:58 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "reset" LOCATE = SITE "U9" LEVEL 1;
+COMP "vga_r<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "vga_r<2>" LOCATE = SITE "C5" LEVEL 1;
+COMP "vga_r<3>" LOCATE = SITE "A4" LEVEL 1;
+COMP "vga_r<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "btnD" LOCATE = SITE "V10" LEVEL 1;
+COMP "btnL" LOCATE = SITE "T16" LEVEL 1;
+COMP "btnR" LOCATE = SITE "R10" LEVEL 1;
+COMP "btnU" LOCATE = SITE "F15" LEVEL 1;
+COMP "vsync_o" LOCATE = SITE "B12" LEVEL 1;
+COMP "vga_b<1>" LOCATE = SITE "C7" LEVEL 1;
+COMP "vga_b<2>" LOCATE = SITE "D7" LEVEL 1;
+COMP "vga_b<3>" LOCATE = SITE "D8" LEVEL 1;
+COMP "vga_b<0>" LOCATE = SITE "B7" LEVEL 1;
+COMP "vga_g<1>" LOCATE = SITE "A5" LEVEL 1;
+COMP "vga_g<2>" LOCATE = SITE "B6" LEVEL 1;
+COMP "vga_g<3>" LOCATE = SITE "A6" LEVEL 1;
+COMP "vga_g<0>" LOCATE = SITE "C6" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "hsync_o" LOCATE = SITE "B11" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "movementP1X" BEL "movementP1Y" BEL "enableRead" BEL
+        "newp1POSX_0" BEL "newp1POSX_1" BEL "newp1POSX_2" BEL "newp1POSX_3"
+        BEL "newp1POSX_4" BEL "newp1POSX_5" BEL "newp1POSX_6" BEL
+        "newp1POSX_7" BEL "newp1POSX_8" BEL "newp1POSX_9" BEL "newp1POSX_10"
+        BEL "newp1POSX_11" BEL "newoffsetP1X_0" BEL "newoffsetP1X_1" BEL
+        "newoffsetP1X_2" BEL "newoffsetP1X_3" BEL "newoffsetP1X_4" BEL
+        "newoffsetP1X_5" BEL "newoffsetP1X_6" BEL "newoffsetP1X_7" BEL
+        "newoffsetP1X_8" BEL "newoffsetP1X_9" BEL "newoffsetP1X_10" BEL
+        "newoffsetP1X_11" BEL "newp1POSY_0" BEL "newp1POSY_1" BEL
+        "newp1POSY_2" BEL "newp1POSY_3" BEL "newp1POSY_4" BEL "newp1POSY_5"
+        BEL "newp1POSY_6" BEL "newp1POSY_7" BEL "newp1POSY_8" BEL
+        "newp1POSY_9" BEL "newp1POSY_10" BEL "newoffsetP1Y_0" BEL
+        "newoffsetP1Y_1" BEL "newoffsetP1Y_2" BEL "newoffsetP1Y_3" BEL
+        "newoffsetP1Y_4" BEL "newoffsetP1Y_5" BEL "newoffsetP1Y_6" BEL
+        "newoffsetP1Y_7" BEL "newoffsetP1Y_8" BEL "newoffsetP1Y_9" BEL
+        "newoffsetP1Y_10" BEL "colCounter1_0" BEL "colCounter1_1" BEL "check"
+        BEL "rowSelectP1Check_0" BEL "rowSelectP1Check_1" BEL
+        "rowSelectP1Check_2" BEL "rowSelectP1Check_3" BEL "rowSelectP1Check_4"
+        BEL "rowSelectP1Check_5" BEL "rowSelectP1Check_6" BEL "cnt_1s_0" BEL
+        "cnt_1s_1" BEL "cnt_1s_2" BEL "cnt_1s_3" BEL "cnt_1s_4" BEL "cnt_1s_5"
+        BEL "cnt_1s_6" BEL "cnt_1s_7" BEL "cnt_1s_8" BEL "cnt_1s_9" BEL
+        "cnt_1s_10" BEL "cnt_1s_11" BEL "cnt_1s_12" BEL "cnt_1s_13" BEL
+        "cnt_1s_14" BEL "cnt_1s_15" BEL "cnt_1s_16" BEL "cnt_1s_17" BEL
+        "cnt_1s_18" BEL "cnt_1s_19" BEL "vs/count_0" BEL "vs/count_1" BEL
+        "vs/count_2" BEL "vs/count_3" BEL "vs/count_4" BEL "vs/count_5" BEL
+        "vs/count_6" BEL "vs/count_7" BEL "vs/count_8" BEL "vs/count_9" BEL
+        "hs/count_9" BEL "hs/count_8" BEL "hs/count_7" BEL "hs/count_6" BEL
+        "hs/count_5" BEL "hs/count_4" BEL "hs/count_3" BEL "hs/count_2" BEL
+        "hs/count_1" BEL "hs/count_0" BEL "hs/enable" BEL "state" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+
