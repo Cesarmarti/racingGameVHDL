@@ -10,45 +10,39 @@ Target Device  : xc7a100t
 Target Package : csg324
 Target Speed   : -1
 Mapper Version : artix7 -- $Revision: 1.55 $
-Mapped Date    : Mon Dec 23 15:30:29 2019
+Mapped Date    : Tue Dec 24 12:24:07 2019
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:   32
+Number of warnings:   13
 Slice Logic Utilization:
-  Number of Slice Registers:                   163 out of 126,800    1%
-    Number used as Flip Flops:                 108
-    Number used as Latches:                     54
+  Number of Slice Registers:                   315 out of 126,800    1%
+    Number used as Flip Flops:                 164
+    Number used as Latches:                    151
     Number used as Latch-thrus:                  0
-    Number used as AND/OR logics:                1
-  Number of Slice LUTs:                      1,175 out of  63,400    1%
-    Number used as logic:                    1,130 out of  63,400    1%
-      Number using O6 output only:           1,026
-      Number using O5 output only:              22
-      Number using O5 and O6:                   82
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      1,303 out of  63,400    2%
+    Number used as logic:                    1,285 out of  63,400    2%
+      Number using O6 output only:           1,090
+      Number using O5 output only:              34
+      Number using O5 and O6:                  161
       Number used as ROM:                        0
-    Number used as Memory:                       7 out of  19,000    1%
-      Number used as Dual Port RAM:              0
-      Number used as Single Port RAM:            0
-      Number used as Shift Register:             7
-        Number using O6 output only:             7
-        Number using O5 output only:             0
-        Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:     38
-      Number with same-slice register load:      2
-      Number with same-slice carry load:         3
-      Number with other load:                   33
+    Number used as Memory:                       0 out of  19,000    0%
+    Number used exclusively as route-thrus:     18
+      Number with same-slice register load:      0
+      Number with same-slice carry load:         4
+      Number with other load:                   14
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   391 out of  15,850    2%
-  Number of LUT Flip Flop pairs used:        1,209
-    Number with an unused Flip Flop:         1,046 out of   1,209   86%
-    Number with an unused LUT:                  34 out of   1,209    2%
-    Number of fully used LUT-FF pairs:         129 out of   1,209   10%
-    Number of unique control sets:              14
+  Number of occupied Slices:                   451 out of  15,850    2%
+  Number of LUT Flip Flop pairs used:        1,380
+    Number with an unused Flip Flop:         1,067 out of   1,380   77%
+    Number with an unused LUT:                  77 out of   1,380    5%
+    Number of fully used LUT-FF pairs:         236 out of   1,380   17%
+    Number of unique control sets:              23
     Number of slice register sites lost
-      to control set restrictions:              63 out of 126,800    1%
+      to control set restrictions:             101 out of 126,800    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -59,14 +53,18 @@ Slice Logic Distribution:
   over-mapped for a non-BRAM resource or if placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        20 out of     210    9%
-    Number of LOCed IOBs:                       20 out of      20  100%
+  Number of bonded IOBs:                        24 out of     210   11%
+    Number of LOCed IOBs:                       24 out of      24  100%
 
 Specific Feature Utilization:
-  Number of RAMB36E1/FIFO36E1s:                  0 out of     135    0%
-  Number of RAMB18E1/FIFO18E1s:                  0 out of     270    0%
-  Number of BUFG/BUFGCTRLs:                      3 out of      32    9%
-    Number used as BUFGs:                        3
+  Number of RAMB36E1/FIFO36E1s:                  6 out of     135    4%
+    Number using RAMB36E1 only:                  6
+    Number using FIFO36E1 only:                  0
+  Number of RAMB18E1/FIFO18E1s:                  1 out of     270    1%
+    Number using RAMB18E1 only:                  1
+    Number using FIFO18E1 only:                  0
+  Number of BUFG/BUFGCTRLs:                      4 out of      32   12%
+    Number used as BUFGs:                        4
     Number used as BUFGCTRLs:                    0
   Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     300    0%
   Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     300    0%
@@ -79,7 +77,7 @@ Specific Feature Utilization:
   Number of BUFRs:                               0 out of      24    0%
   Number of CAPTUREs:                            0 out of       1    0%
   Number of DNA_PORTs:                           0 out of       1    0%
-  Number of DSP48E1s:                            2 out of     240    1%
+  Number of DSP48E1s:                            7 out of     240    2%
   Number of EFUSE_USRs:                          0 out of       1    0%
   Number of FRAME_ECCs:                          0 out of       1    0%
   Number of IBUFDS_GTE2s:                        0 out of       4    0%
@@ -95,11 +93,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of XADCs:                               0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                6.13
+Average Fanout of Non-Clock Nets:                4.04
 
-Peak Memory Usage:  880 MB
-Total REAL time to MAP completion:  29 secs 
-Total CPU time to MAP completion:   28 secs 
+Peak Memory Usage:  899 MB
+Total REAL time to MAP completion:  57 secs 
+Total CPU time to MAP completion:   55 secs 
 
 Table of Contents
 -----------------
@@ -122,163 +120,85 @@ Section 1 - Errors
 
 Section 2 - Warnings
 --------------------
-WARNING:Pack:2574 - The F7 multiplexer symbol "inst_LPM_MUX1802" and its I1
-   input driver "inst_LPM_MUX2311_SW1" were implemented suboptimally in the same
-   slice component. The function generator could not be placed directly driving
-   the F7 multiplexer. The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX912".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX1981".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "ramDataO<180>".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
+WARNING:Pack:2574 - The F7 multiplexer symbol
+   "Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1" and its I1 input driver
+   "ramDataO<209>1" were implemented suboptimally in the same slice component.
+   The function generator could not be placed directly driving the F7
+   multiplexer. The design will exhibit suboptimal timing.
 WARNING:Pack:2573 - The F7 multiplexer symbol
-   "Mmux_GND_6_o_X_6_o_Mux_26_o_11_f7" and its I0 input driver
-   "ramDataOCheck<218>1" were implemented suboptimally in the same slice
-   component. The function generator could not be placed directly driving the F7
-   multiplexer. The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX3411".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2574 - The F7 multiplexer symbol "inst_LPM_MUX822" and its I1 input
-   driver "ramDataO<144>_SW1" were implemented suboptimally in the same slice
-   component. The function generator could not be placed directly driving the F7
-   multiplexer. The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX1063".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2574 - The F7 multiplexer symbol
-   "Mmux_posP1X[11]_X_6_o_Mux_60_o_15_f7_1" and its I1 input driver
-   "ramDataO<219>1" were implemented suboptimally in the same slice component.
+   "Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1" and its I0 input driver
+   "ramDataO<209>1" were implemented suboptimally in the same slice component.
    The function generator could not be placed directly driving the F7
    multiplexer. The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "ramDataOCheck<218>1" failed to merge
-   with F7 multiplexer "Mmux_newp1POSX[11]_X_6_o_Mux_33_o_12_f7".  There are
-   more than two MUXF7 wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "ramDataO<125>".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "ramDataO<121>".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "ramDataO<144>_SW1" failed to merge
-   with F7 multiplexer "ramDataO<144>".  There are more than two MUXF7 wide
-   function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "ramDataOCheck<218>1" failed to merge
-   with F7 multiplexer "Mmux_GND_6_o_X_6_o_Mux_26_o_12_f7".  There are more than
+WARNING:Pack:2574 - The F7 multiplexer symbol
+   "Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1" and its I1 input driver
+   "ramDataO<209>1" were implemented suboptimally in the same slice component.
+   The function generator could not be placed directly driving the F7
+   multiplexer. The design will exhibit suboptimal timing.
+WARNING:Pack:2574 - The F7 multiplexer symbol
+   "Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7" and its I1 input driver
+   "ramDataO<209>1" were implemented suboptimally in the same slice component.
+   The function generator could not be placed directly driving the F7
+   multiplexer. The design will exhibit suboptimal timing.
+WARNING:Pack:2143 - The function generator "ramDataO<209>1" failed to merge with
+   F7 multiplexer "Mmux_posP1X[11]_X_6_o_Mux_114_o_11_f7".  There are more than
    two MUXF7 wide function muxes.
      The design will exhibit suboptimal timing.
-WARNING:Pack:2573 - The F7 multiplexer symbol
-   "Mmux_posP1X[11]_X_6_o_Mux_60_o_15_f7_1" and its I0 input driver
-   "ramDataO<219>1" were implemented suboptimally in the same slice component.
+WARNING:Pack:2574 - The F7 multiplexer symbol
+   "Mmux_posP1X[11]_X_6_o_Mux_114_o_13_f7_6" and its I1 input driver
+   "mm/Mram_RAM160" were implemented suboptimally in the same slice component.
    The function generator could not be placed directly driving the F7
    multiplexer. The design will exhibit suboptimal timing.
-WARNING:Pack:2574 - The F7 multiplexer symbol
-   "Mmux_posP1X[11]_X_6_o_Mux_60_o_15_f7_1" and its I1 input driver
-   "ramDataO<219>1" were implemented suboptimally in the same slice component.
-   The function generator could not be placed directly driving the F7
-   multiplexer. The design will exhibit suboptimal timing.
-WARNING:Pack:2574 - The F7 multiplexer symbol
-   "Mmux_posP1X[11]_X_6_o_Mux_60_o_12_f7" and its I1 input driver
-   "ramDataO<219>1" were implemented suboptimally in the same slice component.
-   The function generator could not be placed directly driving the F7
-   multiplexer. The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "ramDataOCheck<218>1" failed to merge
-   with F7 multiplexer "Mmux_newp1POSX[11]_X_6_o_Mux_24_o_12_f7".  There are
-   more than two MUXF7 wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2574 - The F7 multiplexer symbol
-   "Mmux_GND_6_o_X_6_o_Mux_26_o_13_f7_6" and its I1 input driver
-   "ramDataOCheck<158>2" were implemented suboptimally in the same slice
-   component. The function generator could not be placed directly driving the F7
-   multiplexer. The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX2821".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "ramDataOCheck<218>1" failed to merge
-   with F7 multiplexer "Mmux_newp1POSX[11]_X_6_o_Mux_33_o_11_f7".  There are
-   more than two MUXF7 wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX3611".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX2021".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX2311".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "ramDataO<219>1" failed to merge with
-   F7 multiplexer "Mmux_posP1X[11]_X_6_o_Mux_60_o_11_f7".  There are more than
+WARNING:Pack:2143 - The function generator "ramDataO<209>1" failed to merge with
+   F7 multiplexer "Mmux_posP2X[11]_X_6_o_Mux_160_o_11_f7".  There are more than
    two MUXF7 wide function muxes.
      The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX1792".  There are more than two MUXF7
-   wide function muxes.
+WARNING:Pack:2143 - The function generator "ramDataO<209>1" failed to merge with
+   F7 multiplexer "Mmux_posP1X[11]_X_6_o_Mux_114_o_15_f7_1".  There are more
+   than two MUXF7 wide function muxes.
      The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX1872".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX1882".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2143 - The function generator "inst_LPM_MUX2311_SW1" failed to
-   merge with F7 multiplexer "inst_LPM_MUX1862".  There are more than two MUXF7
-   wide function muxes.
-     The design will exhibit suboptimal timing.
-WARNING:Pack:2145 - The F7 mux "Mmux_GND_6_o_X_6_o_Mux_26_o_11_f7" failed to
-   merge with F8 mux "Mmux_GND_6_o_X_6_o_Mux_26_o_10_f8".  There are more than
+WARNING:Pack:2143 - The function generator "ramDataO<209>1" failed to merge with
+   F7 multiplexer "Mmux_posP1X[11]_X_6_o_Mux_114_o_12_f7".  There are more than
    two MUXF7 wide function muxes.
      The design will exhibit suboptimal timing.
-WARNING:Pack:2145 - The F7 mux "Mmux_posP1X[11]_X_6_o_Mux_60_o_12_f7" failed to
-   merge with F8 mux "Mmux_posP1X[11]_X_6_o_Mux_60_o_10_f8".  The top reasons
+WARNING:Pack:2145 - The F7 mux "Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7" failed to
+   merge with F8 mux "Mmux_posP2X[11]_X_6_o_Mux_160_o_10_f8".  The top reasons
    for failure were:
-   	-> F8MUX Mmux_posP1X[11]_X_6_o_Mux_60_o_10_f8 can not be placed in the F8MUX
-   site because its I0 signal Mmux_posP1X[11]_X_6_o_Mux_60_o_12_f7 can not use
-   the output of the F7BMUX. The signal Mmux_posP1X[11]_X_6_o_Mux_60_o_15_f72
-   already uses the F7BMUX.
-   	-> F8MUX Mmux_posP1X[11]_X_6_o_Mux_60_o_10_f8 can not be placed in the F8MUX
-   site because its I1 signal Mmux_posP1X[11]_X_6_o_Mux_60_o_11_f7 can not use
-   the output of the F7AMUX. The signal Mmux_posP1X[11]_X_6_o_Mux_60_o_15_f72
-   already uses the F7AMUX.
-   	-> A legal placement was never found for LUT symbol "inst_LPM_MUX1782_SW3".
-   	-> The F7AMUX Mmux_posP1X[11]_X_6_o_Mux_60_o_12_f7 needs to use a
+   	-> F8MUX Mmux_posP2X[11]_X_6_o_Mux_160_o_10_f8 can not be placed in the
+   F8MUX site because its I0 signal Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 can
+   not use the output of the F7BMUX. The signal
+   Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f72 already uses the F7BMUX.
+   	-> F8MUX Mmux_posP2X[11]_X_6_o_Mux_160_o_10_f8 can not be placed in the
+   F8MUX site because its I1 signal Mmux_posP2X[11]_X_6_o_Mux_160_o_11_f7 can
+   not use the output of the F7AMUX. The signal
+   Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f72 already uses the F7AMUX.
+   	-> A legal placement was never found for LUT symbol "ramDataO<209>1".
+   	-> The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 needs to use a
    route-through LUT but the O6 output of the A LUT is not available.
-   	-> The F7AMUX Mmux_posP1X[11]_X_6_o_Mux_60_o_12_f7 needs to use a
+   	-> The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 needs to use a
    route-through LUT but the O6 output of the B LUT is not available.
-   	-> The F7AMUX Mmux_posP1X[11]_X_6_o_Mux_60_o_15_f7_1 needs to use a
+   	-> The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1 needs to use a
    route-through LUT but the O6 output of the A LUT is not available.
-   	-> The F7AMUX Mmux_posP1X[11]_X_6_o_Mux_60_o_15_f7_1 needs to use a
+   	-> The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1 needs to use a
    route-through LUT but the O6 output of the B LUT is not available.
-   	-> The F7BMUX Mmux_posP1X[11]_X_6_o_Mux_60_o_12_f7 needs to use a
+   	-> The F7BMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 needs to use a
    route-through LUT but the O6 output of the C LUT is not available.
-   	-> The F7BMUX Mmux_posP1X[11]_X_6_o_Mux_60_o_12_f7 needs to use a
+   	-> The F7BMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 needs to use a
    route-through LUT but the O6 output of the D LUT is not available.
-   	-> The F7BMUX Mmux_posP1X[11]_X_6_o_Mux_60_o_15_f7_1 needs to use a
+   	-> The F7BMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1 needs to use a
    route-through LUT but the O6 output of the C LUT is not available.
      The design will exhibit suboptimal timing.
-WARNING:Pack:2145 - The F7 mux "Mmux_newp1POSX[11]_X_6_o_Mux_24_o_11_f7" failed
-   to merge with F8 mux "Mmux_newp1POSX[11]_X_6_o_Mux_24_o_10_f8".  There are
+WARNING:Pack:2145 - The F7 mux "Mmux_posP1X[11]_X_6_o_Mux_114_o_13_f7_6" failed
+   to merge with F8 mux "Mmux_posP1X[11]_X_6_o_Mux_114_o_12_f8_2".  There are
    more than two MUXF7 wide function muxes.
      The design will exhibit suboptimal timing.
+WARNING:Pack:2145 - The F7 mux "Mmux_posP2X[11]_X_6_o_Mux_160_o_13_f7_6" failed
+   to merge with F8 mux "Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f8_2".  There are
+   more than two MUXF7 wide function muxes.
+     The design will exhibit suboptimal timing.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net hvidon is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
 
 Section 3 - Informational
 -------------------------
@@ -295,20 +215,10 @@ INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
-   1 block(s) removed
    2 block(s) optimized away
-   1 signal(s) removed
 
 Section 5 - Removed Logic
 -------------------------
-
-The trimmed logic reported below is either:
-   1. part of a cycle
-   2. part of disabled logic
-   3. a side-effect of other trimmed logic
-
-The signal "Madd_n0207_xor<5>11" is unused and has been removed.
- Unused block "Madd_n0207_xor<5>11_1" (ROM) removed.
 
 Optimized Block(s):
 TYPE 		BLOCK
@@ -330,7 +240,11 @@ Section 6 - IOB Properties
 | btnR                               | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
 | btnU                               | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
 | clk                                | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| desno                              | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| dol                                | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| gor                                | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
 | hsync_o                            | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| levo                               | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
 | reset                              | IOB33            | INPUT     | LVCMOS33             |       |          |      |              |          |          |
 | vga_b<0>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | vga_b<1>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |

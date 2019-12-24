@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Mon Dec 23 15:30:59 2019">
+  <application stringID="Map" timeStamp="Tue Dec 24 12:25:04 2019">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -65,16 +65,16 @@
       <item DEFAULT="None" label="-p" stringID="MAP_PARTNAME" value="xc7a100t-csg324-1"/>
     </section>
     <task stringID="MAP_PACK_REPORT">
-      <item AVAILABLE="126800" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="163">
-        <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="108"/>
-        <item dataType="int" stringID="MAP_NUM_SLICE_LATCH" value="54"/>
+      <item AVAILABLE="126800" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="315">
+        <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="164"/>
+        <item dataType="int" stringID="MAP_NUM_SLICE_LATCH" value="151"/>
         <item dataType="int" stringID="MAP_NUM_SLICE_LATCHTHRU" value="0"/>
-        <item dataType="int" stringID="MAP_NUM_SLICE_LATCHLOGIC" value="1"/>
+        <item dataType="int" stringID="MAP_NUM_SLICE_LATCHLOGIC" value="0"/>
       </item>
-      <item AVAILABLE="63400" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="1175">
-        <item dataType="int" label="Number using O5 output only" stringID="MAP_NUM_LOGIC_O5ONLY" value="22"/>
-        <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="1026"/>
-        <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="82"/>
+      <item AVAILABLE="63400" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="1303">
+        <item dataType="int" label="Number using O5 output only" stringID="MAP_NUM_LOGIC_O5ONLY" value="34"/>
+        <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="1090"/>
+        <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="161"/>
         <item dataType="int" stringID="MAP_NUM_ROM_O5ONLY" value="0"/>
         <item dataType="int" stringID="MAP_NUM_ROM_O6ONLY" value="0"/>
         <item dataType="int" stringID="MAP_NUM_ROM_O5ANDO6" value="0"/>
@@ -85,16 +85,16 @@
         <item dataType="int" stringID="MAP_NUM_SPRAM_O6ONLY" value="0"/>
         <item dataType="int" stringID="MAP_NUM_SPRAM_O5ANDO6" value="0"/>
         <item dataType="int" stringID="MAP_NUM_SRL_O5ONLY" value="0"/>
-        <item dataType="int" stringID="MAP_NUM_SRL_O6ONLY" value="7"/>
+        <item dataType="int" stringID="MAP_NUM_SRL_O6ONLY" value="0"/>
         <item dataType="int" stringID="MAP_NUM_SRL_O5ANDO6" value="0"/>
-        <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO6" value="38"/>
+        <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO6" value="18"/>
         <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO5" value="0"/>
         <item dataType="int" stringID="MAP_NUM_LUT_RT_O5ANDO6" value="0"/>
         <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_FLOP" value="0"/>
-        <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_CARRY4" value="3"/>
-        <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_OTHERS" value="35"/>
+        <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_CARRY4" value="4"/>
+        <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_OTHERS" value="14"/>
       </item>
-      <item AVAILABLE="210" dataType="int" stringID="MAP_AGG_BONDED_IO" value="20"/>
+      <item AVAILABLE="210" dataType="int" stringID="MAP_AGG_BONDED_IO" value="24"/>
       <item AVAILABLE="90" dataType="int" stringID="MAP_AGG_UNBONDED_IO" value="0"/>
       <item AVAILABLE="0" dataType="int" label="IOB Flip Flops" stringID="MAP_NUM_IOB_FF" value="0"/>
       <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_IOB_LATCH" value="0"/>
@@ -116,22 +116,22 @@
       <section stringID="MAP_DESIGN_SUMMARY">
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
-        <item dataType="int" stringID="MAP_NUM_WARNINGS" value="32"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="900656"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="29 secs "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="28 secs "/>
+        <item dataType="int" stringID="MAP_NUM_WARNINGS" value="13"/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="920148"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="57 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="55 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
-        <item AVAILABLE="126800" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="163">
-          <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="108"/>
-          <item dataType="int" stringID="MAP_NUM_SLICE_LATCH" value="54"/>
+        <item AVAILABLE="126800" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="315">
+          <item dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="164"/>
+          <item dataType="int" stringID="MAP_NUM_SLICE_LATCH" value="151"/>
           <item dataType="int" stringID="MAP_NUM_SLICE_LATCHTHRU" value="0"/>
-          <item dataType="int" stringID="MAP_NUM_SLICE_LATCHLOGIC" value="1"/>
+          <item dataType="int" stringID="MAP_NUM_SLICE_LATCHLOGIC" value="0"/>
         </item>
-        <item AVAILABLE="63400" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="1175">
-          <item dataType="int" label="Number using O5 output only" stringID="MAP_NUM_LOGIC_O5ONLY" value="22"/>
-          <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="1026"/>
-          <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="82"/>
+        <item AVAILABLE="63400" dataType="int" label="Number of Slice LUTs" stringID="MAP_SLICE_LUTS" value="1303">
+          <item dataType="int" label="Number using O5 output only" stringID="MAP_NUM_LOGIC_O5ONLY" value="34"/>
+          <item dataType="int" label="Number using O6 output only" stringID="MAP_NUM_LOGIC_O6ONLY" value="1090"/>
+          <item dataType="int" label="Number using O5 and O6" stringID="MAP_NUM_LOGIC_O5ANDO6" value="161"/>
           <item dataType="int" stringID="MAP_NUM_ROM_O5ONLY" value="0"/>
           <item dataType="int" stringID="MAP_NUM_ROM_O6ONLY" value="0"/>
           <item dataType="int" stringID="MAP_NUM_ROM_O5ANDO6" value="0"/>
@@ -142,27 +142,27 @@
           <item dataType="int" stringID="MAP_NUM_SPRAM_O6ONLY" value="0"/>
           <item dataType="int" stringID="MAP_NUM_SPRAM_O5ANDO6" value="0"/>
           <item dataType="int" stringID="MAP_NUM_SRL_O5ONLY" value="0"/>
-          <item dataType="int" stringID="MAP_NUM_SRL_O6ONLY" value="7"/>
+          <item dataType="int" stringID="MAP_NUM_SRL_O6ONLY" value="0"/>
           <item dataType="int" stringID="MAP_NUM_SRL_O5ANDO6" value="0"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO6" value="36"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO6" value="18"/>
           <item dataType="int" stringID="MAP_NUM_LUT_RT_EXO5" value="0"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_O5ANDO6" value="2"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_FLOP" value="2"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_CARRY4" value="3"/>
-          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_OTHERS" value="33"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_O5ANDO6" value="0"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_FLOP" value="0"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_CARRY4" value="4"/>
+          <item dataType="int" stringID="MAP_NUM_LUT_RT_DRIVES_OTHERS" value="14"/>
         </item>
-        <item AVAILABLE="15850" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="391">
-          <item AVAILABLE="11100" dataType="int" stringID="MAP_NUM_SLICEL" value="389"/>
-          <item AVAILABLE="4750" dataType="int" stringID="MAP_NUM_SLICEM" value="2"/>
+        <item AVAILABLE="15850" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="451">
+          <item AVAILABLE="11100" dataType="int" stringID="MAP_NUM_SLICEL" value="451"/>
+          <item AVAILABLE="4750" dataType="int" stringID="MAP_NUM_SLICEM" value="0"/>
         </item>
-        <item dataType="int" label="Number of LUT Flip Flop pairs used" stringID="MAP_OCCUPIED_LUT_AND_FF" value="1209">
-          <item dataType="int" stringID="MAP_OCCUPIED_LUT_ONLY" value="1046"/>
-          <item dataType="int" label="Number with an unused LUT" stringID="MAP_OCCUPIED_FF_ONLY" value="34"/>
-          <item dataType="int" label="Number of fully used LUT-FF pairs" stringID="MAP_OCCUPIED_FF_AND_LUT" value="129"/>
+        <item dataType="int" label="Number of LUT Flip Flop pairs used" stringID="MAP_OCCUPIED_LUT_AND_FF" value="1380">
+          <item dataType="int" stringID="MAP_OCCUPIED_LUT_ONLY" value="1067"/>
+          <item dataType="int" label="Number with an unused LUT" stringID="MAP_OCCUPIED_FF_ONLY" value="77"/>
+          <item dataType="int" label="Number of fully used LUT-FF pairs" stringID="MAP_OCCUPIED_FF_AND_LUT" value="236"/>
         </item>
       </section>
       <section stringID="MAP_IOB_REPORTING">
-        <item AVAILABLE="210" dataType="int" stringID="MAP_AGG_BONDED_IO" value="20"/>
+        <item AVAILABLE="210" dataType="int" stringID="MAP_AGG_BONDED_IO" value="24"/>
         <item AVAILABLE="90" dataType="int" stringID="MAP_AGG_UNBONDED_IO" value="0"/>
         <item AVAILABLE="0" dataType="int" label="IOB Flip Flops" stringID="MAP_NUM_IOB_FF" value="0"/>
         <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_IOB_LATCH" value="0"/>
@@ -177,10 +177,10 @@
       </section>
       <section stringID="MAP_HARD_IP_REPORTING"/>
       <section stringID="MAP_RAM_FIFO_DATA">
-        <item dataType="int" stringID="MAP_NUM_RAMB36E1" value="0"/>
+        <item dataType="int" stringID="MAP_NUM_RAMB36E1" value="6"/>
         <item dataType="int" stringID="MAP_NUM_FIFO36E1" value="0"/>
         <item dataType="int" stringID="MAP_AVAILABLE" value="270"/>
-        <item dataType="int" stringID="MAP_NUM_RAMB18E1" value="0"/>
+        <item dataType="int" stringID="MAP_NUM_RAMB18E1" value="1"/>
         <item dataType="int" stringID="MAP_NUM_FIFO18E1" value="0"/>
       </section>
       <section stringID="MAP_IP_DATA">
@@ -192,7 +192,7 @@
         <item AVAILABLE="24" dataType="int" stringID="MAP_NUM_BUFR" value="0"/>
         <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_CAPTURE" value="0"/>
         <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_DNA_PORT" value="0"/>
-        <item AVAILABLE="240" dataType="int" stringID="MAP_NUM_DSP48E1" value="2"/>
+        <item AVAILABLE="240" dataType="int" stringID="MAP_NUM_DSP48E1" value="7"/>
         <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_EFUSE_USR" value="0"/>
         <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_FRAME_ECC" value="0"/>
         <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_GTHE1_QUAD" value="0"/>
@@ -205,7 +205,7 @@
         <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_TEMAC_SINGLE" value="0"/>
       </section>
       <section stringID="MAP_BUFG_DATA">
-        <item dataType="int" label="Number used as BUFGs" stringID="MAP_NUM_BUFG" value="3"/>
+        <item dataType="int" label="Number used as BUFGs" stringID="MAP_NUM_BUFG" value="4"/>
         <item dataType="int" stringID="MAP_NUM_BUFGCTR" value="0"/>
         <item dataType="int" stringID="MAP_AVAILABLE" value="32"/>
       </section>
@@ -256,6 +256,24 @@
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
           </row>
           <row stringID="row" value="6">
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="desno"/>
+            <item stringID="Type" value="IOB33"/>
+            <item stringID="Direction" value="INPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
+          </row>
+          <row stringID="row" value="7">
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="dol"/>
+            <item stringID="Type" value="IOB33"/>
+            <item stringID="Direction" value="INPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
+          </row>
+          <row stringID="row" value="8">
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="gor"/>
+            <item stringID="Type" value="IOB33"/>
+            <item stringID="Direction" value="INPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
+          </row>
+          <row stringID="row" value="9">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="hsync_o"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -263,13 +281,19 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="7">
+          <row stringID="row" value="10">
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="levo"/>
+            <item stringID="Type" value="IOB33"/>
+            <item stringID="Direction" value="INPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
+          </row>
+          <row stringID="row" value="11">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="reset"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
           </row>
-          <row stringID="row" value="8">
+          <row stringID="row" value="12">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_b&lt;0>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -277,7 +301,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="9">
+          <row stringID="row" value="13">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_b&lt;1>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -285,7 +309,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="10">
+          <row stringID="row" value="14">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_b&lt;2>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -293,7 +317,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="11">
+          <row stringID="row" value="15">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_b&lt;3>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -301,7 +325,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="12">
+          <row stringID="row" value="16">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_g&lt;0>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -309,7 +333,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="13">
+          <row stringID="row" value="17">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_g&lt;1>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -317,7 +341,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="14">
+          <row stringID="row" value="18">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_g&lt;2>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -325,7 +349,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="15">
+          <row stringID="row" value="19">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_g&lt;3>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -333,7 +357,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="16">
+          <row stringID="row" value="20">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_r&lt;0>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -341,7 +365,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="17">
+          <row stringID="row" value="21">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_r&lt;1>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -349,7 +373,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="18">
+          <row stringID="row" value="22">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_r&lt;2>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -357,7 +381,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="19">
+          <row stringID="row" value="23">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vga_r&lt;3>"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -365,7 +389,7 @@
             <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
           </row>
-          <row stringID="row" value="20">
+          <row stringID="row" value="24">
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="vsync_o"/>
             <item stringID="Type" value="IOB33"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -377,7 +401,7 @@
       </section>
       <section stringID="MAP_RPM_MACROS">
         <section stringID="MAP_SHAPE_SECTION">
-          <item dataType="int" stringID="MAP_NUM_SHAPE" value="11"/>
+          <item dataType="int" stringID="MAP_NUM_SHAPE" value="27"/>
         </section>
       </section>
       <section stringID="MAP_GUIDE_REPORT"/>
@@ -412,7 +436,7 @@
         <item stringID="MAP_PATTERN" value="000000000000"/>
       </section>
       <section stringID="MAP_CONTROL_SET_INFORMATION">
-        <item dataType="int" label="Number of unique control sets" stringID="MAP_NUM_CONTROL_SETS" value="14"/>
+        <item dataType="int" label="Number of unique control sets" stringID="MAP_NUM_CONTROL_SETS" value="23"/>
         <tree stringID="MAP_CONTROL_SET_HIERARCHY">
           <property stringID="MAP_CLOCK_SIGNAL"/>
           <property stringID="MAP_RESET_SIGNAL"/>
@@ -424,10 +448,10 @@
       </section>
     </task>
     <section stringID="MAP_RAM_FIFO_DATA">
-      <item dataType="int" stringID="MAP_NUM_RAMB36E1" value="0"/>
+      <item dataType="int" stringID="MAP_NUM_RAMB36E1" value="6"/>
       <item dataType="int" stringID="MAP_NUM_FIFO36E1" value="0"/>
       <item dataType="int" stringID="MAP_AVAILABLE" value="270"/>
-      <item dataType="int" stringID="MAP_NUM_RAMB18E1" value="0"/>
+      <item dataType="int" stringID="MAP_NUM_RAMB18E1" value="1"/>
       <item dataType="int" stringID="MAP_NUM_FIFO18E1" value="0"/>
     </section>
     <section stringID="MAP_IP_DATA">
@@ -439,7 +463,7 @@
       <item AVAILABLE="24" dataType="int" stringID="MAP_NUM_BUFR" value="0"/>
       <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_CAPTURE" value="0"/>
       <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_DNA_PORT" value="0"/>
-      <item AVAILABLE="240" dataType="int" stringID="MAP_NUM_DSP48E1" value="2"/>
+      <item AVAILABLE="240" dataType="int" stringID="MAP_NUM_DSP48E1" value="7"/>
       <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_EFUSE_USR" value="0"/>
       <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_FRAME_ECC" value="0"/>
       <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_GTHE1_QUAD" value="0"/>
@@ -452,7 +476,7 @@
       <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_TEMAC_SINGLE" value="0"/>
     </section>
     <section stringID="MAP_BUFG_DATA">
-      <item dataType="int" label="Number used as BUFGs" stringID="MAP_NUM_BUFG" value="3"/>
+      <item dataType="int" label="Number used as BUFGs" stringID="MAP_NUM_BUFG" value="4"/>
       <item dataType="int" stringID="MAP_NUM_BUFGCTR" value="0"/>
       <item dataType="int" stringID="MAP_AVAILABLE" value="32"/>
       <item dataType="int" stringID="MAP_HARD_MACROS" value="0"/>

@@ -18,7 +18,10 @@ entity mem is
            data_o 	: out  STD_LOGIC_VECTOR (0 to 219);
 			  
 			  addrOUTTest : in  STD_LOGIC_VECTOR (6 downto 0);
-           data_oTest 	: out  STD_LOGIC_VECTOR (0 to 219));
+           data_oTest 	: out  STD_LOGIC_VECTOR (0 to 219);
+			  
+			  addrOUTTestP2 : in  STD_LOGIC_VECTOR (6 downto 0);
+           data_oTestP2 	: out  STD_LOGIC_VECTOR (0 to 219));
 end mem;
 
 architecture Behavioral of mem is
@@ -130,16 +133,17 @@ architecture Behavioral of mem is
                             others => (others => '0'));
 	signal dataOUT : STD_LOGIC_VECTOR (0 to 219);
 	signal dataOUTTest : STD_LOGIC_VECTOR (0 to 219);
+	signal dataOUTTestP2 : STD_LOGIC_VECTOR (0 to 219);
 begin
 	data_o	<= dataOUT;
 	data_oTest	<= dataOUTTest;
-
+	data_oTestP2	<= dataOUTTestP2;
 	-- to je dvokanalni RAM. Pisemo na naslov addrIN_i, istocasno lahko beremo z naslova addrOUT_i
 	-- RAM ima asinhronski bralni dostop, tako da ga je easy za uporabit. Ko naslovis, takoj dobis podatke.
 	-- pisalni dostop je sinhronski.
 	-- Pazi LSB bit je skrajno levi, zato da se lazje 'ujema' z organizacijo zaslona!
 
-	
+	dataOUTTestP2 <= RAM(conv_integer(addrOUTTestP2));
 	dataOUTTest <= RAM(conv_integer(addrOUTTest));
 	dataOUT <= RAM(conv_integer(addrOUT_i));
 

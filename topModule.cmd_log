@@ -688,3 +688,79 @@ map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
 trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
 bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.xst" -ofn "C:/Users/Miha/Documents/faks/dn/projects/vgaController/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaUcf.ucf -p xc7a100t-csg324-1 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf vgaUcf.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
