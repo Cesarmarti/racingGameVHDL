@@ -21,11 +21,52 @@ entity mem is
            data_oTest 	: out  STD_LOGIC_VECTOR (0 to 219);
 			  
 			  addrOUTTestP2 : in  STD_LOGIC_VECTOR (6 downto 0);
-           data_oTestP2 	: out  STD_LOGIC_VECTOR (0 to 219));
+           data_oTestP2 	: out  STD_LOGIC_VECTOR (0 to 219);
+			  
+			  scoreData : out  STD_LOGIC_VECTOR (0 to 5);
+           scoreAddr 	: in  STD_LOGIC_VECTOR (5 downto 0));
 end mem;
 
 architecture Behavioral of mem is
-
+	type ram_min is array (34 downto 0) of std_logic_vector(0 to 5);
+	signal RAMSCORE : ram_min :=(
+		0=>"110011",
+		1=>"101101",
+		2=>"101101",
+		3=>"101101",
+		4=>"110011",
+		5=>"111101",
+		6=>"111001",
+		7=>"110101",
+		8=>"111101",
+		9=>"111101",
+		10=>"110011",
+		11=>"101101",
+		12=>"111011",
+		13=>"110111",
+		14=>"100001",
+		15=>"110011",
+		16=>"101101",
+		17=>"111011",
+		18=>"101101",
+		19=>"110011",
+		20=>"111011",
+		21=>"110011",
+		22=>"101011",
+		23=>"000001",
+		24=>"111011",
+		25=>"100001",
+		26=>"101111",
+		27=>"110011",
+		28=>"101101",
+		29=>"110011",
+		30=>"111001",
+		31=>"110110",
+		32=>"101011",
+		33=>"101101",
+		34=>"110011",
+		others => (others => '0')
+	);
 	type ram_type is array (99 downto 0) of std_logic_vector (0 to 219);
    signal RAM : ram_type:= (
 									0 => "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
@@ -134,10 +175,12 @@ architecture Behavioral of mem is
 	signal dataOUT : STD_LOGIC_VECTOR (0 to 219);
 	signal dataOUTTest : STD_LOGIC_VECTOR (0 to 219);
 	signal dataOUTTestP2 : STD_LOGIC_VECTOR (0 to 219);
+	signal scoreOUT : STD_LOGIC_VECTOR (0 to 5);
 begin
 	data_o	<= dataOUT;
 	data_oTest	<= dataOUTTest;
 	data_oTestP2	<= dataOUTTestP2;
+	scoreData<=scoreOUT;
 	-- to je dvokanalni RAM. Pisemo na naslov addrIN_i, istocasno lahko beremo z naslova addrOUT_i
 	-- RAM ima asinhronski bralni dostop, tako da ga je easy za uporabit. Ko naslovis, takoj dobis podatke.
 	-- pisalni dostop je sinhronski.
@@ -146,6 +189,7 @@ begin
 	dataOUTTestP2 <= RAM(conv_integer(addrOUTTestP2));
 	dataOUTTest <= RAM(conv_integer(addrOUTTest));
 	dataOUT <= RAM(conv_integer(addrOUT_i));
-
+	
+	scoreOut <= RAMSCORE(conv_integer(scoreAddr));
 
 end Behavioral;

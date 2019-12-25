@@ -123,32 +123,40 @@ Parsing architecture <Behavioral> of entity <topmodule>.
 =========================================================================
 
 Elaborating entity <topModule> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 99: Using initial value "101" for speed1 since it is never assigned
 
 Elaborating entity <hsync> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <vsync> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <mem> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 204. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 224. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 395: state should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 396: newoffsetp1x should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 397: newoffsetp1y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 398: newp1posy should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 399: newp1posx should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 409: state2 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 410: newoffsetp2x should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 411: newoffsetp2y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 412: newp2posy should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 413: newp2posx should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 449: offsetp1y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 450: posp1y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 464: posp1y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 503: offsetp2y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 504: posp2y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 506: offsetp2x should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 507: posp2x should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 518: posp2y should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 237. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 263. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 323. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 343. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 532: state should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 533: newoffsetp1x should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 534: newoffsetp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 535: newp1posy should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 536: newp1posx should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 546: state2 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 547: newoffsetp2x should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 548: newoffsetp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 549: newp2posy should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 550: newp2posx should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 578: Assignment to secenable ignored, since the identifier is never used
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 614: offsetp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 615: posp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 629: posp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 655: posp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 695: scorep1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 697: ramscore should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 708: offsetp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 709: posp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 724: posp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 737: posp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 775: scorep2 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 777: ramscore should be on the sensitivity list of the process
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -157,6 +165,12 @@ WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController
 Synthesizing Unit <topModule>.
     Related source file is "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd".
     Found 1-bit register for signal <state2>.
+    Found 2-bit register for signal <finish1>.
+    Found 2-bit register for signal <finish2>.
+    Found 2-bit register for signal <finishNext1>.
+    Found 4-bit register for signal <scoreP1>.
+    Found 2-bit register for signal <finishNext2>.
+    Found 4-bit register for signal <scoreP2>.
     Found 12-bit register for signal <newp1POSX>.
     Found 12-bit register for signal <newoffsetP1X>.
     Found 1-bit register for signal <movementP1X>.
@@ -178,64 +192,76 @@ Synthesizing Unit <topModule>.
     Found 28-bit register for signal <cnt_1s>.
     Found 1-bit register for signal <enableRead>.
     Found 1-bit register for signal <state>.
-    Found 13-bit subtractor for signal <n0454> created at line 302.
-    Found 13-bit subtractor for signal <n0457> created at line 314.
-    Found 13-bit subtractor for signal <n0470> created at line 352.
-    Found 13-bit subtractor for signal <n0473> created at line 364.
-    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_119_OUT> created at line 464.
-    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_122_OUT> created at line 464.
-    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_133_OUT> created at line 471.
-    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_165_OUT> created at line 518.
-    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_168_OUT> created at line 518.
-    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_176_OUT> created at line 525.
-    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_179_OUT> created at line 525.
-    Found 12-bit adder for signal <p1POSX[11]_GND_6_o_add_4_OUT> created at line 235.
-    Found 12-bit adder for signal <offsetP1X[11]_GND_6_o_add_5_OUT> created at line 236.
-    Found 12-bit adder for signal <p1POSY[11]_GND_6_o_add_14_OUT> created at line 251.
-    Found 12-bit adder for signal <offsetP1Y[11]_GND_6_o_add_15_OUT> created at line 252.
-    Found 12-bit adder for signal <p2POSX[11]_GND_6_o_add_24_OUT> created at line 265.
-    Found 12-bit adder for signal <offsetP2X[11]_GND_6_o_add_25_OUT> created at line 266.
-    Found 12-bit adder for signal <p2POSY[11]_GND_6_o_add_34_OUT> created at line 281.
-    Found 12-bit adder for signal <offsetP2Y[11]_GND_6_o_add_35_OUT> created at line 282.
-    Found 12-bit adder for signal <n0453> created at line 300.
-    Found 3-bit adder for signal <colCounter1[2]_GND_6_o_add_56_OUT> created at line 317.
-    Found 12-bit adder for signal <n0460> created at line 323.
-    Found 12-bit adder for signal <n0469> created at line 350.
-    Found 3-bit adder for signal <colCounter2[2]_GND_6_o_add_83_OUT> created at line 367.
-    Found 12-bit adder for signal <n0476> created at line 373.
-    Found 28-bit adder for signal <cnt_1s[27]_GND_6_o_add_107_OUT> created at line 431.
-    Found 12-bit adder for signal <offsetP1Y[11]_GND_6_o_add_112_OUT> created at line 449.
-    Found 12-bit adder for signal <offsetP1X[11]_GND_6_o_add_113_OUT> created at line 452.
-    Found 27-bit adder for signal <n0650> created at line 464.
-    Found 23-bit adder for signal <n0653> created at line 471.
-    Found 12-bit adder for signal <offsetP2Y[11]_GND_6_o_add_157_OUT> created at line 503.
-    Found 12-bit adder for signal <offsetP2X[11]_GND_6_o_add_159_OUT> created at line 506.
-    Found 27-bit adder for signal <n0662> created at line 518.
-    Found 23-bit adder for signal <n0665> created at line 525.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_7_OUT<11:0>> created at line 239.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_8_OUT<11:0>> created at line 240.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_13_OUT<11:0>> created at line 247.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_14_OUT<11:0>> created at line 248.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_27_OUT<11:0>> created at line 269.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_28_OUT<11:0>> created at line 270.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_33_OUT<11:0>> created at line 277.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_34_OUT<11:0>> created at line 278.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_159_OUT<11:0>> created at line 503.
-    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_120_OUT> created at line 464.
-    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_123_OUT> created at line 464.
-    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_134_OUT> created at line 471.
-    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_166_OUT> created at line 518.
-    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_169_OUT> created at line 518.
-    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_177_OUT> created at line 525.
-    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_180_OUT> created at line 525.
-    Found 1-bit 220-to-1 multiplexer for signal <newp1POSX[11]_X_6_o_Mux_46_o> created at line 301.
-    Found 1-bit 220-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_48_o> created at line 303.
-    Found 1-bit 220-to-1 multiplexer for signal <newp1POSX[11]_X_6_o_Mux_55_o> created at line 316.
-    Found 1-bit 220-to-1 multiplexer for signal <newp2POSX[11]_X_6_o_Mux_73_o> created at line 351.
-    Found 1-bit 220-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_75_o> created at line 353.
-    Found 1-bit 220-to-1 multiplexer for signal <newp2POSX[11]_X_6_o_Mux_82_o> created at line 366.
-    Found 1-bit 220-to-1 multiplexer for signal <posP1X[11]_X_6_o_Mux_114_o> created at line 453.
-    Found 1-bit 220-to-1 multiplexer for signal <posP2X[11]_X_6_o_Mux_160_o> created at line 507.
+    Found 13-bit subtractor for signal <n0621> created at line 439.
+    Found 13-bit subtractor for signal <n0624> created at line 451.
+    Found 13-bit subtractor for signal <n0637> created at line 489.
+    Found 13-bit subtractor for signal <n0640> created at line 501.
+    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_179_OUT> created at line 655.
+    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_182_OUT> created at line 655.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_193_OUT> created at line 662.
+    Found 11-bit subtractor for signal <n0691> created at line 694.
+    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_250_OUT> created at line 737.
+    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_253_OUT> created at line 737.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_261_OUT> created at line 744.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_264_OUT> created at line 744.
+    Found 11-bit subtractor for signal <n0738> created at line 774.
+    Found 11-bit subtractor for signal <n0741> created at line 776.
+    Found 4-bit adder for signal <scoreP1[3]_GND_6_o_add_3_OUT> created at line 226.
+    Found 4-bit adder for signal <scoreP2[3]_GND_6_o_add_13_OUT> created at line 252.
+    Found 12-bit adder for signal <p1POSX[11]_GND_6_o_add_42_OUT> created at line 362.
+    Found 12-bit adder for signal <offsetP1X[11]_GND_6_o_add_43_OUT> created at line 363.
+    Found 12-bit adder for signal <p1POSY[11]_GND_6_o_add_52_OUT> created at line 378.
+    Found 12-bit adder for signal <offsetP1Y[11]_GND_6_o_add_53_OUT> created at line 379.
+    Found 12-bit adder for signal <p2POSX[11]_GND_6_o_add_66_OUT> created at line 401.
+    Found 12-bit adder for signal <offsetP2X[11]_GND_6_o_add_67_OUT> created at line 402.
+    Found 12-bit adder for signal <p2POSY[11]_GND_6_o_add_76_OUT> created at line 417.
+    Found 12-bit adder for signal <offsetP2Y[11]_GND_6_o_add_77_OUT> created at line 418.
+    Found 12-bit adder for signal <n0620> created at line 437.
+    Found 3-bit adder for signal <colCounter1[2]_GND_6_o_add_102_OUT> created at line 454.
+    Found 12-bit adder for signal <n0627> created at line 460.
+    Found 12-bit adder for signal <n0636> created at line 487.
+    Found 3-bit adder for signal <colCounter2[2]_GND_6_o_add_129_OUT> created at line 504.
+    Found 12-bit adder for signal <n0643> created at line 510.
+    Found 28-bit adder for signal <cnt_1s[27]_GND_6_o_add_153_OUT> created at line 568.
+    Found 12-bit adder for signal <offsetP1Y[11]_GND_6_o_add_163_OUT> created at line 614.
+    Found 12-bit adder for signal <offsetP1X[11]_GND_6_o_add_164_OUT> created at line 617.
+    Found 27-bit adder for signal <n0882> created at line 655.
+    Found 23-bit adder for signal <n0885> created at line 662.
+    Found 7-bit adder for signal <n0693> created at line 695.
+    Found 12-bit adder for signal <offsetP2Y[11]_GND_6_o_add_233_OUT> created at line 708.
+    Found 12-bit adder for signal <offsetP2X[11]_GND_6_o_add_235_OUT> created at line 711.
+    Found 27-bit adder for signal <n0897> created at line 737.
+    Found 23-bit adder for signal <n0900> created at line 744.
+    Found 7-bit adder for signal <n0740> created at line 775.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_45_OUT<11:0>> created at line 366.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_46_OUT<11:0>> created at line 367.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_51_OUT<11:0>> created at line 374.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_52_OUT<11:0>> created at line 375.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_69_OUT<11:0>> created at line 405.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_70_OUT<11:0>> created at line 406.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_75_OUT<11:0>> created at line 413.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_76_OUT<11:0>> created at line 414.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_235_OUT<11:0>> created at line 708.
+    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_180_OUT> created at line 655.
+    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_183_OUT> created at line 655.
+    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_194_OUT> created at line 662.
+    Found 3x4-bit multiplier for signal <n0887> created at line 695.
+    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_251_OUT> created at line 737.
+    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_254_OUT> created at line 737.
+    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_262_OUT> created at line 744.
+    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_265_OUT> created at line 744.
+    Found 3x4-bit multiplier for signal <n0902> created at line 775.
+    Found 2-bit 3-to-1 multiplexer for signal <finish1[1]_X_6_o_wide_mux_8_OUT> created at line 221.
+    Found 2-bit 3-to-1 multiplexer for signal <finish2[1]_X_6_o_wide_mux_18_OUT> created at line 247.
+    Found 1-bit 220-to-1 multiplexer for signal <newp1POSX[11]_X_6_o_Mux_92_o> created at line 438.
+    Found 1-bit 220-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_94_o> created at line 440.
+    Found 1-bit 220-to-1 multiplexer for signal <newp1POSX[11]_X_6_o_Mux_101_o> created at line 453.
+    Found 1-bit 220-to-1 multiplexer for signal <newp2POSX[11]_X_6_o_Mux_119_o> created at line 488.
+    Found 1-bit 220-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_121_o> created at line 490.
+    Found 1-bit 220-to-1 multiplexer for signal <newp2POSX[11]_X_6_o_Mux_128_o> created at line 503.
+    Found 1-bit 220-to-1 multiplexer for signal <posP1X[11]_X_6_o_Mux_165_o> created at line 618.
+    Found 1-bit 220-to-1 multiplexer for signal <posP2X[11]_X_6_o_Mux_236_o> created at line 712.
+    Found 1-bit 6-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_296_o> created at line 777.
 WARNING:Xst:737 - Found 1-bit latch for signal <offsetP1X<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <offsetP1X<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <offsetP1X<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -363,6 +389,12 @@ WARNING:Xst:737 - Found 1-bit latch for signal <posP1X<3>>. Latches may be gener
 WARNING:Xst:737 - Found 1-bit latch for signal <posP1X<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <posP1X<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <posP1X<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <scoreSelect<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <scoreSelect<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <scoreSelect<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <scoreSelect<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <scoreSelect<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <scoreSelect<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <posP2Y<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <posP2Y<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <posP2Y<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -387,25 +419,53 @@ WARNING:Xst:737 - Found 1-bit latch for signal <posP2X<3>>. Latches may be gener
 WARNING:Xst:737 - Found 1-bit latch for signal <posP2X<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <posP2X<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <posP2X<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_112_o> created at line 447
-    Found 27-bit comparator greater for signal <GND_6_o_BUS_0046_LessThan_126_o> created at line 464
-    Found 23-bit comparator greater for signal <GND_6_o_BUS_0047_LessThan_137_o> created at line 471
-    Found 10-bit comparator lessequal for signal <n0267> created at line 480
-    Found 10-bit comparator greater for signal <GND_6_o_rows[9]_LessThan_145_o> created at line 485
-    Found 10-bit comparator lessequal for signal <n0273> created at line 485
-    Found 27-bit comparator greater for signal <GND_6_o_BUS_0050_LessThan_172_o> created at line 518
-    Found 23-bit comparator greater for signal <GND_6_o_BUS_0051_LessThan_183_o> created at line 525
-    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_188_o> created at line 532
-    Found 10-bit comparator lessequal for signal <n0321> created at line 537
-    Found 10-bit comparator lessequal for signal <n0326> created at line 542
-    Found 10-bit comparator greater for signal <PWR_6_o_column[9]_LessThan_200_o> created at line 547
+    Found 4-bit comparator lessequal for signal <scoreP1[3]_GND_6_o_LessThan_3_o> created at line 225
+    Found 4-bit comparator lessequal for signal <scoreP2[3]_GND_6_o_LessThan_13_o> created at line 251
+    Found 12-bit comparator greater for signal <PWR_6_o_p1POSX[11]_LessThan_23_o> created at line 272
+    Found 12-bit comparator greater for signal <p1POSX[11]_PWR_6_o_LessThan_24_o> created at line 272
+    Found 12-bit comparator greater for signal <PWR_6_o_p1POSX[11]_LessThan_27_o> created at line 282
+    Found 12-bit comparator greater for signal <p1POSX[11]_PWR_6_o_LessThan_28_o> created at line 282
+    Found 12-bit comparator greater for signal <GND_6_o_p1POSY[11]_LessThan_29_o> created at line 282
+    Found 12-bit comparator greater for signal <p1POSY[11]_GND_6_o_LessThan_30_o> created at line 282
+    Found 12-bit comparator greater for signal <PWR_6_o_p2POSX[11]_LessThan_31_o> created at line 291
+    Found 12-bit comparator greater for signal <p2POSX[11]_PWR_6_o_LessThan_32_o> created at line 291
+    Found 12-bit comparator greater for signal <PWR_6_o_p2POSX[11]_LessThan_35_o> created at line 301
+    Found 12-bit comparator greater for signal <p2POSX[11]_PWR_6_o_LessThan_36_o> created at line 301
+    Found 12-bit comparator greater for signal <GND_6_o_p2POSY[11]_LessThan_37_o> created at line 301
+    Found 12-bit comparator greater for signal <p2POSY[11]_GND_6_o_LessThan_38_o> created at line 301
+    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_163_o> created at line 612
+    Found 12-bit comparator greater for signal <PWR_6_o_posP1X[11]_LessThan_170_o> created at line 629
+    Found 12-bit comparator greater for signal <posP1X[11]_PWR_6_o_LessThan_171_o> created at line 629
+    Found 12-bit comparator greater for signal <GND_6_o_posP1Y[11]_LessThan_172_o> created at line 629
+    Found 12-bit comparator greater for signal <posP1Y[11]_GND_6_o_LessThan_173_o> created at line 629
+    Found 27-bit comparator greater for signal <GND_6_o_BUS_0071_LessThan_186_o> created at line 655
+    Found 23-bit comparator greater for signal <GND_6_o_BUS_0072_LessThan_197_o> created at line 662
+    Found 10-bit comparator lessequal for signal <n0341> created at line 671
+    Found 10-bit comparator greater for signal <GND_6_o_rows[9]_LessThan_205_o> created at line 676
+    Found 10-bit comparator lessequal for signal <n0347> created at line 676
+    Found 10-bit comparator lessequal for signal <n0359> created at line 693
+    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_219_o> created at line 693
+    Found 12-bit comparator greater for signal <PWR_6_o_posP2X[11]_LessThan_241_o> created at line 724
+    Found 12-bit comparator greater for signal <posP2X[11]_PWR_6_o_LessThan_242_o> created at line 724
+    Found 12-bit comparator greater for signal <GND_6_o_posP2Y[11]_LessThan_243_o> created at line 724
+    Found 12-bit comparator greater for signal <posP2Y[11]_GND_6_o_LessThan_244_o> created at line 724
+    Found 27-bit comparator greater for signal <GND_6_o_BUS_0076_LessThan_257_o> created at line 737
+    Found 23-bit comparator greater for signal <GND_6_o_BUS_0077_LessThan_268_o> created at line 744
+    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_273_o> created at line 751
+    Found 10-bit comparator lessequal for signal <n0423> created at line 756
+    Found 10-bit comparator lessequal for signal <n0428> created at line 761
+    Found 10-bit comparator greater for signal <PWR_6_o_column[9]_LessThan_285_o> created at line 766
+    Found 10-bit comparator lessequal for signal <n0437> created at line 773
+    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_290_o> created at line 773
+    Found 10-bit comparator lessequal for signal <n0440> created at line 773
+    Found 10-bit comparator greater for signal <column[9]_GND_6_o_LessThan_292_o> created at line 773
     Summary:
-	inferred   7 Multiplier(s).
-	inferred  35 Adder/Subtractor(s).
-	inferred 153 D-type flip-flop(s).
-	inferred 151 Latch(s).
-	inferred  12 Comparator(s).
-	inferred  73 Multiplexer(s).
+	inferred   9 Multiplier(s).
+	inferred  42 Adder/Subtractor(s).
+	inferred 169 D-type flip-flop(s).
+	inferred 157 Latch(s).
+	inferred  40 Comparator(s).
+	inferred 124 Multiplexer(s).
 Unit <topModule> synthesized.
 
 Synthesizing Unit <hsync>.
@@ -443,26 +503,31 @@ Synthesizing Unit <mem>.
     Related source file is "C:\Users\Miha\Documents\faks\dn\projects\vgaController\mem.vhd".
 WARNING:Xst:647 - Input <clk_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <we_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2999 - Signal 'RAMSCORE', unconnected in block 'mem', is tied to its initial value.
 WARNING:Xst:2999 - Signal 'RAM', unconnected in block 'mem', is tied to its initial value.
+WARNING:Xst:3035 - Index value(s) does not match array range for signal <RAMSCORE>, simulation mismatch.
+    Found 35x6-bit single-port Read Only RAM <Mram_RAMSCORE> for signal <RAMSCORE>.
 WARNING:Xst:3035 - Index value(s) does not match array range for signal <RAM>, simulation mismatch.
     Found 100x220-bit dual-port Read Only RAM <Mram_RAM> for signal <RAM>.
     Summary:
-	inferred   2 RAM(s).
+	inferred   3 RAM(s).
 Unit <mem> synthesized.
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 2
+# RAMs                                                 : 3
  100x220-bit dual-port Read Only RAM                   : 1
  100x220-bit single-port Read Only RAM                 : 1
-# Multipliers                                          : 7
+ 35x6-bit single-port Read Only RAM                    : 1
+# Multipliers                                          : 9
  11x11-bit multiplier                                  : 3
  13x13-bit multiplier                                  : 4
-# Adders/Subtractors                                   : 38
+ 4x3-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 45
  10-bit adder                                          : 2
- 11-bit subtractor                                     : 3
+ 11-bit subtractor                                     : 6
  12-bit adder                                          : 8
  12-bit addsub                                         : 8
  12-bit subtractor                                     : 1
@@ -472,29 +537,37 @@ Macro Statistics
  27-bit adder                                          : 2
  28-bit adder                                          : 1
  3-bit adder                                           : 2
-# Registers                                            : 26
+ 4-bit adder                                           : 2
+ 7-bit adder                                           : 2
+# Registers                                            : 32
  1-bit register                                        : 10
  10-bit register                                       : 2
  12-bit register                                       : 8
- 2-bit register                                        : 1
+ 2-bit register                                        : 5
  28-bit register                                       : 1
  3-bit register                                        : 2
+ 4-bit register                                        : 2
  7-bit register                                        : 2
-# Latches                                              : 151
- 1-bit latch                                           : 151
-# Comparators                                          : 18
- 10-bit comparator greater                             : 10
- 10-bit comparator lessequal                           : 4
+# Latches                                              : 157
+ 1-bit latch                                           : 157
+# Comparators                                          : 46
+ 10-bit comparator greater                             : 13
+ 10-bit comparator lessequal                           : 7
+ 12-bit comparator greater                             : 20
  23-bit comparator greater                             : 2
  27-bit comparator greater                             : 2
-# Multiplexers                                         : 76
- 1-bit 2-to-1 multiplexer                              : 9
+ 4-bit comparator lessequal                            : 2
+# Multiplexers                                         : 127
+ 1-bit 2-to-1 multiplexer                              : 26
  1-bit 220-to-1 multiplexer                            : 8
+ 1-bit 6-to-1 multiplexer                              : 1
  10-bit 2-to-1 multiplexer                             : 2
- 2-bit 2-to-1 multiplexer                              : 1
+ 12-bit 2-to-1 multiplexer                             : 8
+ 2-bit 2-to-1 multiplexer                              : 5
+ 2-bit 3-to-1 multiplexer                              : 2
  28-bit 2-to-1 multiplexer                             : 1
  3-bit 2-to-1 multiplexer                              : 10
- 4-bit 2-to-1 multiplexer                              : 41
+ 4-bit 2-to-1 multiplexer                              : 60
  7-bit 2-to-1 multiplexer                              : 4
 # Xors                                                 : 8
  1-bit xor2                                            : 8
@@ -513,6 +586,10 @@ Unit <hsync> synthesized (advanced).
 
 Synthesizing (advanced) Unit <topModule>.
 The following registers are absorbed into counter <cnt_1s>: 1 register on signal <cnt_1s>.
+The following registers are absorbed into counter <scoreP1>: 1 register on signal <scoreP1>.
+The following registers are absorbed into counter <scoreP2>: 1 register on signal <scoreP2>.
+	Multiplier <Mmult_n0887> in block <topModule> and adder/subtractor <Madd_n0693_Madd> in block <topModule> are combined into a MAC<Maddsub_n0887>.
+	Multiplier <Mmult_n0902> in block <topModule> and adder/subtractor <Madd_n0740_Madd> in block <topModule> are combined into a MAC<Maddsub_n0902>.
 INFO:Xst:3226 - The RAM <mm/Mram_RAM> will be implemented as a BLOCK RAM, absorbing the following register(s): <rowSelectP2Check> <rowSelectP1Check>
     -----------------------------------------------------------------------
     | ram_type           | Block                               |          |
@@ -523,7 +600,7 @@ INFO:Xst:3226 - The RAM <mm/Mram_RAM> will be implemented as a BLOCK RAM, absorb
     |     clkA           | connected to signal <clk>           | rise     |
     |     enA            | connected to internal node          | low      |
     |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <_n0719>        |          |
+    |     addrA          | connected to signal <_n0971>        |          |
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to signal <ramDataOCheckP2> |          |
     -----------------------------------------------------------------------
@@ -534,10 +611,21 @@ INFO:Xst:3226 - The RAM <mm/Mram_RAM> will be implemented as a BLOCK RAM, absorb
     |     mode           | read-first                          |          |
     |     clkB           | connected to signal <clk>           | rise     |
     |     enB            | connected to internal node          | low      |
-    |     addrB          | connected to signal <_n0713>        |          |
+    |     addrB          | connected to signal <_n0965>        |          |
     |     doB            | connected to signal <ramDataOCheck> |          |
     -----------------------------------------------------------------------
     | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <mm/Mram_RAMSCORE> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 35-word x 6-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <scoreSelect>   |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <ramScore>      |          |
     -----------------------------------------------------------------------
 INFO:Xst:3218 - HDL ADVISOR - The RAM <mm/Mram_RAM1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
@@ -560,13 +648,16 @@ Unit <vsync> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 2
+# RAMs                                                 : 3
  100x220-bit dual-port block Read Only RAM             : 1
  100x220-bit single-port distributed Read Only RAM     : 1
+ 35x6-bit single-port distributed Read Only RAM        : 1
+# MACs                                                 : 2
+ 4x3-to-6-bit MAC                                      : 2
 # Multipliers                                          : 7
  11x11-bit multiplier                                  : 3
  13x13-bit multiplier                                  : 4
-# Adders/Subtractors                                   : 34
+# Adders/Subtractors                                   : 37
  11-bit adder                                          : 2
  11-bit subtractor                                     : 5
  12-bit adder                                          : 6
@@ -576,22 +667,31 @@ Macro Statistics
  23-bit adder                                          : 2
  27-bit adder                                          : 2
  3-bit adder                                           : 2
-# Counters                                             : 4
+ 5-bit subtractor                                      : 1
+ 8-bit subtractor                                      : 2
+# Counters                                             : 6
  10-bit up counter                                     : 2
  2-bit up counter                                      : 1
  28-bit up counter                                     : 1
-# Registers                                            : 112
- Flip-Flops                                            : 112
-# Comparators                                          : 18
- 10-bit comparator greater                             : 10
- 10-bit comparator lessequal                           : 4
+ 4-bit up counter                                      : 2
+# Registers                                            : 120
+ Flip-Flops                                            : 120
+# Comparators                                          : 46
+ 10-bit comparator greater                             : 13
+ 10-bit comparator lessequal                           : 7
+ 12-bit comparator greater                             : 20
  23-bit comparator greater                             : 2
  27-bit comparator greater                             : 2
-# Multiplexers                                         : 72
- 1-bit 2-to-1 multiplexer                              : 9
+ 4-bit comparator lessequal                            : 2
+# Multiplexers                                         : 123
+ 1-bit 2-to-1 multiplexer                              : 26
  1-bit 220-to-1 multiplexer                            : 8
+ 1-bit 6-to-1 multiplexer                              : 1
+ 12-bit 2-to-1 multiplexer                             : 8
+ 2-bit 2-to-1 multiplexer                              : 4
+ 2-bit 3-to-1 multiplexer                              : 2
  3-bit 2-to-1 multiplexer                              : 10
- 4-bit 2-to-1 multiplexer                              : 41
+ 4-bit 2-to-1 multiplexer                              : 60
  7-bit 2-to-1 multiplexer                              : 4
 # Xors                                                 : 8
  1-bit xor2                                            : 8
@@ -609,6 +709,8 @@ WARNING:Xst:1293 - FF/Latch <colCounter2_2> has a constant value of 0 in block <
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <colCounter1_2> has a constant value of 0 in block <topModule>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <hsync> ...
+WARNING:Xst:1293 - FF/Latch <scoreP2_3> has a constant value of 0 in block <topModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <scoreP1_3> has a constant value of 0 in block <topModule>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <cnt_1s_0> in Unit <topModule> is equivalent to the following FF/Latch, which will be removed : <hs/countPre_0> 
 INFO:Xst:2261 - The FF/Latch <cnt_1s_1> in Unit <topModule> is equivalent to the following FF/Latch, which will be removed : <hs/countPre_1> 
 
@@ -628,8 +730,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 164
- Flip-Flops                                            : 164
+# Registers                                            : 178
+ Flip-Flops                                            : 178
 
 =========================================================================
 
@@ -652,26 +754,27 @@ Top Level Output File Name         : topModule.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2452
+# BELS                             : 2690
 #      GND                         : 1
-#      INV                         : 6
-#      LUT1                        : 38
-#      LUT2                        : 229
-#      LUT3                        : 158
-#      LUT4                        : 45
-#      LUT5                        : 263
-#      LUT6                        : 706
-#      MUXCY                       : 339
-#      MUXF7                       : 228
+#      INV                         : 8
+#      LUT1                        : 42
+#      LUT2                        : 327
+#      LUT3                        : 169
+#      LUT4                        : 72
+#      LUT5                        : 284
+#      LUT6                        : 744
+#      MUXCY                       : 355
+#      MUXF7                       : 229
 #      MUXF8                       : 98
 #      VCC                         : 1
-#      XORCY                       : 340
-# FlipFlops/Latches                : 315
-#      FDE                         : 108
+#      XORCY                       : 360
+# FlipFlops/Latches                : 335
+#      FD                          : 8
+#      FDE                         : 114
 #      FDR                         : 30
 #      FDRE                        : 22
 #      FDS                         : 4
-#      LDE                         : 127
+#      LDE                         : 133
 #      LDE_1                       : 24
 # RAMS                             : 7
 #      RAMB18E1                    : 1
@@ -692,16 +795,16 @@ Selected Device : 7a100tcsg324-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             315  out of  126800     0%  
- Number of Slice LUTs:                 1445  out of  63400     2%  
-    Number used as Logic:              1445  out of  63400     2%  
+ Number of Slice Registers:             335  out of  126800     0%  
+ Number of Slice LUTs:                 1646  out of  63400     2%  
+    Number used as Logic:              1646  out of  63400     2%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1547
-   Number with an unused Flip Flop:    1232  out of   1547    79%  
-   Number with an unused LUT:           102  out of   1547     6%  
-   Number of fully used LUT-FF pairs:   213  out of   1547    13%  
-   Number of unique control sets:        23
+ Number of LUT Flip Flop pairs used:   1751
+   Number with an unused Flip Flop:    1416  out of   1751    80%  
+   Number with an unused LUT:           105  out of   1751     5%  
+   Number of fully used LUT-FF pairs:   230  out of   1751    13%  
+   Number of unique control sets:        24
 
 IO Utilization: 
  Number of IOs:                          24
@@ -734,11 +837,11 @@ Clock Information:
 -----------------------------------------------------------------+------------------------+-------+
 Clock Signal                                                     | Clock buffer(FF name)  | Load  |
 -----------------------------------------------------------------+------------------------+-------+
-clk                                                              | BUFGP                  | 171   |
-vvidon_hvidon_AND_14_o(vvidon_hvidon_AND_14_o1:O)                | BUFG(*)(offsetP2X_11)  | 96    |
-hvidon_vvidon_AND_16_o(hvidon_vvidon_AND_16_o1:O)                | BUFG(*)(posP1Y_11)     | 24    |
-rows[9]_GND_6_o_LessThan_112_o(rows[9]_GND_6_o_LessThan_112_o1:O)| BUFG(*)(posP2X_9)      | 24    |
-hvidon(hs/hvidon1:O)                                             | NONE(*)(rowSelectP1_6) | 7     |
+clk                                                              | BUFGP                  | 185   |
+vvidon_hvidon_AND_26_o(vvidon_hvidon_AND_26_o1:O)                | BUFG(*)(offsetP2X_9)   | 96    |
+hvidon_vvidon_AND_28_o(hvidon_vvidon_AND_28_o1:O)                | BUFG(*)(posP1Y_11)     | 30    |
+rows[9]_GND_6_o_LessThan_163_o(rows[9]_GND_6_o_LessThan_163_o1:O)| BUFG(*)(posP2X_11)     | 24    |
+hvidon(hs/hvidon1:O)                                             | NONE(*)(rowSelectP1_5) | 7     |
 -----------------------------------------------------------------+------------------------+-------+
 (*) These 4 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
@@ -747,19 +850,19 @@ INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered
 
 Asynchronous Control Signals Information:
 ----------------------------------------
---------------------------------------------------------+------------------------+-------+
-Control Signal                                          | Buffer(FF name)        | Load  |
---------------------------------------------------------+------------------------+-------+
-Madd_colCounter1[2]_GND_6_o_add_56_OUT_lut<2>(XST_GND:G)| NONE(mm/Mram_RAM7)     | 2     |
---------------------------------------------------------+------------------------+-------+
+---------------------------------------------------------+------------------------+-------+
+Control Signal                                           | Buffer(FF name)        | Load  |
+---------------------------------------------------------+------------------------+-------+
+Madd_colCounter1[2]_GND_6_o_add_102_OUT_lut<2>(XST_GND:G)| NONE(mm/Mram_RAM7)     | 2     |
+---------------------------------------------------------+------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -1
 
    Minimum period: 6.422ns (Maximum Frequency: 155.725MHz)
-   Minimum input arrival time before clock: 2.245ns
-   Maximum output required time after clock: 14.073ns
+   Minimum input arrival time before clock: 2.662ns
+   Maximum output required time after clock: 14.745ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -769,7 +872,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 6.422ns (frequency: 155.725MHz)
-  Total number of paths / destination ports: 15760 / 344
+  Total number of paths / destination ports: 15804 / 360
 -------------------------------------------------------------------------
 Delay:               6.422ns (Levels of Logic = 8)
   Source:            newp2POSX_3 (FF)
@@ -782,310 +885,348 @@ Delay:               6.422ns (Levels of Logic = 8)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDE:C->Q             11   0.478   0.782  newp2POSX_3 (newp2POSX_3)
-     LUT3:I0->O           55   0.124   0.694  Msub_n0470_Madd_xor<4>11 (n0470<4>)
-     LUT6:I4->O            1   0.124   0.000  Mmux_GND_6_o_X_6_o_Mux_75_o_153 (Mmux_GND_6_o_X_6_o_Mux_75_o_153)
-     MUXF7:I1->O           1   0.368   0.000  Mmux_GND_6_o_X_6_o_Mux_75_o_14_f7 (Mmux_GND_6_o_X_6_o_Mux_75_o_14_f7)
-     MUXF8:I0->O           2   0.296   0.722  Mmux_GND_6_o_X_6_o_Mux_75_o_12_f8 (Mmux_GND_6_o_X_6_o_Mux_75_o_12_f8)
-     LUT6:I3->O            2   0.124   0.722  Mmux_GND_6_o_X_6_o_Mux_75_o_10_f8_SW0 (N78)
-     LUT6:I3->O            1   0.124   0.536  n0470<11>6_SW1 (N103)
-     LUT6:I4->O            2   0.124   0.542  n0470<11>7 (GND_6_o_X_6_o_Mux_75_o)
-     LUT5:I3->O            1   0.124   0.399  _n0861_inv1 (_n0861_inv)
+     LUT3:I0->O           55   0.124   0.694  Msub_n0637_Madd_xor<4>11 (n0637<4>)
+     LUT6:I4->O            1   0.124   0.000  Mmux_GND_6_o_X_6_o_Mux_121_o_153 (Mmux_GND_6_o_X_6_o_Mux_121_o_153)
+     MUXF7:I1->O           1   0.368   0.000  Mmux_GND_6_o_X_6_o_Mux_121_o_14_f7 (Mmux_GND_6_o_X_6_o_Mux_121_o_14_f7)
+     MUXF8:I0->O           2   0.296   0.722  Mmux_GND_6_o_X_6_o_Mux_121_o_12_f8 (Mmux_GND_6_o_X_6_o_Mux_121_o_12_f8)
+     LUT6:I3->O            2   0.124   0.722  Mmux_GND_6_o_X_6_o_Mux_121_o_10_f8_SW0 (N101)
+     LUT6:I3->O            1   0.124   0.536  n0637<11>6_SW1 (N126)
+     LUT6:I4->O            2   0.124   0.542  n0637<11>7 (GND_6_o_X_6_o_Mux_121_o)
+     LUT5:I3->O            1   0.124   0.399  _n1149_inv1 (_n1149_inv)
      FDRE:CE                   0.139          checkP2
     ----------------------------------------
     Total                      6.422ns (2.025ns logic, 4.397ns route)
                                        (31.5% logic, 68.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 1024 / 262
+Timing constraint: Default period analysis for Clock 'hvidon_vvidon_AND_28_o'
+  Clock period: 1.362ns (frequency: 734.214MHz)
+  Total number of paths / destination ports: 6 / 6
 -------------------------------------------------------------------------
-Offset:              2.245ns (Levels of Logic = 2)
-  Source:            reset (PAD)
-  Destination:       cnt_1s_0 (FF)
-  Destination Clock: clk rising
+Delay:               1.362ns (Levels of Logic = 1)
+  Source:            scoreSelect_0 (LATCH)
+  Destination:       scoreSelect_0 (LATCH)
+  Source Clock:      hvidon_vvidon_AND_28_o falling
+  Destination Clock: hvidon_vvidon_AND_28_o falling
 
-  Data Path: reset to cnt_1s_0
+  Data Path: scoreSelect_0 to scoreSelect_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            22   0.001   1.075  reset_IBUF (reset_IBUF)
-     LUT6:I0->O           28   0.124   0.551  GND_6_o_GND_6_o_equal_107_o_01 (GND_6_o_GND_6_o_equal_107_o_0)
-     FDR:R                     0.494          cnt_1s_0
+     LDE:G->Q             11   0.625   0.602  scoreSelect_0 (scoreSelect_0)
+     LUT5:I3->O            1   0.124   0.000  Mmux_scoreSelect[5]_scoreSelect[5]_MUX_623_o11 (scoreSelect[5]_scoreSelect[5]_MUX_623_o)
+     LDE:D                     0.011          scoreSelect_0
     ----------------------------------------
-    Total                      2.245ns (0.619ns logic, 1.626ns route)
-                                       (27.6% logic, 72.4% route)
+    Total                      1.362ns (0.760ns logic, 0.602ns route)
+                                       (55.8% logic, 44.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1232 / 262
+-------------------------------------------------------------------------
+Offset:              2.662ns (Levels of Logic = 15)
+  Source:            btnR (PAD)
+  Destination:       newp1POSX_11 (FF)
+  Destination Clock: clk rising
+
+  Data Path: btnR to newp1POSX_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            27   0.001   0.687  btnR_IBUF (btnR_IBUF)
+     LUT3:I1->O            1   0.124   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_lut<0> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<0> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<1> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<2> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<3> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<4> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<5> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<6> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<7> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<8> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<9> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<9>)
+     MUXCY:CI->O           0   0.029   0.000  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<10> (Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_cy<10>)
+     XORCY:CI->O           1   0.510   0.421  Maddsub_newp1POSX[11]_p1POSX[11]_mux_47_OUT_xor<11> (newp1POSX[11]_p1POSX[11]_mux_47_OUT<11>)
+     LUT2:I1->O            1   0.124   0.000  Mmux_newp1POSX[11]_PWR_6_o_mux_58_OUT31 (newp1POSX[11]_PWR_6_o_mux_58_OUT<11>)
+     FDE:D                     0.030          newp1POSX_11
+    ----------------------------------------
+    Total                      2.662ns (1.554ns logic, 1.108ns route)
+                                       (58.4% logic, 41.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 5130154 / 14
+  Total number of paths / destination ports: 6415312 / 14
 -------------------------------------------------------------------------
-Offset:              14.073ns (Levels of Logic = 31)
+Offset:              14.467ns (Levels of Logic = 31)
   Source:            vs/count_8 (FF)
-  Destination:       vga_r<3> (PAD)
+  Destination:       vga_g<1> (PAD)
   Source Clock:      clk rising
 
-  Data Path: vs/count_8 to vga_r<3>
+  Data Path: vs/count_8 to vga_g<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            21   0.478   1.069  vs/count_8 (vs/count_8)
-     LUT6:I0->O            2   0.124   0.427  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<8>11 (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<8>)
-     LUT2:I1->O           23   0.124   0.539  Msub_GND_6_o_GND_6_o_sub_179_OUT_xor<10>11 (GND_6_o_GND_6_o_sub_179_OUT<10>)
-     DSP48E1:A10->P0       1   3.841   0.421  Mmult_GND_6_o_GND_6_o_MuLt_180_OUT (GND_6_o_GND_6_o_MuLt_180_OUT<0>)
-     LUT2:I1->O            1   0.124   0.000  Madd_n0665_lut<0> (Madd_n0665_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Madd_n0665_cy<0> (Madd_n0665_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<1> (Madd_n0665_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<2> (Madd_n0665_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<3> (Madd_n0665_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<4> (Madd_n0665_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<5> (Madd_n0665_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<6> (Madd_n0665_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<7> (Madd_n0665_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<8> (Madd_n0665_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<9> (Madd_n0665_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<10> (Madd_n0665_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<11> (Madd_n0665_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<12> (Madd_n0665_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<13> (Madd_n0665_cy<13>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<14> (Madd_n0665_cy<14>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<15> (Madd_n0665_cy<15>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<16> (Madd_n0665_cy<16>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<17> (Madd_n0665_cy<17>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0665_cy<18> (Madd_n0665_cy<18>)
-     XORCY:CI->O           2   0.510   0.925  Madd_n0665_xor<19> (n0665<19>)
-     LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0051_LessThan_183_o_lutdi3 (Mcompar_GND_6_o_BUS_0051_LessThan_183_o_lutdi3)
-     MUXCY:DI->O           1   0.761   0.421  Mcompar_GND_6_o_BUS_0051_LessThan_183_o_cy<3> (Mcompar_GND_6_o_BUS_0051_LessThan_183_o_cy<3>)
-     LUT6:I5->O            2   0.124   0.945  Mcompar_GND_6_o_BUS_0051_LessThan_183_o_cy<4> (Mcompar_GND_6_o_BUS_0051_LessThan_183_o_cy<4>)
-     LUT6:I0->O            2   0.124   0.427  Mmux_vga_b211 (Mmux_vga_b211)
-     LUT4:I3->O            1   0.124   0.919  Mmux_vga_g26_SW0 (N41)
-     LUT6:I1->O            1   0.124   0.399  Mmux_vga_g26 (vga_r_3_OBUF)
-     OBUF:I->O                 0.000          vga_r_3_OBUF (vga_r<3>)
+     FDRE:C->Q            22   0.478   1.075  vs/count_8 (vs/count_8)
+     LUT6:I0->O            2   0.124   0.427  Msub_GND_6_o_GND_6_o_sub_264_OUT_cy<8>11 (Msub_GND_6_o_GND_6_o_sub_264_OUT_cy<8>)
+     LUT2:I1->O           23   0.124   0.539  Msub_GND_6_o_GND_6_o_sub_264_OUT_xor<10>11 (GND_6_o_GND_6_o_sub_264_OUT<10>)
+     DSP48E1:A10->P0       1   3.841   0.421  Mmult_GND_6_o_GND_6_o_MuLt_265_OUT (GND_6_o_GND_6_o_MuLt_265_OUT<0>)
+     LUT2:I1->O            1   0.124   0.000  Madd_n0900_lut<0> (Madd_n0900_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Madd_n0900_cy<0> (Madd_n0900_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<1> (Madd_n0900_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<2> (Madd_n0900_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<3> (Madd_n0900_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<4> (Madd_n0900_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<5> (Madd_n0900_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<6> (Madd_n0900_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<7> (Madd_n0900_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<8> (Madd_n0900_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<9> (Madd_n0900_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<10> (Madd_n0900_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<11> (Madd_n0900_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<12> (Madd_n0900_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<13> (Madd_n0900_cy<13>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<14> (Madd_n0900_cy<14>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<15> (Madd_n0900_cy<15>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<16> (Madd_n0900_cy<16>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<17> (Madd_n0900_cy<17>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<18> (Madd_n0900_cy<18>)
+     XORCY:CI->O           2   0.510   0.925  Madd_n0900_xor<19> (n0900<19>)
+     LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0077_LessThan_268_o_lutdi3 (Mcompar_GND_6_o_BUS_0077_LessThan_268_o_lutdi3)
+     MUXCY:DI->O           1   0.761   0.421  Mcompar_GND_6_o_BUS_0077_LessThan_268_o_cy<3> (Mcompar_GND_6_o_BUS_0077_LessThan_268_o_cy<3>)
+     LUT6:I5->O            4   0.124   0.796  Mcompar_GND_6_o_BUS_0077_LessThan_268_o_cy<4> (Mcompar_GND_6_o_BUS_0077_LessThan_268_o_cy<4>)
+     LUT6:I2->O            3   0.124   0.933  Mmux_vga_g3121 (Mmux_vga_g312)
+     LUT5:I0->O            2   0.124   0.945  Mmux_vga_g41 (Mmux_vga_g4)
+     LUT6:I0->O            2   0.124   0.405  vga_g<1>2 (vga_g_1_OBUF)
+     OBUF:I->O                 0.000          vga_g_1_OBUF (vga_g<1>)
     ----------------------------------------
-    Total                     14.073ns (7.581ns logic, 6.492ns route)
-                                       (53.9% logic, 46.1% route)
+    Total                     14.467ns (7.580ns logic, 6.887ns route)
+                                       (52.4% logic, 47.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'rows[9]_GND_6_o_LessThan_112_o'
-  Total number of paths / destination ports: 17813153 / 12
+Timing constraint: Default OFFSET OUT AFTER for Clock 'hvidon_vvidon_AND_28_o'
+  Total number of paths / destination ports: 22267883 / 12
 -------------------------------------------------------------------------
-Offset:              12.983ns (Levels of Logic = 46)
-  Source:            posP2Y_0 (LATCH)
-  Destination:       vga_r<0> (PAD)
-  Source Clock:      rows[9]_GND_6_o_LessThan_112_o rising
+Offset:              14.745ns (Levels of Logic = 48)
+  Source:            posP1Y_0 (LATCH)
+  Destination:       vga_g<1> (PAD)
+  Source Clock:      hvidon_vvidon_AND_28_o falling
 
-  Data Path: posP2Y_0 to vga_r<0>
+  Data Path: posP1Y_0 to vga_g<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LDE_1:G->Q            1   0.631   0.536  posP2Y_0 (posP2Y_0)
-     LUT2:I0->O            1   0.124   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_lut<0> (Msub_GND_6_o_GND_6_o_sub_165_OUT_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<0> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<1> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<2> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<3> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<4> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<5> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<6> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<7> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<8> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<9> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<10> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<10>)
-     MUXCY:CI->O           0   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<11> (Msub_GND_6_o_GND_6_o_sub_165_OUT_cy<11>)
-     XORCY:CI->O          19   0.510   0.518  Msub_GND_6_o_GND_6_o_sub_165_OUT_xor<12> (GND_6_o_GND_6_o_sub_165_OUT<12>)
-     DSP48E1:A12->P0       1   3.841   0.536  Mmult_GND_6_o_GND_6_o_MuLt_166_OUT (GND_6_o_GND_6_o_MuLt_166_OUT<0>)
-     LUT2:I0->O            1   0.124   0.000  Madd_n0662_lut<0> (Madd_n0662_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Madd_n0662_cy<0> (Madd_n0662_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<1> (Madd_n0662_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<2> (Madd_n0662_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<3> (Madd_n0662_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<4> (Madd_n0662_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<5> (Madd_n0662_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<6> (Madd_n0662_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<7> (Madd_n0662_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<8> (Madd_n0662_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<9> (Madd_n0662_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<10> (Madd_n0662_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<11> (Madd_n0662_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<12> (Madd_n0662_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<13> (Madd_n0662_cy<13>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<14> (Madd_n0662_cy<14>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<15> (Madd_n0662_cy<15>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<16> (Madd_n0662_cy<16>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<17> (Madd_n0662_cy<17>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<18> (Madd_n0662_cy<18>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<19> (Madd_n0662_cy<19>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<20> (Madd_n0662_cy<20>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<21> (Madd_n0662_cy<21>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<22> (Madd_n0662_cy<22>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0662_cy<23> (Madd_n0662_cy<23>)
-     XORCY:CI->O           2   0.510   0.925  Madd_n0662_xor<24> (n0662<24>)
-     LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0050_LessThan_172_o_lutdi4 (Mcompar_GND_6_o_BUS_0050_LessThan_172_o_lutdi4)
-     MUXCY:DI->O           1   0.761   0.421  Mcompar_GND_6_o_BUS_0050_LessThan_172_o_cy<4> (Mcompar_GND_6_o_BUS_0050_LessThan_172_o_cy<4>)
-     LUT3:I2->O            6   0.124   0.809  Mcompar_GND_6_o_BUS_0050_LessThan_172_o_cy<5> (Mcompar_GND_6_o_BUS_0050_LessThan_172_o_cy<5>)
-     LUT6:I2->O            5   0.124   0.426  vga_r<0>1 (vga_r_0_OBUF)
-     OBUF:I->O                 0.000          vga_r_0_OBUF (vga_r<0>)
+     LDE:G->Q              2   0.625   0.542  posP1Y_0 (posP1Y_0)
+     LUT2:I0->O            1   0.124   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_lut<0> (Msub_GND_6_o_GND_6_o_sub_179_OUT_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<0> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<1> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<2> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<3> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<4> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<5> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<6> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<7> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<8> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<9> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<10> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<10>)
+     MUXCY:CI->O           0   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<11> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<11>)
+     XORCY:CI->O          19   0.510   0.518  Msub_GND_6_o_GND_6_o_sub_179_OUT_xor<12> (GND_6_o_GND_6_o_sub_179_OUT<12>)
+     DSP48E1:A12->P0       1   3.841   0.536  Mmult_GND_6_o_GND_6_o_MuLt_180_OUT (GND_6_o_GND_6_o_MuLt_180_OUT<0>)
+     LUT2:I0->O            1   0.124   0.000  Madd_n0882_lut<0> (Madd_n0882_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Madd_n0882_cy<0> (Madd_n0882_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<1> (Madd_n0882_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<2> (Madd_n0882_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<3> (Madd_n0882_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<4> (Madd_n0882_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<5> (Madd_n0882_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<6> (Madd_n0882_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<7> (Madd_n0882_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<8> (Madd_n0882_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<9> (Madd_n0882_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<10> (Madd_n0882_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<11> (Madd_n0882_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<12> (Madd_n0882_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<13> (Madd_n0882_cy<13>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<14> (Madd_n0882_cy<14>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<15> (Madd_n0882_cy<15>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<16> (Madd_n0882_cy<16>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<17> (Madd_n0882_cy<17>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<18> (Madd_n0882_cy<18>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<19> (Madd_n0882_cy<19>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<20> (Madd_n0882_cy<20>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<21> (Madd_n0882_cy<21>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<22> (Madd_n0882_cy<22>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<23> (Madd_n0882_cy<23>)
+     XORCY:CI->O           2   0.510   0.925  Madd_n0882_xor<24> (n0882<24>)
+     LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_lutdi4 (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_lutdi4)
+     MUXCY:DI->O           1   0.761   0.421  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<4> (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<4>)
+     LUT3:I2->O            4   0.124   0.959  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<5> (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<5>)
+     LUT6:I0->O            4   0.124   0.441  Mmux_vga_g311 (Mmux_vga_g311)
+     LUT5:I4->O            2   0.124   0.945  Mmux_vga_g41 (Mmux_vga_g4)
+     LUT6:I0->O            2   0.124   0.405  vga_g<1>2 (vga_g_1_OBUF)
+     OBUF:I->O                 0.000          vga_g_1_OBUF (vga_g<1>)
     ----------------------------------------
-    Total                     12.983ns (8.812ns logic, 4.171ns route)
-                                       (67.9% logic, 32.1% route)
+    Total                     14.745ns (9.054ns logic, 5.692ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'rows[9]_GND_6_o_LessThan_163_o'
+  Total number of paths / destination ports: 22266413 / 12
+-------------------------------------------------------------------------
+Offset:              14.175ns (Levels of Logic = 47)
+  Source:            posP2Y_0 (LATCH)
+  Destination:       vga_g<1> (PAD)
+  Source Clock:      rows[9]_GND_6_o_LessThan_163_o rising
+
+  Data Path: posP2Y_0 to vga_g<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE_1:G->Q            2   0.631   0.542  posP2Y_0 (posP2Y_0)
+     LUT2:I0->O            1   0.124   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_lut<0> (Msub_GND_6_o_GND_6_o_sub_250_OUT_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<0> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<1> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<2> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<3> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<4> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<5> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<6> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<7> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<8> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<9> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<10> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<10>)
+     MUXCY:CI->O           0   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<11> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<11>)
+     XORCY:CI->O          19   0.510   0.518  Msub_GND_6_o_GND_6_o_sub_250_OUT_xor<12> (GND_6_o_GND_6_o_sub_250_OUT<12>)
+     DSP48E1:A12->P0       1   3.841   0.536  Mmult_GND_6_o_GND_6_o_MuLt_251_OUT (GND_6_o_GND_6_o_MuLt_251_OUT<0>)
+     LUT2:I0->O            1   0.124   0.000  Madd_n0897_lut<0> (Madd_n0897_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Madd_n0897_cy<0> (Madd_n0897_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<1> (Madd_n0897_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<2> (Madd_n0897_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<3> (Madd_n0897_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<4> (Madd_n0897_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<5> (Madd_n0897_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<6> (Madd_n0897_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<7> (Madd_n0897_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<8> (Madd_n0897_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<9> (Madd_n0897_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<10> (Madd_n0897_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<11> (Madd_n0897_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<12> (Madd_n0897_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<13> (Madd_n0897_cy<13>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<14> (Madd_n0897_cy<14>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<15> (Madd_n0897_cy<15>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<16> (Madd_n0897_cy<16>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<17> (Madd_n0897_cy<17>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<18> (Madd_n0897_cy<18>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<19> (Madd_n0897_cy<19>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<20> (Madd_n0897_cy<20>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<21> (Madd_n0897_cy<21>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<22> (Madd_n0897_cy<22>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<23> (Madd_n0897_cy<23>)
+     XORCY:CI->O           2   0.510   0.925  Madd_n0897_xor<24> (n0897<24>)
+     LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0076_LessThan_257_o_lutdi4 (Mcompar_GND_6_o_BUS_0076_LessThan_257_o_lutdi4)
+     MUXCY:DI->O           3   0.761   0.435  Mcompar_GND_6_o_BUS_0076_LessThan_257_o_cy<4> (Mcompar_GND_6_o_BUS_0076_LessThan_257_o_cy<4>)
+     LUT6:I5->O            3   0.124   0.933  Mmux_vga_g3121 (Mmux_vga_g312)
+     LUT5:I0->O            2   0.124   0.945  Mmux_vga_g41 (Mmux_vga_g4)
+     LUT6:I0->O            2   0.124   0.405  vga_g<1>2 (vga_g_1_OBUF)
+     OBUF:I->O                 0.000          vga_g_1_OBUF (vga_g<1>)
+    ----------------------------------------
+    Total                     14.175ns (8.936ns logic, 5.239ns route)
+                                       (63.0% logic, 37.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'vvidon_hvidon_AND_26_o'
+  Total number of paths / destination ports: 22982400 / 12
+-------------------------------------------------------------------------
+Offset:              14.639ns (Levels of Logic = 48)
+  Source:            p2POSY_0 (LATCH)
+  Destination:       vga_g<1> (PAD)
+  Source Clock:      vvidon_hvidon_AND_26_o falling
+
+  Data Path: p2POSY_0 to vga_g<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              3   0.625   0.435  p2POSY_0 (p2POSY_0)
+     LUT2:I1->O            1   0.124   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_lut<0> (Msub_GND_6_o_GND_6_o_sub_179_OUT_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<0> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<1> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<2> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<3> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<4> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<5> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<6> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<7> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<8> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<9> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<10> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<10>)
+     MUXCY:CI->O           0   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<11> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<11>)
+     XORCY:CI->O          19   0.510   0.518  Msub_GND_6_o_GND_6_o_sub_179_OUT_xor<12> (GND_6_o_GND_6_o_sub_179_OUT<12>)
+     DSP48E1:A12->P0       1   3.841   0.536  Mmult_GND_6_o_GND_6_o_MuLt_180_OUT (GND_6_o_GND_6_o_MuLt_180_OUT<0>)
+     LUT2:I0->O            1   0.124   0.000  Madd_n0882_lut<0> (Madd_n0882_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Madd_n0882_cy<0> (Madd_n0882_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<1> (Madd_n0882_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<2> (Madd_n0882_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<3> (Madd_n0882_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<4> (Madd_n0882_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<5> (Madd_n0882_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<6> (Madd_n0882_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<7> (Madd_n0882_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<8> (Madd_n0882_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<9> (Madd_n0882_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<10> (Madd_n0882_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<11> (Madd_n0882_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<12> (Madd_n0882_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<13> (Madd_n0882_cy<13>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<14> (Madd_n0882_cy<14>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<15> (Madd_n0882_cy<15>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<16> (Madd_n0882_cy<16>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<17> (Madd_n0882_cy<17>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<18> (Madd_n0882_cy<18>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<19> (Madd_n0882_cy<19>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<20> (Madd_n0882_cy<20>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<21> (Madd_n0882_cy<21>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<22> (Madd_n0882_cy<22>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<23> (Madd_n0882_cy<23>)
+     XORCY:CI->O           2   0.510   0.925  Madd_n0882_xor<24> (n0882<24>)
+     LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_lutdi4 (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_lutdi4)
+     MUXCY:DI->O           1   0.761   0.421  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<4> (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<4>)
+     LUT3:I2->O            4   0.124   0.959  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<5> (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<5>)
+     LUT6:I0->O            4   0.124   0.441  Mmux_vga_g311 (Mmux_vga_g311)
+     LUT5:I4->O            2   0.124   0.945  Mmux_vga_g41 (Mmux_vga_g4)
+     LUT6:I0->O            2   0.124   0.405  vga_g<1>2 (vga_g_1_OBUF)
+     OBUF:I->O                 0.000          vga_g_1_OBUF (vga_g<1>)
+    ----------------------------------------
+    Total                     14.639ns (9.054ns logic, 5.585ns route)
+                                       (61.8% logic, 38.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'hvidon'
   Total number of paths / destination ports: 67188 / 11
 -------------------------------------------------------------------------
-Offset:              8.571ns (Levels of Logic = 11)
+Offset:              8.684ns (Levels of Logic = 11)
   Source:            rowSelectP1_3 (LATCH)
-  Destination:       vga_b<3> (PAD)
+  Destination:       vga_r<2> (PAD)
   Source Clock:      hvidon falling
 
-  Data Path: rowSelectP1_3 to vga_b<3>
+  Data Path: rowSelectP1_3 to vga_r<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      LDE:G->Q            244   0.625   1.118  rowSelectP1_3 (rowSelectP1_3)
-     LUT5:I0->O           43   0.124   1.074  mm/Mram_RAM136_SW0 (N46)
+     LUT5:I0->O           43   0.124   1.074  mm/Mram_RAM136_SW0 (N461)
      LUT6:I1->O            1   0.124   0.000  mm/Mram_RAM1110_F (N703)
      MUXF7:I0->O           2   0.365   0.542  mm/Mram_RAM1110 (ramDataO<109>)
-     LUT6:I4->O            1   0.124   0.000  Mmux_posP1X[11]_X_6_o_Mux_114_o_149 (Mmux_posP1X[11]_X_6_o_Mux_114_o_149)
-     MUXF7:I1->O           1   0.368   0.000  Mmux_posP1X[11]_X_6_o_Mux_114_o_13_f7_4 (Mmux_posP1X[11]_X_6_o_Mux_114_o_13_f75)
-     MUXF8:I1->O           1   0.286   0.776  Mmux_posP1X[11]_X_6_o_Mux_114_o_12_f8_1 (Mmux_posP1X[11]_X_6_o_Mux_114_o_12_f82)
-     LUT6:I2->O            1   0.124   0.776  posP1X<11>6 (posP1X<11>6)
-     LUT6:I2->O            3   0.124   0.953  posP1X<11>7 (posP1X[11]_X_6_o_Mux_114_o)
-     LUT6:I0->O            1   0.124   0.421  Mmux_vga_b8_SW0 (N43)
-     LUT6:I5->O            1   0.124   0.399  Mmux_vga_b8 (vga_b_3_OBUF)
-     OBUF:I->O                 0.000          vga_b_3_OBUF (vga_b<3>)
-    ----------------------------------------
-    Total                      8.571ns (2.512ns logic, 6.059ns route)
-                                       (29.3% logic, 70.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'vvidon_hvidon_AND_14_o'
-  Total number of paths / destination ports: 18385920 / 12
--------------------------------------------------------------------------
-Offset:              13.145ns (Levels of Logic = 47)
-  Source:            p2POSY_0 (LATCH)
-  Destination:       vga_r<2> (PAD)
-  Source Clock:      vvidon_hvidon_AND_14_o falling
-
-  Data Path: p2POSY_0 to vga_r<2>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LDE:G->Q              2   0.625   0.427  p2POSY_0 (p2POSY_0)
-     LUT2:I1->O            1   0.124   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_lut<0> (Msub_GND_6_o_GND_6_o_sub_119_OUT_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<0> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<1> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<2> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<3> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<4> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<5> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<6> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<7> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<8> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<9> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<10> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<10>)
-     MUXCY:CI->O           0   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<11> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<11>)
-     XORCY:CI->O          19   0.510   0.518  Msub_GND_6_o_GND_6_o_sub_119_OUT_xor<12> (GND_6_o_GND_6_o_sub_119_OUT<12>)
-     DSP48E1:A12->P0       1   3.841   0.536  Mmult_GND_6_o_GND_6_o_MuLt_120_OUT (GND_6_o_GND_6_o_MuLt_120_OUT<0>)
-     LUT2:I0->O            1   0.124   0.000  Madd_n0650_lut<0> (Madd_n0650_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Madd_n0650_cy<0> (Madd_n0650_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<1> (Madd_n0650_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<2> (Madd_n0650_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<3> (Madd_n0650_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<4> (Madd_n0650_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<5> (Madd_n0650_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<6> (Madd_n0650_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<7> (Madd_n0650_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<8> (Madd_n0650_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<9> (Madd_n0650_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<10> (Madd_n0650_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<11> (Madd_n0650_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<12> (Madd_n0650_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<13> (Madd_n0650_cy<13>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<14> (Madd_n0650_cy<14>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<15> (Madd_n0650_cy<15>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<16> (Madd_n0650_cy<16>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<17> (Madd_n0650_cy<17>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<18> (Madd_n0650_cy<18>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<19> (Madd_n0650_cy<19>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<20> (Madd_n0650_cy<20>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<21> (Madd_n0650_cy<21>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<22> (Madd_n0650_cy<22>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<23> (Madd_n0650_cy<23>)
-     XORCY:CI->O           2   0.510   0.925  Madd_n0650_xor<24> (n0650<24>)
-     LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0046_LessThan_126_o_lutdi4 (Mcompar_GND_6_o_BUS_0046_LessThan_126_o_lutdi4)
-     MUXCY:DI->O           3   0.761   0.435  Mcompar_GND_6_o_BUS_0046_LessThan_126_o_cy<4> (Mcompar_GND_6_o_BUS_0046_LessThan_126_o_cy<4>)
-     LUT3:I2->O            2   0.124   0.542  Mcompar_GND_6_o_BUS_0046_LessThan_126_o_cy<5> (Mcompar_GND_6_o_BUS_0046_LessThan_126_o_cy<5>)
-     LUT5:I3->O            2   0.124   0.427  PWR_6_o_column[9]_LessThan_200_o21 (PWR_6_o_column[9]_LessThan_200_o_mmx_out)
-     LUT6:I5->O            2   0.124   0.405  vga_r<2>1 (vga_r_2_OBUF)
+     LUT6:I4->O            1   0.124   0.000  Mmux_posP2X[11]_X_6_o_Mux_236_o_149 (Mmux_posP2X[11]_X_6_o_Mux_236_o_149)
+     MUXF7:I1->O           1   0.368   0.000  Mmux_posP2X[11]_X_6_o_Mux_236_o_13_f7_4 (Mmux_posP2X[11]_X_6_o_Mux_236_o_13_f75)
+     MUXF8:I1->O           1   0.286   0.776  Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f8_1 (Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f82)
+     LUT6:I2->O            1   0.124   0.776  posP2X<11>6 (posP2X<11>6)
+     LUT6:I2->O            4   0.124   0.939  posP2X<11>7 (posP2X[11]_X_6_o_Mux_236_o)
+     LUT6:I1->O            2   0.124   0.542  GND_6_o_column[9]_AND_346_o2 (GND_6_o_column[9]_AND_346_o_mmx_out1)
+     LUT4:I2->O            2   0.124   0.405  vga_r<2>1 (vga_r_2_OBUF)
      OBUF:I->O                 0.000          vga_r_2_OBUF (vga_r<2>)
     ----------------------------------------
-    Total                     13.145ns (8.930ns logic, 4.215ns route)
-                                       (67.9% logic, 32.1% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'hvidon_vvidon_AND_16_o'
-  Total number of paths / destination ports: 17813153 / 12
--------------------------------------------------------------------------
-Offset:              13.254ns (Levels of Logic = 47)
-  Source:            posP1Y_0 (LATCH)
-  Destination:       vga_r<2> (PAD)
-  Source Clock:      hvidon_vvidon_AND_16_o falling
-
-  Data Path: posP1Y_0 to vga_r<2>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LDE:G->Q              1   0.625   0.536  posP1Y_0 (posP1Y_0)
-     LUT2:I0->O            1   0.124   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_lut<0> (Msub_GND_6_o_GND_6_o_sub_119_OUT_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<0> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<1> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<2> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<3> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<4> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<5> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<6> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<7> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<8> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<9> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<10> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<10>)
-     MUXCY:CI->O           0   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<11> (Msub_GND_6_o_GND_6_o_sub_119_OUT_cy<11>)
-     XORCY:CI->O          19   0.510   0.518  Msub_GND_6_o_GND_6_o_sub_119_OUT_xor<12> (GND_6_o_GND_6_o_sub_119_OUT<12>)
-     DSP48E1:A12->P0       1   3.841   0.536  Mmult_GND_6_o_GND_6_o_MuLt_120_OUT (GND_6_o_GND_6_o_MuLt_120_OUT<0>)
-     LUT2:I0->O            1   0.124   0.000  Madd_n0650_lut<0> (Madd_n0650_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Madd_n0650_cy<0> (Madd_n0650_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<1> (Madd_n0650_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<2> (Madd_n0650_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<3> (Madd_n0650_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<4> (Madd_n0650_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<5> (Madd_n0650_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<6> (Madd_n0650_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<7> (Madd_n0650_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<8> (Madd_n0650_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<9> (Madd_n0650_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<10> (Madd_n0650_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<11> (Madd_n0650_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<12> (Madd_n0650_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<13> (Madd_n0650_cy<13>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<14> (Madd_n0650_cy<14>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<15> (Madd_n0650_cy<15>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<16> (Madd_n0650_cy<16>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<17> (Madd_n0650_cy<17>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<18> (Madd_n0650_cy<18>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<19> (Madd_n0650_cy<19>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<20> (Madd_n0650_cy<20>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<21> (Madd_n0650_cy<21>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<22> (Madd_n0650_cy<22>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0650_cy<23> (Madd_n0650_cy<23>)
-     XORCY:CI->O           2   0.510   0.925  Madd_n0650_xor<24> (n0650<24>)
-     LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0046_LessThan_126_o_lutdi4 (Mcompar_GND_6_o_BUS_0046_LessThan_126_o_lutdi4)
-     MUXCY:DI->O           3   0.761   0.435  Mcompar_GND_6_o_BUS_0046_LessThan_126_o_cy<4> (Mcompar_GND_6_o_BUS_0046_LessThan_126_o_cy<4>)
-     LUT3:I2->O            2   0.124   0.542  Mcompar_GND_6_o_BUS_0046_LessThan_126_o_cy<5> (Mcompar_GND_6_o_BUS_0046_LessThan_126_o_cy<5>)
-     LUT5:I3->O            2   0.124   0.427  PWR_6_o_column[9]_LessThan_200_o21 (PWR_6_o_column[9]_LessThan_200_o_mmx_out)
-     LUT6:I5->O            2   0.124   0.405  vga_r<2>1 (vga_r_2_OBUF)
-     OBUF:I->O                 0.000          vga_r_2_OBUF (vga_r<2>)
-    ----------------------------------------
-    Total                     13.254ns (8.930ns logic, 4.324ns route)
-                                       (67.4% logic, 32.6% route)
+    Total                      8.684ns (2.512ns logic, 6.172ns route)
+                                       (28.9% logic, 71.1% route)
 
 =========================================================================
 
@@ -1098,7 +1239,7 @@ Clock to Setup on destination clock clk
 Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------+---------+---------+---------+---------+
 clk                   |    6.422|         |         |         |
-vvidon_hvidon_AND_14_o|         |    2.783|         |         |
+vvidon_hvidon_AND_26_o|         |    5.641|         |         |
 ----------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock hvidon
@@ -1106,30 +1247,31 @@ Clock to Setup on destination clock hvidon
                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                  |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------------------+---------+---------+---------+---------+
-clk                           |         |         |    2.676|         |
-hvidon_vvidon_AND_16_o        |         |         |    1.187|         |
-rows[9]_GND_6_o_LessThan_112_o|         |         |    1.308|         |
+clk                           |         |         |    2.684|         |
+hvidon_vvidon_AND_28_o        |         |         |    1.195|         |
+rows[9]_GND_6_o_LessThan_163_o|         |         |    1.316|         |
 ------------------------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock hvidon_vvidon_AND_16_o
+Clock to Setup on destination clock hvidon_vvidon_AND_28_o
 ----------------------+---------+---------+---------+---------+
                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------+---------+---------+---------+---------+
-clk                   |         |         |    2.388|         |
-vvidon_hvidon_AND_14_o|         |         |    2.577|         |
+clk                   |         |         |    5.023|         |
+hvidon_vvidon_AND_28_o|         |         |    1.362|         |
+vvidon_hvidon_AND_26_o|         |         |    2.577|         |
 ----------------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock rows[9]_GND_6_o_LessThan_112_o
+Clock to Setup on destination clock rows[9]_GND_6_o_LessThan_163_o
 ----------------------+---------+---------+---------+---------+
                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------+---------+---------+---------+---------+
-clk                   |    3.302|         |         |         |
-vvidon_hvidon_AND_14_o|         |    3.100|         |         |
+clk                   |    3.303|         |         |         |
+vvidon_hvidon_AND_26_o|         |    3.100|         |         |
 ----------------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock vvidon_hvidon_AND_14_o
+Clock to Setup on destination clock vvidon_hvidon_AND_26_o
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
@@ -1140,14 +1282,14 @@ clk            |         |         |    1.172|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 15.00 secs
-Total CPU time to Xst completion: 15.22 secs
+Total REAL time to Xst completion: 17.00 secs
+Total CPU time to Xst completion: 16.73 secs
  
 --> 
 
-Total memory usage is 376740 kilobytes
+Total memory usage is 376744 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  177 (   0 filtered)
-Number of infos    :    5 (   0 filtered)
+Number of warnings :  193 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
 

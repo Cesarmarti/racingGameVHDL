@@ -8,56 +8,56 @@
 <msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
 </msg>
 
-<msg type="warning" file="Pack" num="2574" delta="old" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1</arg>&quot; and its I1 input driver &quot;<arg fmt="%s" index="2">ramDataO&lt;209&gt;1</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
+<msg type="warning" file="Pack" num="2574" delta="new" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_236_o_15_f7_1</arg>&quot; and its I1 input driver &quot;<arg fmt="%s" index="2">ramDataO&lt;209&gt;1</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2573" delta="old" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1</arg>&quot; and its I0 input driver &quot;<arg fmt="%s" index="2">ramDataO&lt;209&gt;1</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
+<msg type="warning" file="Pack" num="2573" delta="new" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_236_o_15_f7_1</arg>&quot; and its I0 input driver &quot;<arg fmt="%s" index="2">ramDataO&lt;209&gt;1</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2574" delta="old" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1</arg>&quot; and its I1 input driver &quot;<arg fmt="%s" index="2">ramDataO&lt;209&gt;1</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
+<msg type="warning" file="Pack" num="2574" delta="new" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_236_o_15_f7_1</arg>&quot; and its I1 input driver &quot;<arg fmt="%s" index="2">ramDataO&lt;209&gt;1</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2574" delta="old" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7</arg>&quot; and its I1 input driver &quot;<arg fmt="%s" index="2">ramDataO&lt;209&gt;1</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
+<msg type="warning" file="Pack" num="2574" delta="new" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f7</arg>&quot; and its I1 input driver &quot;<arg fmt="%s" index="2">ramDataO&lt;209&gt;1</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2143" delta="old" >The function generator &quot;<arg fmt="%s" index="1">ramDataO&lt;209&gt;1</arg>&quot; failed to merge with F7 multiplexer &quot;<arg fmt="%s" index="2">Mmux_posP1X[11]_X_6_o_Mux_114_o_11_f7</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
+<msg type="warning" file="Pack" num="2143" delta="new" >The function generator &quot;<arg fmt="%s" index="1">ramDataO&lt;209&gt;1</arg>&quot; failed to merge with F7 multiplexer &quot;<arg fmt="%s" index="2">Mmux_posP1X[11]_X_6_o_Mux_165_o_12_f7</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
 </arg>  The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2574" delta="old" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP1X[11]_X_6_o_Mux_114_o_13_f7_6</arg>&quot; and its I1 input driver &quot;<arg fmt="%s" index="2">mm/Mram_RAM160</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
+<msg type="warning" file="Pack" num="2574" delta="old" >The F7 multiplexer symbol &quot;<arg fmt="%s" index="1">Mmux_posP1X[11]_X_6_o_Mux_165_o_13_f7_6</arg>&quot; and its I1 input driver &quot;<arg fmt="%s" index="2">mm/Mram_RAM160</arg>&quot; were implemented suboptimally in the same slice component. The function generator could not be placed directly driving the F7 multiplexer. The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2143" delta="old" >The function generator &quot;<arg fmt="%s" index="1">ramDataO&lt;209&gt;1</arg>&quot; failed to merge with F7 multiplexer &quot;<arg fmt="%s" index="2">Mmux_posP2X[11]_X_6_o_Mux_160_o_11_f7</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
+<msg type="warning" file="Pack" num="2143" delta="new" >The function generator &quot;<arg fmt="%s" index="1">ramDataO&lt;209&gt;1</arg>&quot; failed to merge with F7 multiplexer &quot;<arg fmt="%s" index="2">Mmux_posP2X[11]_X_6_o_Mux_236_o_11_f7</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
 </arg>  The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2143" delta="old" >The function generator &quot;<arg fmt="%s" index="1">ramDataO&lt;209&gt;1</arg>&quot; failed to merge with F7 multiplexer &quot;<arg fmt="%s" index="2">Mmux_posP1X[11]_X_6_o_Mux_114_o_15_f7_1</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
+<msg type="warning" file="Pack" num="2143" delta="old" >The function generator &quot;<arg fmt="%s" index="1">ramDataO&lt;209&gt;1</arg>&quot; failed to merge with F7 multiplexer &quot;<arg fmt="%s" index="2">Mmux_posP1X[11]_X_6_o_Mux_165_o_15_f7_1</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
 </arg>  The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2143" delta="old" >The function generator &quot;<arg fmt="%s" index="1">ramDataO&lt;209&gt;1</arg>&quot; failed to merge with F7 multiplexer &quot;<arg fmt="%s" index="2">Mmux_posP1X[11]_X_6_o_Mux_114_o_12_f7</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
+<msg type="warning" file="Pack" num="2143" delta="old" >The function generator &quot;<arg fmt="%s" index="1">ramDataO&lt;209&gt;1</arg>&quot; failed to merge with F7 multiplexer &quot;<arg fmt="%s" index="2">Mmux_posP1X[11]_X_6_o_Mux_165_o_11_f7</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
 </arg>  The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2145" delta="old" >The F7 mux &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7</arg>&quot; failed to merge with F8 mux &quot;<arg fmt="%s" index="2">Mmux_posP2X[11]_X_6_o_Mux_160_o_10_f8</arg>&quot;.  <arg fmt="%z" index="3">The top reasons for failure were:
-	-&gt; F8MUX Mmux_posP2X[11]_X_6_o_Mux_160_o_10_f8 can not be placed in the F8MUX site because its I0 signal Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 can not use the output of the F7BMUX. The signal Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f72 already uses the F7BMUX.
-	-&gt; F8MUX Mmux_posP2X[11]_X_6_o_Mux_160_o_10_f8 can not be placed in the F8MUX site because its I1 signal Mmux_posP2X[11]_X_6_o_Mux_160_o_11_f7 can not use the output of the F7AMUX. The signal Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f72 already uses the F7AMUX.
+<msg type="warning" file="Pack" num="2145" delta="old" >The F7 mux &quot;<arg fmt="%s" index="1">Mmux_posP1X[11]_X_6_o_Mux_165_o_13_f7_6</arg>&quot; failed to merge with F8 mux &quot;<arg fmt="%s" index="2">Mmux_posP1X[11]_X_6_o_Mux_165_o_12_f8_2</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
+</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="2145" delta="new" >The F7 mux &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f7</arg>&quot; failed to merge with F8 mux &quot;<arg fmt="%s" index="2">Mmux_posP2X[11]_X_6_o_Mux_236_o_10_f8</arg>&quot;.  <arg fmt="%z" index="3">The top reasons for failure were:
+	-&gt; F8MUX Mmux_posP2X[11]_X_6_o_Mux_236_o_10_f8 can not be placed in the F8MUX site because its I0 signal Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f7 can not use the output of the F7BMUX. The signal Mmux_posP2X[11]_X_6_o_Mux_236_o_15_f72 already uses the F7BMUX.
+	-&gt; F8MUX Mmux_posP2X[11]_X_6_o_Mux_236_o_10_f8 can not be placed in the F8MUX site because its I1 signal Mmux_posP2X[11]_X_6_o_Mux_236_o_11_f7 can not use the output of the F7AMUX. The signal Mmux_posP2X[11]_X_6_o_Mux_236_o_15_f72 already uses the F7AMUX.
 	-&gt; A legal placement was never found for LUT symbol &quot;ramDataO&lt;209&gt;1&quot;.
-	-&gt; The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 needs to use a route-through LUT but the O6 output of the A LUT is not available.
-	-&gt; The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 needs to use a route-through LUT but the O6 output of the B LUT is not available.
-	-&gt; The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1 needs to use a route-through LUT but the O6 output of the A LUT is not available.
-	-&gt; The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1 needs to use a route-through LUT but the O6 output of the B LUT is not available.
-	-&gt; The F7BMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 needs to use a route-through LUT but the O6 output of the C LUT is not available.
-	-&gt; The F7BMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f7 needs to use a route-through LUT but the O6 output of the D LUT is not available.
-	-&gt; The F7BMUX Mmux_posP2X[11]_X_6_o_Mux_160_o_15_f7_1 needs to use a route-through LUT but the O6 output of the C LUT is not available.
+	-&gt; The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f7 needs to use a route-through LUT but the O6 output of the A LUT is not available.
+	-&gt; The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f7 needs to use a route-through LUT but the O6 output of the B LUT is not available.
+	-&gt; The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_236_o_15_f7_1 needs to use a route-through LUT but the O6 output of the A LUT is not available.
+	-&gt; The F7AMUX Mmux_posP2X[11]_X_6_o_Mux_236_o_15_f7_1 needs to use a route-through LUT but the O6 output of the B LUT is not available.
+	-&gt; The F7BMUX Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f7 needs to use a route-through LUT but the O6 output of the C LUT is not available.
+	-&gt; The F7BMUX Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f7 needs to use a route-through LUT but the O6 output of the D LUT is not available.
+	-&gt; The F7BMUX Mmux_posP2X[11]_X_6_o_Mux_236_o_15_f7_1 needs to use a route-through LUT but the O6 output of the C LUT is not available.
 </arg>  The design will exhibit suboptimal timing.
 </msg>
 
-<msg type="warning" file="Pack" num="2145" delta="old" >The F7 mux &quot;<arg fmt="%s" index="1">Mmux_posP1X[11]_X_6_o_Mux_114_o_13_f7_6</arg>&quot; failed to merge with F8 mux &quot;<arg fmt="%s" index="2">Mmux_posP1X[11]_X_6_o_Mux_114_o_12_f8_2</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
-</arg>  The design will exhibit suboptimal timing.
-</msg>
-
-<msg type="warning" file="Pack" num="2145" delta="old" >The F7 mux &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_160_o_13_f7_6</arg>&quot; failed to merge with F8 mux &quot;<arg fmt="%s" index="2">Mmux_posP2X[11]_X_6_o_Mux_160_o_12_f8_2</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
+<msg type="warning" file="Pack" num="2145" delta="new" >The F7 mux &quot;<arg fmt="%s" index="1">Mmux_posP2X[11]_X_6_o_Mux_236_o_13_f7_6</arg>&quot; failed to merge with F8 mux &quot;<arg fmt="%s" index="2">Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f8_2</arg>&quot;.  <arg fmt="%z" index="3">There are more than two MUXF7 wide function muxes.
 </arg>  The design will exhibit suboptimal timing.
 </msg>
 
