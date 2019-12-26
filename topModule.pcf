@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Wed Dec 25 15:05:49 2019
+// Written by: Map P.20131013 on Thu Dec 26 13:24:42 2019
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -53,58 +53,59 @@ PIN mm/Mram_RAM6_pins<63> = BEL "mm/Mram_RAM6" PINNAME CLKARDCLKU;
 PIN mm/Mram_RAM6_pins<62> = BEL "mm/Mram_RAM6" PINNAME CLKARDCLKL;
 PIN mm/Mram_RAM6_pins<65> = BEL "mm/Mram_RAM6" PINNAME CLKBWRCLKU;
 PIN mm/Mram_RAM6_pins<64> = BEL "mm/Mram_RAM6" PINNAME CLKBWRCLKL;
-TIMEGRP sys_clk_pin = BEL "enableRead" BEL "movementP1X" BEL "movementP2Y" BEL
-        "movementP1Y" BEL "movementP2X" BEL "finishNext1_0" BEL
+TIMEGRP sys_clk_pin = BEL "inside1" BEL "checkpoint2" BEL "checkpoint1" BEL
+        "inside2" BEL "enableRead" BEL "movementP2X" BEL "movementP1X" BEL
+        "movementP1Y" BEL "movementP2Y" BEL "finishNext1_0" BEL
         "finishNext1_1" BEL "finishNext2_0" BEL "finishNext2_1" BEL
         "finish1_0" BEL "finish1_1" BEL "finish2_0" BEL "finish2_1" BEL
         "newp1POSX_0" BEL "newp1POSX_1" BEL "newp1POSX_2" BEL "newp1POSX_3"
         BEL "newp1POSX_4" BEL "newp1POSX_5" BEL "newp1POSX_6" BEL
         "newp1POSX_7" BEL "newp1POSX_8" BEL "newp1POSX_9" BEL "newp1POSX_10"
-        BEL "newp1POSX_11" BEL "newoffsetP1X_0" BEL "newoffsetP1X_1" BEL
+        BEL "newp1POSX_11" BEL "newoffsetP1Y_0" BEL "newoffsetP1Y_1" BEL
+        "newoffsetP1Y_2" BEL "newoffsetP1Y_3" BEL "newoffsetP1Y_4" BEL
+        "newoffsetP1Y_5" BEL "newoffsetP1Y_6" BEL "newoffsetP1Y_7" BEL
+        "newoffsetP1Y_8" BEL "newoffsetP1Y_9" BEL "newoffsetP1Y_10" BEL
+        "newoffsetP1Y_11" BEL "newoffsetP1X_0" BEL "newoffsetP1X_1" BEL
         "newoffsetP1X_2" BEL "newoffsetP1X_3" BEL "newoffsetP1X_4" BEL
         "newoffsetP1X_5" BEL "newoffsetP1X_6" BEL "newoffsetP1X_7" BEL
         "newoffsetP1X_8" BEL "newoffsetP1X_9" BEL "newoffsetP1X_10" BEL
         "newoffsetP1X_11" BEL "newp1POSY_0" BEL "newp1POSY_1" BEL
         "newp1POSY_2" BEL "newp1POSY_3" BEL "newp1POSY_4" BEL "newp1POSY_5"
         BEL "newp1POSY_6" BEL "newp1POSY_7" BEL "newp1POSY_8" BEL
-        "newp1POSY_9" BEL "newp1POSY_10" BEL "newp1POSY_11" BEL
-        "newoffsetP1Y_0" BEL "newoffsetP1Y_1" BEL "newoffsetP1Y_2" BEL
-        "newoffsetP1Y_3" BEL "newoffsetP1Y_4" BEL "newoffsetP1Y_5" BEL
-        "newoffsetP1Y_6" BEL "newoffsetP1Y_7" BEL "newoffsetP1Y_8" BEL
-        "newoffsetP1Y_9" BEL "newoffsetP1Y_10" BEL "newoffsetP1Y_11" BEL
-        "newp2POSX_0" BEL "newp2POSX_1" BEL "newp2POSX_2" BEL "newp2POSX_3"
-        BEL "newp2POSX_4" BEL "newp2POSX_5" BEL "newp2POSX_6" BEL
-        "newp2POSX_7" BEL "newp2POSX_8" BEL "newp2POSX_9" BEL "newp2POSX_10"
-        BEL "newp2POSX_11" BEL "newoffsetP2Y_0" BEL "newoffsetP2Y_1" BEL
-        "newoffsetP2Y_2" BEL "newoffsetP2Y_3" BEL "newoffsetP2Y_4" BEL
-        "newoffsetP2Y_5" BEL "newoffsetP2Y_6" BEL "newoffsetP2Y_7" BEL
-        "newoffsetP2Y_8" BEL "newoffsetP2Y_9" BEL "newoffsetP2Y_10" BEL
-        "newoffsetP2Y_11" BEL "newoffsetP2X_0" BEL "newoffsetP2X_1" BEL
-        "newoffsetP2X_2" BEL "newoffsetP2X_3" BEL "newoffsetP2X_4" BEL
-        "newoffsetP2X_5" BEL "newoffsetP2X_6" BEL "newoffsetP2X_7" BEL
-        "newoffsetP2X_8" BEL "newoffsetP2X_9" BEL "newoffsetP2X_10" BEL
-        "newoffsetP2X_11" BEL "newp2POSY_0" BEL "newp2POSY_1" BEL
-        "newp2POSY_2" BEL "newp2POSY_3" BEL "newp2POSY_4" BEL "newp2POSY_5"
-        BEL "newp2POSY_6" BEL "newp2POSY_7" BEL "newp2POSY_8" BEL
-        "newp2POSY_9" BEL "newp2POSY_10" BEL "newp2POSY_11" BEL
-        "colCounter2_0" BEL "colCounter2_1" BEL "checkP2" BEL "colCounter1_0"
-        BEL "colCounter1_1" BEL "check" BEL "cnt_1s_0" BEL "cnt_1s_1" BEL
-        "cnt_1s_2" BEL "cnt_1s_3" BEL "cnt_1s_4" BEL "cnt_1s_5" BEL "cnt_1s_6"
-        BEL "cnt_1s_7" BEL "cnt_1s_8" BEL "cnt_1s_9" BEL "cnt_1s_10" BEL
-        "cnt_1s_11" BEL "cnt_1s_12" BEL "cnt_1s_13" BEL "cnt_1s_14" BEL
-        "cnt_1s_15" BEL "cnt_1s_16" BEL "cnt_1s_17" BEL "cnt_1s_18" BEL
-        "cnt_1s_19" BEL "cnt_1s_20" BEL "cnt_1s_21" BEL "cnt_1s_22" BEL
-        "cnt_1s_23" BEL "cnt_1s_24" BEL "cnt_1s_25" BEL "cnt_1s_26" BEL
-        "cnt_1s_27" BEL "scoreP2_0" BEL "scoreP2_1" BEL "scoreP2_2" BEL
-        "scoreP1_0" BEL "scoreP1_1" BEL "scoreP1_2" BEL "vs/count_0" BEL
-        "vs/count_1" BEL "vs/count_2" BEL "vs/count_3" BEL "vs/count_4" BEL
-        "vs/count_5" BEL "vs/count_6" BEL "vs/count_7" BEL "vs/count_8" BEL
-        "vs/count_9" BEL "hs/count_9" BEL "hs/count_8" BEL "hs/count_7" BEL
-        "hs/count_6" BEL "hs/count_5" BEL "hs/count_4" BEL "hs/count_3" BEL
-        "hs/count_2" BEL "hs/count_1" BEL "hs/count_0" BEL "hs/enable" BEL
-        "state2" BEL "state" BEL "newp1POSX_6_1" BEL "newp2POSX_6_1" BEL
-        "newp1POSX_4_1" BEL "newp1POSX_5_1" BEL "newp2POSX_4_1" BEL
-        "newp2POSX_5_1" BEL "clk_BUFGP/BUFG" PIN "mm/Mram_RAM7_pins<32>" PIN
+        "newp1POSY_9" BEL "newp1POSY_10" BEL "newp1POSY_11" BEL "newp2POSY_0"
+        BEL "newp2POSY_1" BEL "newp2POSY_2" BEL "newp2POSY_3" BEL
+        "newp2POSY_4" BEL "newp2POSY_5" BEL "newp2POSY_6" BEL "newp2POSY_7"
+        BEL "newp2POSY_8" BEL "newp2POSY_9" BEL "newp2POSY_10" BEL
+        "newp2POSY_11" BEL "newp2POSX_0" BEL "newp2POSX_1" BEL "newp2POSX_2"
+        BEL "newp2POSX_3" BEL "newp2POSX_4" BEL "newp2POSX_5" BEL
+        "newp2POSX_6" BEL "newp2POSX_7" BEL "newp2POSX_8" BEL "newp2POSX_9"
+        BEL "newp2POSX_10" BEL "newp2POSX_11" BEL "newoffsetP2X_0" BEL
+        "newoffsetP2X_1" BEL "newoffsetP2X_2" BEL "newoffsetP2X_3" BEL
+        "newoffsetP2X_4" BEL "newoffsetP2X_5" BEL "newoffsetP2X_6" BEL
+        "newoffsetP2X_7" BEL "newoffsetP2X_8" BEL "newoffsetP2X_9" BEL
+        "newoffsetP2X_10" BEL "newoffsetP2X_11" BEL "newoffsetP2Y_0" BEL
+        "newoffsetP2Y_1" BEL "newoffsetP2Y_2" BEL "newoffsetP2Y_3" BEL
+        "newoffsetP2Y_4" BEL "newoffsetP2Y_5" BEL "newoffsetP2Y_6" BEL
+        "newoffsetP2Y_7" BEL "newoffsetP2Y_8" BEL "newoffsetP2Y_9" BEL
+        "newoffsetP2Y_10" BEL "newoffsetP2Y_11" BEL "colCounter2_0" BEL
+        "colCounter2_1" BEL "checkP2" BEL "colCounter1_0" BEL "colCounter1_1"
+        BEL "check" BEL "cnt_1s_0" BEL "cnt_1s_1" BEL "cnt_1s_2" BEL
+        "cnt_1s_3" BEL "cnt_1s_4" BEL "cnt_1s_5" BEL "cnt_1s_6" BEL "cnt_1s_7"
+        BEL "cnt_1s_8" BEL "cnt_1s_9" BEL "cnt_1s_10" BEL "cnt_1s_11" BEL
+        "cnt_1s_12" BEL "cnt_1s_13" BEL "cnt_1s_14" BEL "cnt_1s_15" BEL
+        "cnt_1s_16" BEL "cnt_1s_17" BEL "cnt_1s_18" BEL "cnt_1s_19" BEL
+        "cnt_1s_20" BEL "cnt_1s_21" BEL "cnt_1s_22" BEL "cnt_1s_23" BEL
+        "cnt_1s_24" BEL "cnt_1s_25" BEL "cnt_1s_26" BEL "cnt_1s_27" BEL
+        "scoreP1_0" BEL "scoreP1_1" BEL "scoreP1_2" BEL "scoreP2_0" BEL
+        "scoreP2_1" BEL "scoreP2_2" BEL "vs/count_0" BEL "vs/count_1" BEL
+        "vs/count_2" BEL "vs/count_3" BEL "vs/count_4" BEL "vs/count_5" BEL
+        "vs/count_6" BEL "vs/count_7" BEL "vs/count_8" BEL "vs/count_9" BEL
+        "hs/count_9" BEL "hs/count_8" BEL "hs/count_7" BEL "hs/count_6" BEL
+        "hs/count_5" BEL "hs/count_4" BEL "hs/count_3" BEL "hs/count_2" BEL
+        "hs/count_1" BEL "hs/count_0" BEL "hs/enable" BEL "state2" BEL "state"
+        BEL "newp1POSX_6_1" BEL "newp2POSX_6_1" BEL "newp1POSX_4_1" BEL
+        "newp1POSX_5_1" BEL "newp2POSX_4_1" BEL "newp2POSX_5_1" BEL
+        "clk_BUFGP/BUFG" PIN "mm/Mram_RAM7_pins<32>" PIN
         "mm/Mram_RAM7_pins<33>" PIN "mm/Mram_RAM1_pins<63>" PIN
         "mm/Mram_RAM1_pins<62>" PIN "mm/Mram_RAM1_pins<65>" PIN
         "mm/Mram_RAM1_pins<64>" PIN "mm/Mram_RAM2_pins<63>" PIN

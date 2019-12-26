@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="NgdBuild" timeStamp="Wed Dec 25 15:05:14 2019">
+  <application stringID="NgdBuild" timeStamp="Thu Dec 26 13:24:01 2019">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -69,7 +69,7 @@
         <item dataType="int" stringID="NGDBUILD_NUM_BUFG" value="3"/>
         <item dataType="int" stringID="NGDBUILD_NUM_BUFGP" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_DSP48E1" value="7"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="8"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="12"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDE" value="114"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDR" value="30"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDRE" value="22"/>
@@ -97,7 +97,7 @@
       <section stringID="NGDBUILD_POST_UNISIM_SUMMARY">
         <item dataType="int" stringID="NGDBUILD_NUM_BUFG" value="4"/>
         <item dataType="int" stringID="NGDBUILD_NUM_DSP48E1" value="7"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="8"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="12"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDE" value="114"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDR" value="30"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDRE" value="22"/>

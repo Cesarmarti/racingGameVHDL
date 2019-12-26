@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: topModule.prj
@@ -130,33 +130,33 @@ Elaborating entity <hsync> (architecture <Behavioral>) from library <work>.
 Elaborating entity <vsync> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <mem> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 237. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 263. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 323. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 343. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 532: state should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 533: newoffsetp1x should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 534: newoffsetp1y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 535: newp1posy should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 536: newp1posx should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 546: state2 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 547: newoffsetp2x should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 548: newoffsetp2y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 549: newp2posy should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 550: newp2posx should be on the sensitivity list of the process
-WARNING:HDLCompiler:1127 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 578: Assignment to secenable ignored, since the identifier is never used
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 614: offsetp1y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 615: posp1y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 629: posp1y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 655: posp1y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 695: scorep1 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 697: ramscore should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 708: offsetp2y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 709: posp2y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 724: posp2y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 737: posp2y should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 775: scorep2 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 777: ramscore should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 241. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 270. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 342. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 362. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 551: state should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 552: newoffsetp1x should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 553: newoffsetp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 554: newp1posy should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 555: newp1posx should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 565: state2 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 566: newoffsetp2x should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 567: newoffsetp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 568: newp2posy should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 569: newp2posx should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 597: Assignment to secenable ignored, since the identifier is never used
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 633: offsetp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 634: posp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 648: posp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 674: posp1y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 714: scorep1 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 716: ramscore should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 727: offsetp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 728: posp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 743: posp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 756: posp2y should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 794: scorep2 should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Miha\Documents\faks\dn\projects\vgaController\topModule.vhd" Line 796: ramscore should be on the sensitivity list of the process
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -171,6 +171,10 @@ Synthesizing Unit <topModule>.
     Found 4-bit register for signal <scoreP1>.
     Found 2-bit register for signal <finishNext2>.
     Found 4-bit register for signal <scoreP2>.
+    Found 1-bit register for signal <inside1>.
+    Found 1-bit register for signal <checkpoint1>.
+    Found 1-bit register for signal <inside2>.
+    Found 1-bit register for signal <checkpoint2>.
     Found 12-bit register for signal <newp1POSX>.
     Found 12-bit register for signal <newoffsetP1X>.
     Found 1-bit register for signal <movementP1X>.
@@ -192,76 +196,76 @@ Synthesizing Unit <topModule>.
     Found 28-bit register for signal <cnt_1s>.
     Found 1-bit register for signal <enableRead>.
     Found 1-bit register for signal <state>.
-    Found 13-bit subtractor for signal <n0621> created at line 439.
-    Found 13-bit subtractor for signal <n0624> created at line 451.
-    Found 13-bit subtractor for signal <n0637> created at line 489.
-    Found 13-bit subtractor for signal <n0640> created at line 501.
-    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_179_OUT> created at line 655.
-    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_182_OUT> created at line 655.
-    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_193_OUT> created at line 662.
-    Found 11-bit subtractor for signal <n0691> created at line 694.
-    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_250_OUT> created at line 737.
-    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_253_OUT> created at line 737.
-    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_261_OUT> created at line 744.
-    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_264_OUT> created at line 744.
-    Found 11-bit subtractor for signal <n0738> created at line 774.
-    Found 11-bit subtractor for signal <n0741> created at line 776.
+    Found 13-bit subtractor for signal <n0625> created at line 458.
+    Found 13-bit subtractor for signal <n0628> created at line 470.
+    Found 13-bit subtractor for signal <n0641> created at line 508.
+    Found 13-bit subtractor for signal <n0644> created at line 520.
+    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_179_OUT> created at line 674.
+    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_182_OUT> created at line 674.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_193_OUT> created at line 681.
+    Found 11-bit subtractor for signal <n0695> created at line 713.
+    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_250_OUT> created at line 756.
+    Found 13-bit subtractor for signal <GND_6_o_GND_6_o_sub_253_OUT> created at line 756.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_261_OUT> created at line 763.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_264_OUT> created at line 763.
+    Found 11-bit subtractor for signal <n0742> created at line 793.
+    Found 11-bit subtractor for signal <n0745> created at line 795.
     Found 4-bit adder for signal <scoreP1[3]_GND_6_o_add_3_OUT> created at line 226.
-    Found 4-bit adder for signal <scoreP2[3]_GND_6_o_add_13_OUT> created at line 252.
-    Found 12-bit adder for signal <p1POSX[11]_GND_6_o_add_42_OUT> created at line 362.
-    Found 12-bit adder for signal <offsetP1X[11]_GND_6_o_add_43_OUT> created at line 363.
-    Found 12-bit adder for signal <p1POSY[11]_GND_6_o_add_52_OUT> created at line 378.
-    Found 12-bit adder for signal <offsetP1Y[11]_GND_6_o_add_53_OUT> created at line 379.
-    Found 12-bit adder for signal <p2POSX[11]_GND_6_o_add_66_OUT> created at line 401.
-    Found 12-bit adder for signal <offsetP2X[11]_GND_6_o_add_67_OUT> created at line 402.
-    Found 12-bit adder for signal <p2POSY[11]_GND_6_o_add_76_OUT> created at line 417.
-    Found 12-bit adder for signal <offsetP2Y[11]_GND_6_o_add_77_OUT> created at line 418.
-    Found 12-bit adder for signal <n0620> created at line 437.
-    Found 3-bit adder for signal <colCounter1[2]_GND_6_o_add_102_OUT> created at line 454.
-    Found 12-bit adder for signal <n0627> created at line 460.
-    Found 12-bit adder for signal <n0636> created at line 487.
-    Found 3-bit adder for signal <colCounter2[2]_GND_6_o_add_129_OUT> created at line 504.
-    Found 12-bit adder for signal <n0643> created at line 510.
-    Found 28-bit adder for signal <cnt_1s[27]_GND_6_o_add_153_OUT> created at line 568.
-    Found 12-bit adder for signal <offsetP1Y[11]_GND_6_o_add_163_OUT> created at line 614.
-    Found 12-bit adder for signal <offsetP1X[11]_GND_6_o_add_164_OUT> created at line 617.
-    Found 27-bit adder for signal <n0882> created at line 655.
-    Found 23-bit adder for signal <n0885> created at line 662.
-    Found 7-bit adder for signal <n0693> created at line 695.
-    Found 12-bit adder for signal <offsetP2Y[11]_GND_6_o_add_233_OUT> created at line 708.
-    Found 12-bit adder for signal <offsetP2X[11]_GND_6_o_add_235_OUT> created at line 711.
-    Found 27-bit adder for signal <n0897> created at line 737.
-    Found 23-bit adder for signal <n0900> created at line 744.
-    Found 7-bit adder for signal <n0740> created at line 775.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_45_OUT<11:0>> created at line 366.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_46_OUT<11:0>> created at line 367.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_51_OUT<11:0>> created at line 374.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_52_OUT<11:0>> created at line 375.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_69_OUT<11:0>> created at line 405.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_70_OUT<11:0>> created at line 406.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_75_OUT<11:0>> created at line 413.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_76_OUT<11:0>> created at line 414.
-    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_235_OUT<11:0>> created at line 708.
-    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_180_OUT> created at line 655.
-    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_183_OUT> created at line 655.
-    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_194_OUT> created at line 662.
-    Found 3x4-bit multiplier for signal <n0887> created at line 695.
-    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_251_OUT> created at line 737.
-    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_254_OUT> created at line 737.
-    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_262_OUT> created at line 744.
-    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_265_OUT> created at line 744.
-    Found 3x4-bit multiplier for signal <n0902> created at line 775.
+    Found 4-bit adder for signal <scoreP2[3]_GND_6_o_add_13_OUT> created at line 255.
+    Found 12-bit adder for signal <p1POSX[11]_GND_6_o_add_42_OUT> created at line 381.
+    Found 12-bit adder for signal <offsetP1X[11]_GND_6_o_add_43_OUT> created at line 382.
+    Found 12-bit adder for signal <p1POSY[11]_GND_6_o_add_52_OUT> created at line 397.
+    Found 12-bit adder for signal <offsetP1Y[11]_GND_6_o_add_53_OUT> created at line 398.
+    Found 12-bit adder for signal <p2POSX[11]_GND_6_o_add_66_OUT> created at line 420.
+    Found 12-bit adder for signal <offsetP2X[11]_GND_6_o_add_67_OUT> created at line 421.
+    Found 12-bit adder for signal <p2POSY[11]_GND_6_o_add_76_OUT> created at line 436.
+    Found 12-bit adder for signal <offsetP2Y[11]_GND_6_o_add_77_OUT> created at line 437.
+    Found 12-bit adder for signal <n0624> created at line 456.
+    Found 3-bit adder for signal <colCounter1[2]_GND_6_o_add_102_OUT> created at line 473.
+    Found 12-bit adder for signal <n0631> created at line 479.
+    Found 12-bit adder for signal <n0640> created at line 506.
+    Found 3-bit adder for signal <colCounter2[2]_GND_6_o_add_129_OUT> created at line 523.
+    Found 12-bit adder for signal <n0647> created at line 529.
+    Found 28-bit adder for signal <cnt_1s[27]_GND_6_o_add_153_OUT> created at line 587.
+    Found 12-bit adder for signal <offsetP1Y[11]_GND_6_o_add_163_OUT> created at line 633.
+    Found 12-bit adder for signal <offsetP1X[11]_GND_6_o_add_164_OUT> created at line 636.
+    Found 27-bit adder for signal <n0886> created at line 674.
+    Found 23-bit adder for signal <n0889> created at line 681.
+    Found 7-bit adder for signal <n0697> created at line 714.
+    Found 12-bit adder for signal <offsetP2Y[11]_GND_6_o_add_233_OUT> created at line 727.
+    Found 12-bit adder for signal <offsetP2X[11]_GND_6_o_add_235_OUT> created at line 730.
+    Found 27-bit adder for signal <n0901> created at line 756.
+    Found 23-bit adder for signal <n0904> created at line 763.
+    Found 7-bit adder for signal <n0744> created at line 794.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_45_OUT<11:0>> created at line 385.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_46_OUT<11:0>> created at line 386.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_51_OUT<11:0>> created at line 393.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_52_OUT<11:0>> created at line 394.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_69_OUT<11:0>> created at line 424.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_70_OUT<11:0>> created at line 425.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_75_OUT<11:0>> created at line 432.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_76_OUT<11:0>> created at line 433.
+    Found 12-bit subtractor for signal <GND_6_o_GND_6_o_sub_235_OUT<11:0>> created at line 727.
+    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_180_OUT> created at line 674.
+    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_183_OUT> created at line 674.
+    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_194_OUT> created at line 681.
+    Found 3x4-bit multiplier for signal <n0891> created at line 714.
+    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_251_OUT> created at line 756.
+    Found 13x13-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_254_OUT> created at line 756.
+    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_262_OUT> created at line 763.
+    Found 11x11-bit multiplier for signal <GND_6_o_GND_6_o_MuLt_265_OUT> created at line 763.
+    Found 3x4-bit multiplier for signal <n0906> created at line 794.
     Found 2-bit 3-to-1 multiplexer for signal <finish1[1]_X_6_o_wide_mux_8_OUT> created at line 221.
-    Found 2-bit 3-to-1 multiplexer for signal <finish2[1]_X_6_o_wide_mux_18_OUT> created at line 247.
-    Found 1-bit 220-to-1 multiplexer for signal <newp1POSX[11]_X_6_o_Mux_92_o> created at line 438.
-    Found 1-bit 220-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_94_o> created at line 440.
-    Found 1-bit 220-to-1 multiplexer for signal <newp1POSX[11]_X_6_o_Mux_101_o> created at line 453.
-    Found 1-bit 220-to-1 multiplexer for signal <newp2POSX[11]_X_6_o_Mux_119_o> created at line 488.
-    Found 1-bit 220-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_121_o> created at line 490.
-    Found 1-bit 220-to-1 multiplexer for signal <newp2POSX[11]_X_6_o_Mux_128_o> created at line 503.
-    Found 1-bit 220-to-1 multiplexer for signal <posP1X[11]_X_6_o_Mux_165_o> created at line 618.
-    Found 1-bit 220-to-1 multiplexer for signal <posP2X[11]_X_6_o_Mux_236_o> created at line 712.
-    Found 1-bit 6-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_296_o> created at line 777.
+    Found 2-bit 3-to-1 multiplexer for signal <finish2[1]_X_6_o_wide_mux_18_OUT> created at line 250.
+    Found 1-bit 220-to-1 multiplexer for signal <newp1POSX[11]_X_6_o_Mux_92_o> created at line 457.
+    Found 1-bit 220-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_94_o> created at line 459.
+    Found 1-bit 220-to-1 multiplexer for signal <newp1POSX[11]_X_6_o_Mux_101_o> created at line 472.
+    Found 1-bit 220-to-1 multiplexer for signal <newp2POSX[11]_X_6_o_Mux_119_o> created at line 507.
+    Found 1-bit 220-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_121_o> created at line 509.
+    Found 1-bit 220-to-1 multiplexer for signal <newp2POSX[11]_X_6_o_Mux_128_o> created at line 522.
+    Found 1-bit 220-to-1 multiplexer for signal <posP1X[11]_X_6_o_Mux_165_o> created at line 637.
+    Found 1-bit 220-to-1 multiplexer for signal <posP2X[11]_X_6_o_Mux_236_o> created at line 731.
+    Found 1-bit 6-to-1 multiplexer for signal <GND_6_o_X_6_o_Mux_296_o> created at line 796.
 WARNING:Xst:737 - Found 1-bit latch for signal <offsetP1X<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <offsetP1X<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <offsetP1X<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -420,52 +424,52 @@ WARNING:Xst:737 - Found 1-bit latch for signal <posP2X<2>>. Latches may be gener
 WARNING:Xst:737 - Found 1-bit latch for signal <posP2X<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <posP2X<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Found 4-bit comparator lessequal for signal <scoreP1[3]_GND_6_o_LessThan_3_o> created at line 225
-    Found 4-bit comparator lessequal for signal <scoreP2[3]_GND_6_o_LessThan_13_o> created at line 251
-    Found 12-bit comparator greater for signal <PWR_6_o_p1POSX[11]_LessThan_23_o> created at line 272
-    Found 12-bit comparator greater for signal <p1POSX[11]_PWR_6_o_LessThan_24_o> created at line 272
-    Found 12-bit comparator greater for signal <PWR_6_o_p1POSX[11]_LessThan_27_o> created at line 282
-    Found 12-bit comparator greater for signal <p1POSX[11]_PWR_6_o_LessThan_28_o> created at line 282
-    Found 12-bit comparator greater for signal <GND_6_o_p1POSY[11]_LessThan_29_o> created at line 282
-    Found 12-bit comparator greater for signal <p1POSY[11]_GND_6_o_LessThan_30_o> created at line 282
-    Found 12-bit comparator greater for signal <PWR_6_o_p2POSX[11]_LessThan_31_o> created at line 291
-    Found 12-bit comparator greater for signal <p2POSX[11]_PWR_6_o_LessThan_32_o> created at line 291
-    Found 12-bit comparator greater for signal <PWR_6_o_p2POSX[11]_LessThan_35_o> created at line 301
-    Found 12-bit comparator greater for signal <p2POSX[11]_PWR_6_o_LessThan_36_o> created at line 301
-    Found 12-bit comparator greater for signal <GND_6_o_p2POSY[11]_LessThan_37_o> created at line 301
-    Found 12-bit comparator greater for signal <p2POSY[11]_GND_6_o_LessThan_38_o> created at line 301
-    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_163_o> created at line 612
-    Found 12-bit comparator greater for signal <PWR_6_o_posP1X[11]_LessThan_170_o> created at line 629
-    Found 12-bit comparator greater for signal <posP1X[11]_PWR_6_o_LessThan_171_o> created at line 629
-    Found 12-bit comparator greater for signal <GND_6_o_posP1Y[11]_LessThan_172_o> created at line 629
-    Found 12-bit comparator greater for signal <posP1Y[11]_GND_6_o_LessThan_173_o> created at line 629
-    Found 27-bit comparator greater for signal <GND_6_o_BUS_0071_LessThan_186_o> created at line 655
-    Found 23-bit comparator greater for signal <GND_6_o_BUS_0072_LessThan_197_o> created at line 662
-    Found 10-bit comparator lessequal for signal <n0341> created at line 671
-    Found 10-bit comparator greater for signal <GND_6_o_rows[9]_LessThan_205_o> created at line 676
-    Found 10-bit comparator lessequal for signal <n0347> created at line 676
-    Found 10-bit comparator lessequal for signal <n0359> created at line 693
-    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_219_o> created at line 693
-    Found 12-bit comparator greater for signal <PWR_6_o_posP2X[11]_LessThan_241_o> created at line 724
-    Found 12-bit comparator greater for signal <posP2X[11]_PWR_6_o_LessThan_242_o> created at line 724
-    Found 12-bit comparator greater for signal <GND_6_o_posP2Y[11]_LessThan_243_o> created at line 724
-    Found 12-bit comparator greater for signal <posP2Y[11]_GND_6_o_LessThan_244_o> created at line 724
-    Found 27-bit comparator greater for signal <GND_6_o_BUS_0076_LessThan_257_o> created at line 737
-    Found 23-bit comparator greater for signal <GND_6_o_BUS_0077_LessThan_268_o> created at line 744
-    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_273_o> created at line 751
-    Found 10-bit comparator lessequal for signal <n0423> created at line 756
-    Found 10-bit comparator lessequal for signal <n0428> created at line 761
-    Found 10-bit comparator greater for signal <PWR_6_o_column[9]_LessThan_285_o> created at line 766
-    Found 10-bit comparator lessequal for signal <n0437> created at line 773
-    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_290_o> created at line 773
-    Found 10-bit comparator lessequal for signal <n0440> created at line 773
-    Found 10-bit comparator greater for signal <column[9]_GND_6_o_LessThan_292_o> created at line 773
+    Found 4-bit comparator lessequal for signal <scoreP2[3]_GND_6_o_LessThan_13_o> created at line 254
+    Found 12-bit comparator greater for signal <PWR_6_o_p1POSX[11]_LessThan_23_o> created at line 280
+    Found 12-bit comparator greater for signal <p1POSX[11]_PWR_6_o_LessThan_24_o> created at line 280
+    Found 12-bit comparator greater for signal <GND_6_o_p1POSY[11]_LessThan_25_o> created at line 280
+    Found 12-bit comparator greater for signal <p1POSY[11]_GND_6_o_LessThan_26_o> created at line 280
+    Found 12-bit comparator greater for signal <PWR_6_o_p1POSX[11]_LessThan_27_o> created at line 293
+    Found 12-bit comparator greater for signal <p1POSX[11]_PWR_6_o_LessThan_28_o> created at line 293
+    Found 12-bit comparator greater for signal <PWR_6_o_p2POSX[11]_LessThan_31_o> created at line 305
+    Found 12-bit comparator greater for signal <p2POSX[11]_PWR_6_o_LessThan_32_o> created at line 305
+    Found 12-bit comparator greater for signal <GND_6_o_p2POSY[11]_LessThan_33_o> created at line 305
+    Found 12-bit comparator greater for signal <p2POSY[11]_GND_6_o_LessThan_34_o> created at line 305
+    Found 12-bit comparator greater for signal <PWR_6_o_p2POSX[11]_LessThan_35_o> created at line 318
+    Found 12-bit comparator greater for signal <p2POSX[11]_PWR_6_o_LessThan_36_o> created at line 318
+    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_163_o> created at line 631
+    Found 12-bit comparator greater for signal <PWR_6_o_posP1X[11]_LessThan_170_o> created at line 648
+    Found 12-bit comparator greater for signal <posP1X[11]_PWR_6_o_LessThan_171_o> created at line 648
+    Found 12-bit comparator greater for signal <GND_6_o_posP1Y[11]_LessThan_172_o> created at line 648
+    Found 12-bit comparator greater for signal <posP1Y[11]_GND_6_o_LessThan_173_o> created at line 648
+    Found 27-bit comparator greater for signal <GND_6_o_BUS_0071_LessThan_186_o> created at line 674
+    Found 23-bit comparator greater for signal <GND_6_o_BUS_0072_LessThan_197_o> created at line 681
+    Found 10-bit comparator lessequal for signal <n0345> created at line 690
+    Found 10-bit comparator greater for signal <GND_6_o_rows[9]_LessThan_205_o> created at line 695
+    Found 10-bit comparator lessequal for signal <n0351> created at line 695
+    Found 10-bit comparator lessequal for signal <n0363> created at line 712
+    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_219_o> created at line 712
+    Found 12-bit comparator greater for signal <PWR_6_o_posP2X[11]_LessThan_241_o> created at line 743
+    Found 12-bit comparator greater for signal <posP2X[11]_PWR_6_o_LessThan_242_o> created at line 743
+    Found 12-bit comparator greater for signal <GND_6_o_posP2Y[11]_LessThan_243_o> created at line 743
+    Found 12-bit comparator greater for signal <posP2Y[11]_GND_6_o_LessThan_244_o> created at line 743
+    Found 27-bit comparator greater for signal <GND_6_o_BUS_0076_LessThan_257_o> created at line 756
+    Found 23-bit comparator greater for signal <GND_6_o_BUS_0077_LessThan_268_o> created at line 763
+    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_273_o> created at line 770
+    Found 10-bit comparator lessequal for signal <n0427> created at line 775
+    Found 10-bit comparator lessequal for signal <n0432> created at line 780
+    Found 10-bit comparator greater for signal <PWR_6_o_column[9]_LessThan_285_o> created at line 785
+    Found 10-bit comparator lessequal for signal <n0441> created at line 792
+    Found 10-bit comparator greater for signal <rows[9]_GND_6_o_LessThan_290_o> created at line 792
+    Found 10-bit comparator lessequal for signal <n0444> created at line 792
+    Found 10-bit comparator greater for signal <column[9]_GND_6_o_LessThan_292_o> created at line 792
     Summary:
 	inferred   9 Multiplier(s).
 	inferred  42 Adder/Subtractor(s).
-	inferred 169 D-type flip-flop(s).
+	inferred 173 D-type flip-flop(s).
 	inferred 157 Latch(s).
 	inferred  40 Comparator(s).
-	inferred 124 Multiplexer(s).
+	inferred 120 Multiplexer(s).
 Unit <topModule> synthesized.
 
 Synthesizing Unit <hsync>.
@@ -539,8 +543,8 @@ Macro Statistics
  3-bit adder                                           : 2
  4-bit adder                                           : 2
  7-bit adder                                           : 2
-# Registers                                            : 32
- 1-bit register                                        : 10
+# Registers                                            : 36
+ 1-bit register                                        : 14
  10-bit register                                       : 2
  12-bit register                                       : 8
  2-bit register                                        : 5
@@ -557,13 +561,13 @@ Macro Statistics
  23-bit comparator greater                             : 2
  27-bit comparator greater                             : 2
  4-bit comparator lessequal                            : 2
-# Multiplexers                                         : 127
+# Multiplexers                                         : 123
  1-bit 2-to-1 multiplexer                              : 26
  1-bit 220-to-1 multiplexer                            : 8
  1-bit 6-to-1 multiplexer                              : 1
  10-bit 2-to-1 multiplexer                             : 2
  12-bit 2-to-1 multiplexer                             : 8
- 2-bit 2-to-1 multiplexer                              : 5
+ 2-bit 2-to-1 multiplexer                              : 1
  2-bit 3-to-1 multiplexer                              : 2
  28-bit 2-to-1 multiplexer                             : 1
  3-bit 2-to-1 multiplexer                              : 10
@@ -588,8 +592,8 @@ Synthesizing (advanced) Unit <topModule>.
 The following registers are absorbed into counter <cnt_1s>: 1 register on signal <cnt_1s>.
 The following registers are absorbed into counter <scoreP1>: 1 register on signal <scoreP1>.
 The following registers are absorbed into counter <scoreP2>: 1 register on signal <scoreP2>.
-	Multiplier <Mmult_n0887> in block <topModule> and adder/subtractor <Madd_n0693_Madd> in block <topModule> are combined into a MAC<Maddsub_n0887>.
-	Multiplier <Mmult_n0902> in block <topModule> and adder/subtractor <Madd_n0740_Madd> in block <topModule> are combined into a MAC<Maddsub_n0902>.
+	Multiplier <Mmult_n0891> in block <topModule> and adder/subtractor <Madd_n0697_Madd> in block <topModule> are combined into a MAC<Maddsub_n0891>.
+	Multiplier <Mmult_n0906> in block <topModule> and adder/subtractor <Madd_n0744_Madd> in block <topModule> are combined into a MAC<Maddsub_n0906>.
 INFO:Xst:3226 - The RAM <mm/Mram_RAM> will be implemented as a BLOCK RAM, absorbing the following register(s): <rowSelectP2Check> <rowSelectP1Check>
     -----------------------------------------------------------------------
     | ram_type           | Block                               |          |
@@ -600,7 +604,7 @@ INFO:Xst:3226 - The RAM <mm/Mram_RAM> will be implemented as a BLOCK RAM, absorb
     |     clkA           | connected to signal <clk>           | rise     |
     |     enA            | connected to internal node          | low      |
     |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <_n0971>        |          |
+    |     addrA          | connected to signal <_n0975>        |          |
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to signal <ramDataOCheckP2> |          |
     -----------------------------------------------------------------------
@@ -611,7 +615,7 @@ INFO:Xst:3226 - The RAM <mm/Mram_RAM> will be implemented as a BLOCK RAM, absorb
     |     mode           | read-first                          |          |
     |     clkB           | connected to signal <clk>           | rise     |
     |     enB            | connected to internal node          | low      |
-    |     addrB          | connected to signal <_n0965>        |          |
+    |     addrB          | connected to signal <_n0969>        |          |
     |     doB            | connected to signal <ramDataOCheck> |          |
     -----------------------------------------------------------------------
     | optimization       | speed                               |          |
@@ -674,8 +678,8 @@ Macro Statistics
  2-bit up counter                                      : 1
  28-bit up counter                                     : 1
  4-bit up counter                                      : 2
-# Registers                                            : 120
- Flip-Flops                                            : 120
+# Registers                                            : 124
+ Flip-Flops                                            : 124
 # Comparators                                          : 46
  10-bit comparator greater                             : 13
  10-bit comparator lessequal                           : 7
@@ -683,12 +687,11 @@ Macro Statistics
  23-bit comparator greater                             : 2
  27-bit comparator greater                             : 2
  4-bit comparator lessequal                            : 2
-# Multiplexers                                         : 123
+# Multiplexers                                         : 119
  1-bit 2-to-1 multiplexer                              : 26
  1-bit 220-to-1 multiplexer                            : 8
  1-bit 6-to-1 multiplexer                              : 1
  12-bit 2-to-1 multiplexer                             : 8
- 2-bit 2-to-1 multiplexer                              : 4
  2-bit 3-to-1 multiplexer                              : 2
  3-bit 2-to-1 multiplexer                              : 10
  4-bit 2-to-1 multiplexer                              : 60
@@ -709,8 +712,8 @@ WARNING:Xst:1293 - FF/Latch <colCounter2_2> has a constant value of 0 in block <
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <colCounter1_2> has a constant value of 0 in block <topModule>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <hsync> ...
-WARNING:Xst:1293 - FF/Latch <scoreP2_3> has a constant value of 0 in block <topModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <scoreP1_3> has a constant value of 0 in block <topModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <scoreP1_3> has a constant value of 0 in block <topModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <scoreP2_3> has a constant value of 0 in block <topModule>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <cnt_1s_0> in Unit <topModule> is equivalent to the following FF/Latch, which will be removed : <hs/countPre_0> 
 INFO:Xst:2261 - The FF/Latch <cnt_1s_1> in Unit <topModule> is equivalent to the following FF/Latch, which will be removed : <hs/countPre_1> 
 
@@ -730,8 +733,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 178
- Flip-Flops                                            : 178
+# Registers                                            : 182
+ Flip-Flops                                            : 182
 
 =========================================================================
 
@@ -768,8 +771,8 @@ Primitive and Black Box Usage:
 #      MUXF8                       : 98
 #      VCC                         : 1
 #      XORCY                       : 360
-# FlipFlops/Latches                : 335
-#      FD                          : 8
+# FlipFlops/Latches                : 339
+#      FD                          : 12
 #      FDE                         : 114
 #      FDR                         : 30
 #      FDRE                        : 22
@@ -795,15 +798,15 @@ Selected Device : 7a100tcsg324-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             335  out of  126800     0%  
+ Number of Slice Registers:             339  out of  126800     0%  
  Number of Slice LUTs:                 1646  out of  63400     2%  
     Number used as Logic:              1646  out of  63400     2%  
 
 Slice Logic Distribution: 
  Number of LUT Flip Flop pairs used:   1751
-   Number with an unused Flip Flop:    1416  out of   1751    80%  
+   Number with an unused Flip Flop:    1412  out of   1751    80%  
    Number with an unused LUT:           105  out of   1751     5%  
-   Number of fully used LUT-FF pairs:   230  out of   1751    13%  
+   Number of fully used LUT-FF pairs:   234  out of   1751    13%  
    Number of unique control sets:        24
 
 IO Utilization: 
@@ -837,11 +840,11 @@ Clock Information:
 -----------------------------------------------------------------+------------------------+-------+
 Clock Signal                                                     | Clock buffer(FF name)  | Load  |
 -----------------------------------------------------------------+------------------------+-------+
-clk                                                              | BUFGP                  | 185   |
+clk                                                              | BUFGP                  | 189   |
 vvidon_hvidon_AND_26_o(vvidon_hvidon_AND_26_o1:O)                | BUFG(*)(offsetP2X_9)   | 96    |
 hvidon_vvidon_AND_28_o(hvidon_vvidon_AND_28_o1:O)                | BUFG(*)(posP1Y_11)     | 30    |
 rows[9]_GND_6_o_LessThan_163_o(rows[9]_GND_6_o_LessThan_163_o1:O)| BUFG(*)(posP2X_11)     | 24    |
-hvidon(hs/hvidon1:O)                                             | NONE(*)(rowSelectP1_5) | 7     |
+hvidon(hs/hvidon1:O)                                             | NONE(*)(rowSelectP1_6) | 7     |
 -----------------------------------------------------------------+------------------------+-------+
 (*) These 4 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
@@ -872,7 +875,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 6.422ns (frequency: 155.725MHz)
-  Total number of paths / destination ports: 15804 / 360
+  Total number of paths / destination ports: 15816 / 360
 -------------------------------------------------------------------------
 Delay:               6.422ns (Levels of Logic = 8)
   Source:            newp2POSX_3 (FF)
@@ -885,14 +888,14 @@ Delay:               6.422ns (Levels of Logic = 8)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDE:C->Q             11   0.478   0.782  newp2POSX_3 (newp2POSX_3)
-     LUT3:I0->O           55   0.124   0.694  Msub_n0637_Madd_xor<4>11 (n0637<4>)
+     LUT3:I0->O           55   0.124   0.694  Msub_n0641_Madd_xor<4>11 (n0641<4>)
      LUT6:I4->O            1   0.124   0.000  Mmux_GND_6_o_X_6_o_Mux_121_o_153 (Mmux_GND_6_o_X_6_o_Mux_121_o_153)
      MUXF7:I1->O           1   0.368   0.000  Mmux_GND_6_o_X_6_o_Mux_121_o_14_f7 (Mmux_GND_6_o_X_6_o_Mux_121_o_14_f7)
      MUXF8:I0->O           2   0.296   0.722  Mmux_GND_6_o_X_6_o_Mux_121_o_12_f8 (Mmux_GND_6_o_X_6_o_Mux_121_o_12_f8)
      LUT6:I3->O            2   0.124   0.722  Mmux_GND_6_o_X_6_o_Mux_121_o_10_f8_SW0 (N101)
-     LUT6:I3->O            1   0.124   0.536  n0637<11>6_SW1 (N126)
-     LUT6:I4->O            2   0.124   0.542  n0637<11>7 (GND_6_o_X_6_o_Mux_121_o)
-     LUT5:I3->O            1   0.124   0.399  _n1149_inv1 (_n1149_inv)
+     LUT6:I3->O            1   0.124   0.536  n0641<11>6_SW1 (N126)
+     LUT6:I4->O            2   0.124   0.542  n0641<11>7 (GND_6_o_X_6_o_Mux_121_o)
+     LUT5:I3->O            1   0.124   0.399  _n1153_inv1 (_n1153_inv)
      FDRE:CE                   0.139          checkP2
     ----------------------------------------
     Total                      6.422ns (2.025ns logic, 4.397ns route)
@@ -970,27 +973,27 @@ Offset:              14.467ns (Levels of Logic = 31)
      LUT6:I0->O            2   0.124   0.427  Msub_GND_6_o_GND_6_o_sub_264_OUT_cy<8>11 (Msub_GND_6_o_GND_6_o_sub_264_OUT_cy<8>)
      LUT2:I1->O           23   0.124   0.539  Msub_GND_6_o_GND_6_o_sub_264_OUT_xor<10>11 (GND_6_o_GND_6_o_sub_264_OUT<10>)
      DSP48E1:A10->P0       1   3.841   0.421  Mmult_GND_6_o_GND_6_o_MuLt_265_OUT (GND_6_o_GND_6_o_MuLt_265_OUT<0>)
-     LUT2:I1->O            1   0.124   0.000  Madd_n0900_lut<0> (Madd_n0900_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Madd_n0900_cy<0> (Madd_n0900_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<1> (Madd_n0900_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<2> (Madd_n0900_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<3> (Madd_n0900_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<4> (Madd_n0900_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<5> (Madd_n0900_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<6> (Madd_n0900_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<7> (Madd_n0900_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<8> (Madd_n0900_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<9> (Madd_n0900_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<10> (Madd_n0900_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<11> (Madd_n0900_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<12> (Madd_n0900_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<13> (Madd_n0900_cy<13>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<14> (Madd_n0900_cy<14>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<15> (Madd_n0900_cy<15>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<16> (Madd_n0900_cy<16>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<17> (Madd_n0900_cy<17>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0900_cy<18> (Madd_n0900_cy<18>)
-     XORCY:CI->O           2   0.510   0.925  Madd_n0900_xor<19> (n0900<19>)
+     LUT2:I1->O            1   0.124   0.000  Madd_n0904_lut<0> (Madd_n0904_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Madd_n0904_cy<0> (Madd_n0904_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<1> (Madd_n0904_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<2> (Madd_n0904_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<3> (Madd_n0904_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<4> (Madd_n0904_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<5> (Madd_n0904_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<6> (Madd_n0904_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<7> (Madd_n0904_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<8> (Madd_n0904_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<9> (Madd_n0904_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<10> (Madd_n0904_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<11> (Madd_n0904_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<12> (Madd_n0904_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<13> (Madd_n0904_cy<13>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<14> (Madd_n0904_cy<14>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<15> (Madd_n0904_cy<15>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<16> (Madd_n0904_cy<16>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<17> (Madd_n0904_cy<17>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0904_cy<18> (Madd_n0904_cy<18>)
+     XORCY:CI->O           2   0.510   0.925  Madd_n0904_xor<19> (n0904<19>)
      LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0077_LessThan_268_o_lutdi3 (Mcompar_GND_6_o_BUS_0077_LessThan_268_o_lutdi3)
      MUXCY:DI->O           1   0.761   0.421  Mcompar_GND_6_o_BUS_0077_LessThan_268_o_cy<3> (Mcompar_GND_6_o_BUS_0077_LessThan_268_o_cy<3>)
      LUT6:I5->O            4   0.124   0.796  Mcompar_GND_6_o_BUS_0077_LessThan_268_o_cy<4> (Mcompar_GND_6_o_BUS_0077_LessThan_268_o_cy<4>)
@@ -1031,32 +1034,32 @@ Offset:              14.745ns (Levels of Logic = 48)
      MUXCY:CI->O           0   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<11> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<11>)
      XORCY:CI->O          19   0.510   0.518  Msub_GND_6_o_GND_6_o_sub_179_OUT_xor<12> (GND_6_o_GND_6_o_sub_179_OUT<12>)
      DSP48E1:A12->P0       1   3.841   0.536  Mmult_GND_6_o_GND_6_o_MuLt_180_OUT (GND_6_o_GND_6_o_MuLt_180_OUT<0>)
-     LUT2:I0->O            1   0.124   0.000  Madd_n0882_lut<0> (Madd_n0882_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Madd_n0882_cy<0> (Madd_n0882_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<1> (Madd_n0882_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<2> (Madd_n0882_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<3> (Madd_n0882_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<4> (Madd_n0882_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<5> (Madd_n0882_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<6> (Madd_n0882_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<7> (Madd_n0882_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<8> (Madd_n0882_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<9> (Madd_n0882_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<10> (Madd_n0882_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<11> (Madd_n0882_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<12> (Madd_n0882_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<13> (Madd_n0882_cy<13>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<14> (Madd_n0882_cy<14>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<15> (Madd_n0882_cy<15>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<16> (Madd_n0882_cy<16>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<17> (Madd_n0882_cy<17>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<18> (Madd_n0882_cy<18>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<19> (Madd_n0882_cy<19>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<20> (Madd_n0882_cy<20>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<21> (Madd_n0882_cy<21>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<22> (Madd_n0882_cy<22>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<23> (Madd_n0882_cy<23>)
-     XORCY:CI->O           2   0.510   0.925  Madd_n0882_xor<24> (n0882<24>)
+     LUT2:I0->O            1   0.124   0.000  Madd_n0886_lut<0> (Madd_n0886_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Madd_n0886_cy<0> (Madd_n0886_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<1> (Madd_n0886_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<2> (Madd_n0886_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<3> (Madd_n0886_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<4> (Madd_n0886_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<5> (Madd_n0886_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<6> (Madd_n0886_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<7> (Madd_n0886_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<8> (Madd_n0886_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<9> (Madd_n0886_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<10> (Madd_n0886_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<11> (Madd_n0886_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<12> (Madd_n0886_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<13> (Madd_n0886_cy<13>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<14> (Madd_n0886_cy<14>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<15> (Madd_n0886_cy<15>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<16> (Madd_n0886_cy<16>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<17> (Madd_n0886_cy<17>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<18> (Madd_n0886_cy<18>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<19> (Madd_n0886_cy<19>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<20> (Madd_n0886_cy<20>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<21> (Madd_n0886_cy<21>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<22> (Madd_n0886_cy<22>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<23> (Madd_n0886_cy<23>)
+     XORCY:CI->O           2   0.510   0.925  Madd_n0886_xor<24> (n0886<24>)
      LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_lutdi4 (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_lutdi4)
      MUXCY:DI->O           1   0.761   0.421  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<4> (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<4>)
      LUT3:I2->O            4   0.124   0.959  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<5> (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<5>)
@@ -1097,32 +1100,32 @@ Offset:              14.175ns (Levels of Logic = 47)
      MUXCY:CI->O           0   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<11> (Msub_GND_6_o_GND_6_o_sub_250_OUT_cy<11>)
      XORCY:CI->O          19   0.510   0.518  Msub_GND_6_o_GND_6_o_sub_250_OUT_xor<12> (GND_6_o_GND_6_o_sub_250_OUT<12>)
      DSP48E1:A12->P0       1   3.841   0.536  Mmult_GND_6_o_GND_6_o_MuLt_251_OUT (GND_6_o_GND_6_o_MuLt_251_OUT<0>)
-     LUT2:I0->O            1   0.124   0.000  Madd_n0897_lut<0> (Madd_n0897_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Madd_n0897_cy<0> (Madd_n0897_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<1> (Madd_n0897_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<2> (Madd_n0897_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<3> (Madd_n0897_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<4> (Madd_n0897_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<5> (Madd_n0897_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<6> (Madd_n0897_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<7> (Madd_n0897_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<8> (Madd_n0897_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<9> (Madd_n0897_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<10> (Madd_n0897_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<11> (Madd_n0897_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<12> (Madd_n0897_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<13> (Madd_n0897_cy<13>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<14> (Madd_n0897_cy<14>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<15> (Madd_n0897_cy<15>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<16> (Madd_n0897_cy<16>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<17> (Madd_n0897_cy<17>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<18> (Madd_n0897_cy<18>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<19> (Madd_n0897_cy<19>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<20> (Madd_n0897_cy<20>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<21> (Madd_n0897_cy<21>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<22> (Madd_n0897_cy<22>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0897_cy<23> (Madd_n0897_cy<23>)
-     XORCY:CI->O           2   0.510   0.925  Madd_n0897_xor<24> (n0897<24>)
+     LUT2:I0->O            1   0.124   0.000  Madd_n0901_lut<0> (Madd_n0901_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Madd_n0901_cy<0> (Madd_n0901_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<1> (Madd_n0901_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<2> (Madd_n0901_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<3> (Madd_n0901_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<4> (Madd_n0901_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<5> (Madd_n0901_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<6> (Madd_n0901_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<7> (Madd_n0901_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<8> (Madd_n0901_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<9> (Madd_n0901_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<10> (Madd_n0901_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<11> (Madd_n0901_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<12> (Madd_n0901_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<13> (Madd_n0901_cy<13>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<14> (Madd_n0901_cy<14>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<15> (Madd_n0901_cy<15>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<16> (Madd_n0901_cy<16>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<17> (Madd_n0901_cy<17>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<18> (Madd_n0901_cy<18>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<19> (Madd_n0901_cy<19>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<20> (Madd_n0901_cy<20>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<21> (Madd_n0901_cy<21>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<22> (Madd_n0901_cy<22>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0901_cy<23> (Madd_n0901_cy<23>)
+     XORCY:CI->O           2   0.510   0.925  Madd_n0901_xor<24> (n0901<24>)
      LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0076_LessThan_257_o_lutdi4 (Mcompar_GND_6_o_BUS_0076_LessThan_257_o_lutdi4)
      MUXCY:DI->O           3   0.761   0.435  Mcompar_GND_6_o_BUS_0076_LessThan_257_o_cy<4> (Mcompar_GND_6_o_BUS_0076_LessThan_257_o_cy<4>)
      LUT6:I5->O            3   0.124   0.933  Mmux_vga_g3121 (Mmux_vga_g312)
@@ -1162,32 +1165,32 @@ Offset:              14.639ns (Levels of Logic = 48)
      MUXCY:CI->O           0   0.029   0.000  Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<11> (Msub_GND_6_o_GND_6_o_sub_179_OUT_cy<11>)
      XORCY:CI->O          19   0.510   0.518  Msub_GND_6_o_GND_6_o_sub_179_OUT_xor<12> (GND_6_o_GND_6_o_sub_179_OUT<12>)
      DSP48E1:A12->P0       1   3.841   0.536  Mmult_GND_6_o_GND_6_o_MuLt_180_OUT (GND_6_o_GND_6_o_MuLt_180_OUT<0>)
-     LUT2:I0->O            1   0.124   0.000  Madd_n0882_lut<0> (Madd_n0882_lut<0>)
-     MUXCY:S->O            1   0.472   0.000  Madd_n0882_cy<0> (Madd_n0882_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<1> (Madd_n0882_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<2> (Madd_n0882_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<3> (Madd_n0882_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<4> (Madd_n0882_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<5> (Madd_n0882_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<6> (Madd_n0882_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<7> (Madd_n0882_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<8> (Madd_n0882_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<9> (Madd_n0882_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<10> (Madd_n0882_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<11> (Madd_n0882_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<12> (Madd_n0882_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<13> (Madd_n0882_cy<13>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<14> (Madd_n0882_cy<14>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<15> (Madd_n0882_cy<15>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<16> (Madd_n0882_cy<16>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<17> (Madd_n0882_cy<17>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<18> (Madd_n0882_cy<18>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<19> (Madd_n0882_cy<19>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<20> (Madd_n0882_cy<20>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<21> (Madd_n0882_cy<21>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<22> (Madd_n0882_cy<22>)
-     MUXCY:CI->O           1   0.029   0.000  Madd_n0882_cy<23> (Madd_n0882_cy<23>)
-     XORCY:CI->O           2   0.510   0.925  Madd_n0882_xor<24> (n0882<24>)
+     LUT2:I0->O            1   0.124   0.000  Madd_n0886_lut<0> (Madd_n0886_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  Madd_n0886_cy<0> (Madd_n0886_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<1> (Madd_n0886_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<2> (Madd_n0886_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<3> (Madd_n0886_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<4> (Madd_n0886_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<5> (Madd_n0886_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<6> (Madd_n0886_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<7> (Madd_n0886_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<8> (Madd_n0886_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<9> (Madd_n0886_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<10> (Madd_n0886_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<11> (Madd_n0886_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<12> (Madd_n0886_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<13> (Madd_n0886_cy<13>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<14> (Madd_n0886_cy<14>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<15> (Madd_n0886_cy<15>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<16> (Madd_n0886_cy<16>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<17> (Madd_n0886_cy<17>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<18> (Madd_n0886_cy<18>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<19> (Madd_n0886_cy<19>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<20> (Madd_n0886_cy<20>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<21> (Madd_n0886_cy<21>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<22> (Madd_n0886_cy<22>)
+     MUXCY:CI->O           1   0.029   0.000  Madd_n0886_cy<23> (Madd_n0886_cy<23>)
+     XORCY:CI->O           2   0.510   0.925  Madd_n0886_xor<24> (n0886<24>)
      LUT5:I0->O            0   0.124   0.000  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_lutdi4 (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_lutdi4)
      MUXCY:DI->O           1   0.761   0.421  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<4> (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<4>)
      LUT3:I2->O            4   0.124   0.959  Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<5> (Mcompar_GND_6_o_BUS_0071_LessThan_186_o_cy<5>)
@@ -1221,7 +1224,7 @@ Offset:              8.684ns (Levels of Logic = 11)
      MUXF8:I1->O           1   0.286   0.776  Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f8_1 (Mmux_posP2X[11]_X_6_o_Mux_236_o_12_f82)
      LUT6:I2->O            1   0.124   0.776  posP2X<11>6 (posP2X<11>6)
      LUT6:I2->O            4   0.124   0.939  posP2X<11>7 (posP2X[11]_X_6_o_Mux_236_o)
-     LUT6:I1->O            2   0.124   0.542  GND_6_o_column[9]_AND_346_o2 (GND_6_o_column[9]_AND_346_o_mmx_out1)
+     LUT6:I1->O            2   0.124   0.542  GND_6_o_column[9]_AND_346_o1 (GND_6_o_column[9]_AND_346_o_mmx_out)
      LUT4:I2->O            2   0.124   0.405  vga_r<2>1 (vga_r_2_OBUF)
      OBUF:I->O                 0.000          vga_r_2_OBUF (vga_r<2>)
     ----------------------------------------
@@ -1239,7 +1242,7 @@ Clock to Setup on destination clock clk
 Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------+---------+---------+---------+---------+
 clk                   |    6.422|         |         |         |
-vvidon_hvidon_AND_26_o|         |    5.641|         |         |
+vvidon_hvidon_AND_26_o|         |    4.551|         |         |
 ----------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock hvidon
@@ -1282,12 +1285,12 @@ clk            |         |         |    1.172|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 16.73 secs
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 19.31 secs
  
 --> 
 
-Total memory usage is 376744 kilobytes
+Total memory usage is 376824 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  193 (   0 filtered)

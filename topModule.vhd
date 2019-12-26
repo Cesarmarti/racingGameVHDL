@@ -214,17 +214,19 @@ begin
       end if;
    end process;
  
+	--trenutno steje po dva, ker idk, ce hocmo po eno rabmo uspod zamenta finishNext1 z finish1, sam pol se vcasih kksne crte pojavjo
 	process(clk)
 	begin
 		if (clk'event and clk = '1') then
-			finishNext1 <= finish1;
 			case (finish1) is
 				when st_OUT =>
 					if inside1 = '1' then
 						finishNext1 <= st_IN;
 						if(scoreP1<6)then
 							scoreP1<=scoreP1+1;
-						end if;   
+						end if;
+					else
+						finishNext1<=st_OUT;
 					end if;   
 				when st_IN =>
 					finishNext1 <= st_CPOINT;
@@ -232,6 +234,8 @@ begin
 				when st_CPOINT =>
 					if checkpoint1 = '1' then
 						finishNext1 <= st_OUT;
+					else
+						finishNext1 <= st_CPOINT;
 					end if;
 				
 				when others =>	
@@ -243,7 +247,6 @@ begin
 	process(clk)
 	begin
 		if(clk'event and clk='1')then
-			finishNext2 <= finish2;
 			case (finish2) is
 				when st_OUT =>
 					if inside2 = '1' then
@@ -251,6 +254,8 @@ begin
 						if(scoreP2<6)then
 							scoreP2<=scoreP2+1;
 						end if;
+					else
+						finishNext2<=ST_OUT;
 					end if;   
 				when st_IN =>
 					finishNext2 <= st_CPOINT;
@@ -258,6 +263,8 @@ begin
 				when st_CPOINT =>
 						if checkpoint2 = '1' then
 							finishNext2 <= st_OUT;
+						else
+							finishNext2<=st_CPOINT;
 						end if;
 				
 				when others =>	
@@ -267,42 +274,54 @@ begin
 	end process;
  
 	--checks if P1 is on finish line
-	process(p1POSX,p1POSY)
+	process(clk)
 	begin
-		if(p1POSX>2744 and p1POSX < 2750 and p1POSY > 400 and p1POSY< 512) then
-			inside1<='1';
-		else
-			inside1<='0';
+		if(clk'event and clk='1')then
+			if(p1POSX>2744 and p1POSX < 2750 and p1POSY > 400 and p1POSY< 512) then
+				inside1<='1';
+			else
+				inside1<='0';
+			end if;
 		end if;
+		
 	end process;
 	
 	--check for checkpoint p1
-	process(p1POSX,p1POSY)
+	process(clk)
 	begin
-		if(p1POSX>2444 and p1POSX < 2450 and p1POSY > 400 and p1POSY< 512) then
-			checkpoint1<='1';
-		else
-			checkpoint1<='0';
+		if(clk'event and clk='1')then
+			if(p1POSX>2444 and p1POSX < 2450 and p1POSY > 400 and p1POSY< 512) then
+				checkpoint1<='1';
+			else
+				checkpoint1<='0';
+			end if;
 		end if;
+		
 	end process;
 	--checks if P2 is on finish line
-	process(p2POSX,p2POSY)
+	process(clk)
 	begin
-		if(p2POSX>2744 and p2POSX < 2750 and p2POSY > 400 and p2POSY< 512) then
-			inside2<='1';
-		else
-			inside2<='0';
+		if(clk'event and clk='1')then
+			if(p2POSX>2744 and p2POSX < 2750 and p2POSY > 400 and p2POSY< 512) then
+				inside2<='1';
+			else
+				inside2<='0';
+			end if;
 		end if;
+		
 	end process;
 	
 	--check for checkpoint p2
-	process(p2POSX,p2POSY)
+	process(clk)
 	begin
-		if(p2POSX>2444 and p2POSX < 2450 and p2POSY > 400 and p2POSY< 512) then
-			checkpoint2<='1';
-		else
-			checkpoint2<='0';
+		if(clk'event and clk='1')then
+			if(p2POSX>2444 and p2POSX < 2450 and p2POSY > 400 and p2POSY< 512) then
+				checkpoint2<='1';
+			else
+				checkpoint2<='0';
+			end if;
 		end if;
+		
 	end process;
 	
 	--state machine narjen za cekiranje ce se lah tja premaknemo za P1
